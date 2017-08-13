@@ -22,15 +22,17 @@ target.mk
 
 local.mk
 
+*.deps
 .deps/
-dotdir/
+
 *.draft.*
 *.final.*
 *.handouts.*
 *.complete.*
+*.outline.*
 
 old/
 talkdir/
 txt.format
 
-nothing added to commit but untracked files present (use "git add" to track)
+dotdir/

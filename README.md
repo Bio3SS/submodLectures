@@ -5,3 +5,4 @@ To do:
 * Import all .lect ⇒ .txt
 * Fix NOANS, CSLIDE, what else?
 * Talk to a human about the color scheme??
+* Check copy.tex
