@@ -27,6 +27,9 @@ old:
 ## Format rules are in makestuff/newtalk/txt.format _and_
 Sources += local.txt.format
 
+## Copyright notice
+Sources += copy.tex
+
 ######################################################################
 
 ## Content
@@ -34,6 +37,10 @@ Sources += local.txt.format
 Sources += *.txt
 
 intro.draft.pdf: intro.txt
+intro.final.pdf: intro.txt
+intro.handouts.pdf: intro.txt
+intro.complete.pdf: intro.txt
+intro.outline.pdf: intro.txt
 
 ######################################################################
 
