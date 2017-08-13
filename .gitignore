@@ -31,8 +31,8 @@ local.mk
 *.complete.*
 *.outline.*
 
-old/
-talkdir/
+old
+talkdir
 txt.format
 
 dotdir/
