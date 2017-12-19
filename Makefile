@@ -7,7 +7,12 @@ target = Makefile
 -include target.mk
 target: $(target)
 
-##################################################################
+###################################################################
+## Make modules 
+
+mdirs += web
+
+######################################################################
 
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
