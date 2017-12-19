@@ -36,6 +36,7 @@ Sources += copy.tex
 
 Sources += *.txt
 
+## This is the wrong intro! (An old one from 1M??)
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
 intro.handouts.pdf: intro.txt
