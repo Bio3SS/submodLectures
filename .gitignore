@@ -1,5 +1,6 @@
 commit.time
-commit.default
+up.time
+
 target.mk
 .*.sw*
 
