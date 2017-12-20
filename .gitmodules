@@ -2,3 +2,11 @@
 	path = makestuff
 	url = https://github.com/dushoff/makestuff.git
 	branch = master
+[submodule "Bio3SS.github.io"]
+	path = Bio3SS.github.io
+	url = https://github.com/Bio3SS/Bio3SS.github.io.git
+	branch = master
+[submodule "web"]
+	path = web
+	url = https://github.com/Bio3SS/Bio3SS.github.io.git
+	branch = master
