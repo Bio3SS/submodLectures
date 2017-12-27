@@ -7,13 +7,28 @@ target = Makefile
 -include target.mk
 target: $(target)
 
-##################################################################
+###################################################################
+## Make modules 
+
+mdirs += web
+
+web:
+	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
+
+######################################################################
 
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 -include $(ms)/newtalk.def
+Sources += $(mdirs)
 
 ##################################################################
+
+mfiles = $(mdirs:%=%/Makefile)
+mfiles: $(mdirs) $(mfiles)
+
+##################################################################
+
 
 ## Crib
 
