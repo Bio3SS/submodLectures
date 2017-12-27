@@ -17,9 +17,6 @@ include sub.mk
 
 ## Crib
 
-old:
-	/bin/ln -fs ~/Dropbox/current/WorkingWiki-export/1M_lectures $@
-
 ##################################################################
 
 ## Formatting
