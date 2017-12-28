@@ -17,3 +17,51 @@
 [submodule "Bio3SS_content"]
 	path = Bio3SS_content
 	url = https://github.com/Bio3SS/Bio3SS_content.git
+[submodule "exponential"]
+	path = exponential
+	url = https://github.com/Bio3SS/Exponential_figures
+	branch = master
+[submodule "bd_models"]
+	path = bd_models
+	url = https://github.com/Bio3SS/Birth_death_models
+	branch = master
+[submodule "compensation"]
+	path = compensation
+	url = https://github.com/Bio3SS/Compensation_models
+	branch = master
+[submodule "life_tables"]
+	path = life_tables
+	url = https://github.com/Bio3SS/Life_tables
+	branch = master
+[submodule "life_history"]
+	path = life_history
+	url = https://github.com/Bio3SS/Life_history
+	branch = master
+[submodule "age"]
+	path = age
+	url = https://github.com/Bio3SS/Age_distributions
+	branch = master
+[submodule "structure"]
+	path = structure
+	url = https://github.com/Bio3SS/Structured_models
+	branch = master
+[submodule "competition"]
+	path = competition
+	url = https://github.com/Bio3SS/Competition_models
+	branch = master
+[submodule "exploitation"]
+	path = exploitation
+	url = https://github.com/Bio3SS/Exploitation_models
+	branch = master
+[submodule "boxes"]
+	path = boxes
+	url = https://github.com/dushoff/SIR_model_family
+	branch = master
+[submodule "dd"]
+	path = dd
+	url = https://github.com/mac-theobio/Disease_data
+	branch = master
+[submodule "sims"]
+	path = sims
+	url = https://github.com/dushoff/SIR_simulations
+	branch = master

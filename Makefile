@@ -5,7 +5,6 @@
 current: target
 target = Makefile
 -include target.mk
-target: $(target)
 
 ###################################################################
 
@@ -13,13 +12,16 @@ target: $(target)
 
 ### Modules 
 
-mdirs += web ts Bio3SS_content
+mdirs += web Bio3SS_content
+
+Sources += popmodules.mk
+include popmodules.mk
 
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
-ts:
-	git submodule add -b master https://github.com/Bio3SS/Population_time_series $@
+exponential:
+	git submodule add -b master https://github.com/Bio3SS/Exponential_figures $@
 
 repodirs += $(mdirs)
 
@@ -33,12 +35,13 @@ my_images:
 
 ## Various imperfect ways of curating the submodules
 
+## Overkill?
 modules:
 	git submodule init
 	git submodule update
 	$(MAKE) rmpull
 
-### Maybe not necessary?
+### Not used yet here
 mfiles = $(mdirs:%=%/Makefile)
 mfiles: $(mdirs) $(mfiles)
 
@@ -80,6 +83,8 @@ Sources += *.txt
 
 %.txt:
 	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
+
+## Get rid of this and submodule when done.
 
 ######################################################################
 
