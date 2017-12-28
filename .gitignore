@@ -22,6 +22,10 @@ target.mk
 *.wrapR.*
 
 local.mk
+*.step.mk
+
+allsteps.mk
+webpix
 
 *.deps
 .deps/
