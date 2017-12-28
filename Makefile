@@ -99,7 +99,6 @@ rabies.html: rabies.step
 structure.html: structure.step
 units.html: units.step
 
--include $(ms)/git.mk
 -include $(ms)/visual.mk
 -include $(ms)/modules.mk
 
@@ -109,3 +108,4 @@ units.html: units.step
 -include $(ms)/webpix.mk
 -include $(ms)/wrapR.mk
 
+-include $(ms)/git.mk
