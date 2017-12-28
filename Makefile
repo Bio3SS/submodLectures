@@ -7,12 +7,12 @@ target = Makefile
 -include target.mk
 target: $(target)
 
-Drop = ~/Dropbox/courses/3SS
-
 ###################################################################
-## Make modules 
+## Directories
 
-mdirs += web ts
+### Modules 
+
+mdirs += web ts Bio3SS_content
 
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
@@ -21,6 +21,12 @@ ts:
 	git submodule add -b master https://github.com/Bio3SS/Population_time_series $@
 
 repodirs += $(mdirs)
+
+### Links
+
+my_images: dir=~/Dropbox
+my_images: 
+	$(linkdir)
 
 ######################################################################
 
@@ -35,9 +41,12 @@ modules:
 
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 
+Drop = Need_to_define_image_drop_in_local.mk
+
 include sub.mk
 -include $(ms)/newtalk.def
 -include $(ms)/perl.def
+-include $(ms)/repos.def
 
 Sources += $(mdirs)
 
@@ -62,6 +71,7 @@ Sources += copy.tex
 
 Sources += *.txt
 
+intro.html: intro.step
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
 intro.handouts.pdf: intro.txt
@@ -75,7 +85,6 @@ intro.outline.pdf: intro.txt
 ## Pix (too many!!)
 aging.html: aging.step
 competition.html: competition.step
-countries.html: countries.step
 dandelions.html: dandelions.step
 diseases.html: diseases.step
 dynamics.html: dynamics.step
@@ -86,7 +95,6 @@ flu.html: flu.step
 health.html: health.step
 het.html: het.step
 hiv.html: hiv.step
-humans.html: humans.step
 import.html: import.step
 journals.html: journals.step
 life_history.html: life_history.step
@@ -98,6 +106,16 @@ populations.html: populations.step
 rabies.html: rabies.step
 structure.html: structure.step
 units.html: units.step
+
+######################################################################
+
+## Local makefiles
+
+Sources += $(wildcard *.local)
+%.lmk:
+	$(CPF) $*.local local.mk
+
+######################################################################
 
 -include $(ms)/visual.mk
 -include $(ms)/modules.mk

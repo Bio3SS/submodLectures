@@ -4,12 +4,14 @@ ms = makestuff
 
 Sources += $(ms)
 
-Makefile: $(ms) $(ms)/Makefile
-makestuff:
-	git submodule add -b master https://github.com/dushoff/$@.git
+Makefile: $(ms)
+$(ms):
+	git submodule add https://github.com/dushoff/$@.git
 
-makestuff/Makefile: makestuff
+$(ms)/%.mk: $(ms)/Makefile
+	touch $@
+
+$(ms)/Makefile:
 	git submodule init $(ms) 
 	git submodule update $(ms) 
 	touch $@
-

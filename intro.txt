@@ -7,8 +7,6 @@ SEC Course structure
 
 ----------------------------------------------------------------------
 
-CHANGE CC: Need to check the links on the slides for the polls. Outlines broken. Apparently old versions of the slides. Add a slide about taking notes.
-
 Course overview
 
 	Lecture notes for each section will be available on AtL the afternoon
@@ -97,6 +95,22 @@ Structure of presentation
 
 ----------------------------------------------------------------------
 
+Taking notes
+
+	You will do best if you take notes
+
+		You should know by now what works for you
+		
+		Or else that you need to keep working on it
+
+	If a new concept is making sense to you right now, write something
+	that will help you remember
+
+	If there's something specific I think you all need to write down, I will
+	write it for you (or mark it as an answer)
+
+----------------------------------------------------------------------
+
 Polling
 
 	You can obtain extra credit by responding to in-class polls
@@ -135,9 +149,9 @@ Dushoff
 
 ----------------------------------------------------------------------
 
-RSLIDE Squaring the circle
+RSLIDE Pythagorean triples
 
-HIGHFIG filledCircle.Rout-4.pdf
+HIGHFIG webpix/pythagoras.pdf
 
 ----------------------------------------------------------------------
 
@@ -167,7 +181,7 @@ WIDEFIG webpix/tims.jpg
 
 RSLIDE Ebola research
 
-WIDEFIG weitz_full.pdf
+WIDEFIG my_images/weitz_full.pdf
 
 ----------------------------------------------------------------------
 
