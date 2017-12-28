@@ -10,3 +10,7 @@
 	path = web
 	url = https://github.com/Bio3SS/Bio3SS.github.io.git
 	branch = master
+[submodule "ts"]
+	path = ts
+	url = https://github.com/Bio3SS/Population_time_series
+	branch = master
