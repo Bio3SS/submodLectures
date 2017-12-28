@@ -8,6 +8,7 @@ target = Makefile
 target: $(target)
 
 ###################################################################
+
 ## Directories
 
 ### Modules 
@@ -30,18 +31,22 @@ my_images:
 
 ######################################################################
 
-## This does not seem ideal.
+## Various imperfect ways of curating the submodules
 
 modules:
 	git submodule init
 	git submodule update
 	$(MAKE) rmpull
 
+### Maybe not necessary?
+mfiles = $(mdirs:%=%/Makefile)
+mfiles: $(mdirs) $(mfiles)
+
 ######################################################################
 
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 
-Drop = Need_to_define_image_drop_in_local.mk
+Drop = Define_image_drop_in_local.mk
 
 include sub.mk
 -include $(ms)/newtalk.def
@@ -49,11 +54,6 @@ include sub.mk
 -include $(ms)/repos.def
 
 Sources += $(mdirs)
-
-##################################################################
-
-mfiles = $(mdirs:%=%/Makefile)
-mfiles: $(mdirs) $(mfiles)
 
 ##################################################################
 
@@ -65,11 +65,29 @@ Sources += local.txt.format
 ## Copyright notice
 Sources += copy.tex
 
+## Directory-specific latex commands
+Sources += pop.tex localcomm.tex
+
 ######################################################################
 
 ## Lectures
 
 Sources += *.txt
+
+##################################################################
+
+# Cribbing
+
+%.txt:
+	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
+
+######################################################################
+
+
+# Unit 0 (Intro)
+
+intro.draft.pdf: intro.txt
+intro.handouts.pdf: intro.txt
 
 intro.html: intro.step
 intro.draft.pdf: intro.txt
@@ -78,7 +96,16 @@ intro.handouts.pdf: intro.txt
 intro.complete.pdf: intro.txt
 intro.outline.pdf: intro.txt
 
-## %s/images\//webpix\//
+math.handouts.pdf: math.txt
+math.complete.pdf: math.txt
+
+# Unit 1 (Linear population growth)
+
+linear.html: linear.step
+linear.final.pdf: linear.txt
+linear.draft.pdf: linear.txt
+linear.handouts.pdf: linear.txt
+linear.complete.pdf: linear.txt
 
 ######################################################################
 

@@ -381,5 +381,8 @@ NC
 
 SIDEFIG webpix/dandy_field.jpg
 
+SIDEFIG webpix/dandy_flower.jpg
+
+
 EC
 
