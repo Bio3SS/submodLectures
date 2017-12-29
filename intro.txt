@@ -9,10 +9,14 @@ SEC Course structure
 
 Course overview
 
-	Lecture notes for each section will be available on AtL the afternoon
+	Lecture notes for each section will be available the afternoon
 	before you need them
 
 		Check AtL frequently for announcements and new information
+
+		All info will also be on the course resource page
+
+			HLINK http://bio3ss.github.io/
 
 	The professor is Jonathan Dushoff
 
@@ -44,6 +48,8 @@ Expectations of professor
 
 Expectations of students
 
+	Start and end on time
+
 	Don't talk while other students are talking, or while I am
 	responding to student questions
 
@@ -51,14 +57,7 @@ Expectations of students
 
 	Don't use the internet for non-class activities
 
-	Give the professor his 50 min
-
-	Lectures are required
-
-	Tutorials are required, unless otherwise specified
-
-		If you don't go to tutorials, don't bother us about anything
-		covered in tutorials
+	Attend the lecture, and the mandatory tutorials
 
 ----------------------------------------------------------------------
 
@@ -125,12 +124,6 @@ SEC People
 
 ----------------------------------------------------------------------
 
-TAs
-
-	Awesome
-
-----------------------------------------------------------------------
-
 Dushoff
 
 	Loves math
@@ -184,6 +177,33 @@ RSLIDE Ebola research
 WIDEFIG my_images/weitz_full.pdf
 
 ----------------------------------------------------------------------
+
+TAs
+
+BCC
+
+	Morgan Kain
+
+		Talks to angels
+
+		Walks down the street
+
+	Michael Li
+
+		23 acquittals
+
+		0 convictions
+
+NCC
+
+CFIG webpix/opossum.jpg
+
+CFIG webpix/Curious_Raccoon.jpg
+
+EC
+
+----------------------------------------------------------------------
+
 
 Students
 

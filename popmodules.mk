@@ -1,4 +1,4 @@
-mdirs += ts exponential bd_models compensation life_tables life_history age structure competition exploitation boxes dd sims
+specdirs += ts exponential bd_models compensation life_tables life_history age structure competition exploitation boxes dd sims
 
 ## Missing: ebola. Get things straight
 

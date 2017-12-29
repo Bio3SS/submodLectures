@@ -12,7 +12,7 @@ target = Makefile
 
 ### Modules 
 
-mdirs += web Bio3SS_content
+specdirs += web
 
 Sources += popmodules.mk
 include popmodules.mk
@@ -20,10 +20,10 @@ include popmodules.mk
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
-exponential:
-	git submodule add -b master https://github.com/Bio3SS/Exponential_figures $@
-
-repodirs += $(mdirs)
+## repodirs have auto-making rules from modules.mk
+## mdirs are used by recursive git rules
+repodirs += $(specdirs)
+mdirs = $(specdirs) Bio3SS_content
 
 ### Links
 
@@ -49,6 +49,7 @@ mfiles: $(mdirs) $(mfiles)
 
 Sources += Makefile .gitignore README.md sub.mk LICENSE.md
 
+## See .lmk rule
 Drop = Define_image_drop_in_local.mk
 
 include sub.mk
@@ -144,6 +145,7 @@ units.html: units.step
 ## Local makefiles
 
 Sources += $(wildcard *.local)
+jd.lmk:
 %.lmk:
 	$(CPF) $*.local local.mk
 
