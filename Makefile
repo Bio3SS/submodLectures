@@ -63,7 +63,8 @@ Sources += $(mdirs)
 
 ## Formatting
 ## Script is makestuff/newtalk/lect.pl
-## Format rules are in makestuff/newtalk/txt.format _and_
+## Old 3SS rules are in makestuff/lect/lect.format
+## Current rules are in makestuff/newtalk/txt.format _and_
 Sources += local.txt.format
 
 ## Copyright notice
@@ -82,7 +83,8 @@ Sources += *.txt
 
 # Cribbing
 
-%.txt:
+## %.txt:
+%.txt %.poll:
 	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
 
 ## Get rid of this and submodule when done.
@@ -92,9 +94,7 @@ Sources += *.txt
 
 # Unit 0 (Intro)
 
-intro.draft.pdf: intro.txt
-intro.handouts.pdf: intro.txt
-
+intro.poll:
 intro.html: intro.step
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
@@ -102,16 +102,20 @@ intro.handouts.pdf: intro.txt
 intro.complete.pdf: intro.txt
 intro.outline.pdf: intro.txt
 
+intro.handouts.tex: intro.txt
+
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
 
 # Unit 1 (Linear population growth)
 
+linear.poll:
 linear.html: linear.step
 linear.final.pdf: linear.txt
 linear.draft.pdf: linear.txt
 linear.handouts.pdf: linear.txt
 linear.complete.pdf: linear.txt
+linear.outline.pdf: linear.txt
 
 ######################################################################
 

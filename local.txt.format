@@ -1,4 +1,5 @@
 
+## What are webnotes? destroy?
 
 ######################################################################
 
@@ -17,12 +18,12 @@ draft final: NOFRAME \title{%%}
 ## No obvious mechanism in current dmu
 
 ## Odd-year poll question (update link)
-POLL ^POLLTEXT
+POLL ^POLLTEXT %%
 draft final: {\color{pollcolor}Outdated poll!:} \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
 outline: %!
 
 ## Even-year poll question (current)
-QUES ^POLLTEXT
+QUES ^POLLTEXT %%
 draft final: Poll: \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
 outline: %!
 
@@ -31,11 +32,38 @@ NEWPOLL %%
 draft: {\color{pollcolor}Unlinked poll!:} %%
 outline: %!
 
-POLLTEXT \% % \n %| %!
+POLLTEXT %? %%
 
 ######################################################################
 
 ### Special reference
 MATREF ^HREF https://bio3ss.github.io/materials/% %%
 
+
+######################################################################
+
+## Old formatting stuff. Merge into main file some day?
+
+CLASS %!
+draft final: ^%%
+
+# Answer slide for class only (and complete notes)
+ASLIDE %!
+handouts: NULLSLIDE
+draft final: ^DEFHEAD {\sl \underline{%%}}
+webnotes complete: ^DEFHEAD {\underline{Answer slide}: \sl %%}
+
+# Comment slide (like an answer slide, but less important)
+CSLIDE %!
+handouts: NULLSLIDE
+draft final: ^DEFHEAD {\sl %%}
+webnotes complete: ^DEFHEAD {\underline{Comment slide}: \sl %%}
+
+# Question slide for class and _incomplete_ notes
+QSLIDE %%
+complete: NULLSLIDE
+
+# Continue a slide with the same heading
+CONT %!
+webnotes draft final: ^DEFHEAD {\sl %%}
 
