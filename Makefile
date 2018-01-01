@@ -77,7 +77,7 @@ Sources += pop.tex localcomm.tex
 
 ## Lectures
 
-Sources += *.txt
+Sources += $(wildcard *.txt *.poll)
 
 ##################################################################
 
