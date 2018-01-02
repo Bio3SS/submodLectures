@@ -36,6 +36,8 @@ webpix
 *.complete.*
 *.outline.*
 
+*.poll.csv
+
 old
 talkdir
 txt.format
