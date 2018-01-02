@@ -908,13 +908,13 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room 1105?
+RSLIDE Canada plus B135
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room 1105
+RSLIDE Canada plus B135
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
@@ -1274,7 +1274,7 @@ FIG exponential/bacteria_times.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Characterstic time and doubling time
+ASLIDE Characteristic time and doubling time
 
 FIG exponential/bacteria_times.Rout-5.pdf
 
@@ -1309,7 +1309,7 @@ FIG exponential/bacteria_times.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Characterstic time and half life
+ASLIDE Characteristic time and half life
 
 FIG exponential/bacteria_times.Rout-2.pdf
 
