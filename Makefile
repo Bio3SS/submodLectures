@@ -92,7 +92,7 @@ Sources += $(wildcard *.txt *.poll)
 ######################################################################
 
 
-# Unit 0 (Intro)
+# Unit 1 (Intro)
 
 intro.poll:
 intro.html: intro.step
@@ -107,7 +107,7 @@ intro.handouts.tex: intro.txt
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
 
-# Unit 1 (Linear population growth)
+# Unit 2 (Linear population growth)
 
 linear.poll:
 linear.html: linear.step
