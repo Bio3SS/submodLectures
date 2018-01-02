@@ -77,7 +77,7 @@ Sources += pop.tex localcomm.tex
 
 ## Lectures
 
-Sources += $(wildcard *.txt *.poll)
+Sources += $(wildcard *.txt)
 
 ##################################################################
 
@@ -94,7 +94,8 @@ Sources += $(wildcard *.txt *.poll)
 
 # Unit 0 (Intro)
 
-intro.poll:
+intro.txt.update: 
+intro.poll.csv: intro.txt pollcsv.pl
 intro.html: intro.step
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
@@ -116,6 +117,19 @@ linear.draft.pdf: linear.txt
 linear.handouts.pdf: linear.txt
 linear.complete.pdf: linear.txt
 linear.outline.pdf: linear.txt
+
+######################################################################
+
+Sources += $(wildcard *.pl)
+
+### Change POLL to NEWPOLL automatically (get rid of everywhere links)
+%.txt.update: %.txt
+	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
+
+## Poll conversion
+%.poll.csv: %.txt pollcsv.pl
+	$(PUSH)
+
 
 ######################################################################
 

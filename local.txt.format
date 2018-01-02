@@ -18,12 +18,13 @@ draft final: NOFRAME \title{%%}
 ## No obvious mechanism in current dmu
 
 ## Odd-year poll question (update link)
-POLL ^POLLTEXT %%
+## Not used; maybe eliminate
+ODDPOLL ^POLLTEXT %%
 draft final: {\color{pollcolor}Outdated poll!:} \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
 outline: %!
 
 ## Even-year poll question (current)
-QUES ^POLLTEXT %%
+POLL ^POLLTEXT %%
 draft final: Poll: \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
 outline: %!
 

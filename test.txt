@@ -110,7 +110,7 @@ Polling
 
 		Text from your cell phone, or answer on the web
 
-	NEWPOLL Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
+	NEWPOLL  Why are you taking this class?
 
 ----------------------------------------------------------------------
 
@@ -180,9 +180,9 @@ WIDEFIG weitz_full.pdf
 
 Students
 
-	NEWPOLL  What year are you in? First; Second; Third; Fourth; other
+	NEWPOLL  What year are you in?
 
-	NEWPOLL  What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
+	NEWPOLL  What kind of career are you aiming for?
 
 ----------------------------------------------------------------------
 
