@@ -4,7 +4,7 @@ use 5.10.0;
 $/ = "";
 
 while (<>){
-	next unless s/^\s*NEWPOLL\s*//;
+	next unless s/^\s*NEWPOLL\b\s*//;
 	chomp;
 
 	my ($ques, $choices) = /(.*?[.?])(.*)/;
