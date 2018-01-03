@@ -42,6 +42,9 @@ old
 talkdir
 txt.format
 
+*.diff
+*.oldfile
+
 dotdir/
 clonedir/
 
