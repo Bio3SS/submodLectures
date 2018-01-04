@@ -22,6 +22,8 @@ include popmodules.mk
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
+pushdir = web/materials
+
 ## repodirs have auto-making rules from modules.mk
 ## mdirs are used by recursive git rules
 repodirs += $(specdirs)
