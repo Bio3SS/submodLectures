@@ -186,25 +186,30 @@ WIDEFIG my_images/weitz_full.pdf
 
 TAs
 
-BCC
+BC
 
 	Morgan Kain
 
-		Talks to angels
+		Current: ecology and evolution of infectious diseases
 
-		Walks down the street
+		Forest ecology, animal behaviour
+
+			Focused on statistical approaches
+
 
 	Michael Li
 
-		23 acquittals
+		Research: Disease forecasting and control
 
-		0 convictions
+		Interests: Math, science, business, politics, philosophy.
 
-NCC
+			How everything is connected
 
-SIDEFIG webpix/opossum.jpg
+NC
 
-SIDEFIG webpix/Curious_Raccoon.jpg
+SIDEFIG my_images/kain_outside.jpg
+
+SIDEFIG my_images/li_peace.jpg
 
 EC
 
