@@ -95,16 +95,16 @@ Sources += $(wildcard *.txt *.poll)
 
 # Unit 1 (Intro)
 
-intro.txt.update: 
+intro.pollnew: 
+intro.pollclean: 
 intro.poll.csv: intro.txt pollcsv.pl
 intro.html: intro.step
+intro.outline.pdf: intro.txt
+
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
 intro.handouts.pdf: intro.txt
 intro.complete.pdf: intro.txt
-intro.outline.pdf: intro.txt
-
-intro.handouts.tex: intro.txt
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
@@ -124,8 +124,13 @@ linear.outline.pdf: linear.txt
 Sources += $(wildcard *.pl)
 
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
-%.txt.update: %.txt
+%.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
+
+### Change NEWPOLL back to POLL once link is added
+%.pollclean: %.txt
+	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
+
 
 ## Poll conversion
 %.poll.csv: %.txt pollcsv.pl

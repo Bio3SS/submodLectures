@@ -122,7 +122,7 @@ Polling
 
 		Text from your cell phone, or answer on the web
 
-	NEWPOLL Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
+	POLL multiple_choice_polls/GIIaWUc3IILowd0 Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
 ----------------------------------------------------------------------
 
@@ -213,9 +213,9 @@ EC
 
 Students
 
-	NEWPOLL  What year are you in? First; Second; Third; Fourth; other
+	POLL multiple_choice_polls/P4JlnQ75rj0OHRW  What year are you in? First; Second; Third; Fourth; other
 
-	NEWPOLL  What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
+	POLL multiple_choice_polls/wIHNJDJLbzsWtBT  What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
 
 ----------------------------------------------------------------------
 
@@ -233,7 +233,7 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	NEWPOLL  What is ecology?
+	POLL free_text_polls/AB9Spl3gAPFr4bZ  What is ecology?
 
 	My answer
 
@@ -244,7 +244,7 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	NEWPOLL  What is population ecology?
+	POLL free_text_polls/XzV6zQmcKffjjd7  What is population ecology?
 
 	My answer
 
@@ -386,7 +386,7 @@ EC
 
 Populations 
 
-	NEWPOLL  What population of organisms interests you?
+	POLL free_text_polls/GyIcFVUx5vQMoUK  What population of organisms interests you?
 
 ----------------------------------------------------------------------
 
@@ -497,7 +497,7 @@ RSLIDE Moth calculation
 
 		All adults die after reproduction
 
-	NEWPOLL  What happens if we start with 10 moths?
+	POLL free_text_polls/9SHAHiIXftPsdFb  What happens if we start with 10 moths?
 
 		ANS We end up with 15 moths
 
@@ -642,9 +642,9 @@ RSLIDE Bacteriostasis
 
 	If we start with 10 bacteria/ml, how many do we have after:
 
-		NEWPOLL  1 hr?
+		POLL free_text_polls/2sUt7xpk42pf4BO  1 hr?
 
-		NEWPOLL  1 wk?
+		POLL free_text_polls/PmeeJZDooAtHOVx  1 wk?
 
 ----------------------------------------------------------------------
 
@@ -684,9 +684,9 @@ FIG exponential/exponential.Rout-3.pdf
 
 RSLIDE Exponential growth
 
-	NEWPOLL  What is exponential growth?
+	POLL free_text_polls/RzyqCCYuxcxUfKv  What is exponential growth?
 
-	NEWPOLL  Which of these is an example?
+	POLL free_text_polls/Qtg5sktIFeaoci8  Which of these is an example?
 
 FIG exponential/exponential.Rout.four.pdf
 
@@ -764,7 +764,7 @@ Types of growth
 
 Exponential decline?
 
-	NEWPOLL  What does exponential decline look like?
+	POLL free_text_polls/nkvVfOaWep7DRVh  What does exponential decline look like?
 
 		ANS Decline is proportional to size
 
@@ -810,7 +810,7 @@ SS Log and linear scales
 
 Scales of comparison
 
-	NEWPOLL  1 is to 10 as 10 is to what?
+	POLL free_text_polls/5CkGPhs0D8iQmz0  1 is to 10 as 10 is to what?
 
 		ANS If you said 100, you are thinking multiplicatively
 
@@ -854,9 +854,9 @@ Canadian provinces
 
 	How many people know the Canadian provinces song?
 
-	NEWPOLL Which Canadian province is the most unusual in terms of area?
+	POLL free_text_polls/0z2hVt0R4wmIVUh Which Canadian province is the most unusual in terms of area?
 
-	NEWPOLL Which Canadian province is the most unusual in terms of population?
+	POLL free_text_polls/CFAwWjVMgr8H4Wv Which Canadian province is the most unusual in terms of population?
 
 ----------------------------------------------------------------------
 
@@ -950,7 +950,7 @@ BC
 
 	A 300 lb lion is attacking a 600 lb buffalo!
 
-	NEWPOLL  This is analogous to a 15 lb red fox attacking: a beaver, an elk | This is analogous to a fox attacking? a beaver, an elk
+	POLL multiple_choice_polls/DRRIZxOUTjF1UEd  This is analogous to a 15 lb red fox attacking: a beaver, an elk | This is analogous to a fox attacking? a beaver; an elk
 
 		A 30 lb beaver (twice as heavy)?
 
@@ -1051,7 +1051,7 @@ CSLIDE Speeding in Taiwan
 
 	Imagine now that I follow the signs exactly and unrealistically.
 
-	NEWPOLL  Do I ever arrive in the (ideal) town of Speed?
+	POLL free_text_polls/S26Ff64KtIKSTZF  Do I ever arrive in the (ideal) town of Speed?
 
 		ANS No. I am always an hour away!
 
@@ -1113,9 +1113,9 @@ Bacteriostasis
 
 	If we start with 10 bacteria/ml, how many do we have after:
 
-		NEWPOLL  1 hr?
+		POLL free_text_polls/JRJ9UOOsZ3052bz  1 hr?
 
-		NEWPOLL  1 wk?
+		POLL free_text_polls/Vyxs1snuAcpzKCj  1 wk?
 
 ----------------------------------------------------------------------
 
