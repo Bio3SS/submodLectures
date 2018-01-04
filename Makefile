@@ -79,7 +79,7 @@ Sources += pop.tex localcomm.tex
 
 ## Lectures
 
-Sources += $(wildcard *.txt)
+Sources += $(wildcard *.txt *.poll)
 
 ##################################################################
 
@@ -92,7 +92,6 @@ Sources += $(wildcard *.txt)
 ## Get rid of this and submodule when done.
 
 ######################################################################
-
 
 # Unit 1 (Intro)
 

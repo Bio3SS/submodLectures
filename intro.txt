@@ -950,7 +950,7 @@ BC
 
 	A 300 lb lion is attacking a 600 lb buffalo!
 
-	NEWPOLL  This is analogous to a 15 lb red fox attacking:| a beaver, an elk
+	NEWPOLL  This is analogous to a 15 lb red fox attacking: a beaver, an elk | This is analogous to a fox attacking? a beaver, an elk
 
 		A 30 lb beaver (twice as heavy)?
 
