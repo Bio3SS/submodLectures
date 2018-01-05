@@ -81,6 +81,8 @@ Sources += pop.tex localcomm.tex
 
 ## Lectures
 
+## .poll has some useful information this is a legacy from pre-mid-2017
+## Clean out after term
 Sources += $(wildcard *.txt *.poll)
 
 ##################################################################
@@ -105,8 +107,12 @@ intro.outline.pdf: intro.txt
 
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
+intro.final.pdf.gp: 
+
 intro.handouts.pdf: intro.txt
+intro.handouts.pdf.push: intro.txt
 intro.complete.pdf: intro.txt
+intro.complete.pdf.push: intro.txt
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
