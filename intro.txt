@@ -50,6 +50,8 @@ Expectations of professor
 
 	Responsive to questions on class forums (Facebook and AtL)
 
+		CHANGE Not AtL
+
 ----------------------------------------------------------------------
 
 Expectations of students
@@ -162,13 +164,13 @@ WIDEFIG webpix/phila_skyline.jpg
 
 RSLIDE Which country? 
 
-WIDEFIG webpix/big_bend.jpg
+WIDEFIG webpix/taiwan_street.jpg
 
 --------------------------------------------------------------------
 
 RSLIDE Which country? 
 
-WIDEFIG webpix/taiwan_street.jpg
+WIDEFIG webpix/big_bend.jpg
 
 --------------------------------------------------------------------
 
@@ -221,6 +223,10 @@ Students
 	POLL multiple_choice_polls/P4JlnQ75rj0OHRW  What year are you in? First; Second; Third; Fourth; other
 
 	POLL multiple_choice_polls/wIHNJDJLbzsWtBT  What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
+
+----------------------------------------------------------------------
+
+EXTRA Poor outlining. Make content a SECTION?
 
 ----------------------------------------------------------------------
 
