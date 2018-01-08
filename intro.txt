@@ -485,7 +485,7 @@ EC
 
 ----------------------------------------------------------------------
 
-Gypsy moth fopulations
+Gypsy moth populations
 
 DOUBLEPDF ts/gm10165.simple.Rout
 

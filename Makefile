@@ -1,6 +1,8 @@
 # Lectures
 
 ## https://avenue.cllmcmaster.ca/d2l/lms/news/newedit.d2l?ou=235353
+## Need to activate (cryptic) each year:
+	## Course admin/course offering information/active (then save)
 
 ######################################################################
 
@@ -21,9 +23,6 @@ include popmodules.mk
 
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
-
-wayback: 
-	git clone -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 pushdir = web/materials
 
@@ -84,8 +83,6 @@ Sources += pop.tex localcomm.tex
 
 ## Lectures
 
-## .poll has some useful information this is a legacy from pre-mid-2017
-## Clean out after term
 Sources += $(wildcard *.txt *.poll)
 
 ##################################################################
@@ -110,12 +107,8 @@ intro.outline.pdf: intro.txt
 
 intro.draft.pdf: intro.txt
 intro.final.pdf: intro.txt
-intro.final.pdf.gp: 
-
 intro.handouts.pdf: intro.txt
-intro.handouts.pdf.push: intro.txt
 intro.complete.pdf: intro.txt
-intro.complete.pdf.push: intro.txt
 
 math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
