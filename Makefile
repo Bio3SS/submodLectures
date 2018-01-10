@@ -53,7 +53,7 @@ mfiles: $(mdirs) $(mfiles)
 
 ######################################################################
 
-Sources += Makefile .gitignore README.md sub.mk LICENSE.md
+Sources += Makefile .ignore README.md sub.mk LICENSE.md
 
 ## See .lmk rule
 Drop = Define_image_drop_in_local.mk
