@@ -931,19 +931,19 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room 1105?
+RSLIDE Canada plus room B135?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room 1105
+RSLIDE Canada plus room B135
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Canada plus room 1105
+ASLIDE Canada plus room B135
 
 DOUBLEFIG exponential/canada.Rout-4.pdf exponential/canada.Rout-5.pdf
 
