@@ -3,6 +3,7 @@ local.mk
 target.mk
 .*.sw*
 make.log
+.gitignore
 
 ## content from makestuff
 *.log
