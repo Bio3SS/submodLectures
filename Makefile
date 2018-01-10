@@ -16,6 +16,7 @@ target = Makefile
 
 ### Modules 
 
+## A special module (should probably be a clone)
 specdirs += web
 
 Sources += popmodules.mk
@@ -29,7 +30,9 @@ pushdir = web/materials
 ## repodirs have auto-making rules from modules.mk
 ## mdirs are used by recursive git rules
 repodirs += $(specdirs)
-mdirs = $(specdirs) Bio3SS_content
+mdirs = $(specdirs)
+
+ORPHAN = Bio3SS_content
 
 ### Links
 

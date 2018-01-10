@@ -10,9 +10,6 @@
 	path = ts
 	url = https://github.com/Bio3SS/Population_time_series
 	branch = master
-[submodule "Bio3SS_content"]
-	path = Bio3SS_content
-	url = https://github.com/Bio3SS/Bio3SS_content.git
 [submodule "exponential"]
 	path = exponential
 	url = https://github.com/Bio3SS/Exponential_figures
