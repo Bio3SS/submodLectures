@@ -17,13 +17,16 @@ target = Makefile
 ### Modules 
 
 ## A special module (should probably be a clone)
-specdirs += web
+specdirs += web wayback
 
 Sources += popmodules.mk
 include popmodules.mk
 
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
+
+wayback:
+	git submodule add -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 pushdir = web/materials
 
@@ -121,14 +124,16 @@ math.handouts.pdf: math.txt
 math.complete.pdf: math.txt
 
 # Unit 2 (Linear population growth)
+linear.pollnew: 
+linear.pollclean: 
+linear.poll.csv: intro.txt pollcsv.pl
+linear.html: intro.step
+linear.outline.pdf: intro.txt
 
-linear.poll:
-linear.html: linear.step
 linear.final.pdf: linear.txt
 linear.draft.pdf: linear.txt
 linear.handouts.pdf: linear.txt
 linear.complete.pdf: linear.txt
-linear.outline.pdf: linear.txt
 
 ######################################################################
 

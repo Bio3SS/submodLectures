@@ -74,6 +74,8 @@ States and state variables
 	Our dynamic models imagine that a system has a \textbf{state} at any
 	given time, described by one or more \textbf{state variables}
 
+	These are the things that follow our rules and change
+
 	Examples:
 
 		Dandelions: state is population size, described by one state
@@ -91,7 +93,7 @@ States and state variables
 
 Parameters
 
-	\textbf{Parameters} are the quantities that describe the rules for
+	\textbf{Parameters} are the quantities that describe how the rules for
 	our system
 
 	Examples:
@@ -102,10 +104,10 @@ Parameters
 
 How do populations change?
 
-	I survey a population in 2005, and again in 2009.  I get a different
+	I survey a population in 2009, and again in 2013.  I get a different
 	answer the second time.
 
-	POLL free_text_polls/MAAeSpcCrfRD7lC What are some reasons why this answer might change?
+	NEWPOLL  What are some reasons why this answer might change?
 
 		ANS Birth
 
@@ -185,22 +187,23 @@ Moth example
 
 BC
 
-	State variables
+	NEWPOLL State variable | What might be a state variable in this system?
 
 		ANS Number of moths/ha
 
 	Parameters 
 
-		ANS Number of eggs, sex ratio, larval survival, pupal survival,
-		adult survival
+		ANS Number of eggs
+		
+		ANS sex ratio
+		
+		ANS larval survival, pupal survival, adult survival
 
 		ANS Time step
 
 	Census time
 
 		ANS Annually; use the same time (and stage) each year
-
-	CHANGE CC: maybe have a poll for either state variable or parameters to check if everybody is OK with that
 
 NC
 
@@ -219,7 +222,7 @@ BC
 
 		ANS Number of bacteria/ml
 
-	Parameters 
+	NEWPOLL Parameters | What might be a parameter in this system?
 
 		ANS Division rate, death rate, washout rate
 
@@ -232,8 +235,6 @@ NC
 SIDEFIG webpix/violet_bacteria.jpg
 
 EC
-
-CHANGE CC: For the parameters you should divide the answers in multiple points (same for the dandelions) 
 
 ----------------------------------------------------------------------
 
@@ -284,13 +285,13 @@ Assumptions
 
 		ANS $N_{T+1} = (pN_T+fN_T) = (p+f)N_T$
 
-CHANGE CC: Be more clear with this slide (explain more what you mean by f and/or m)
-CHANGE CC: On the board: N(t+1) = pN(t) + pmN(t) = (p+f) N(t)
-CHANGE Add more maternity in general
+	Diagram
 
 ----------------------------------------------------------------------
 
 CONT Assumptions
+
+BC
 
 	Individuals are \textbf{independent}: what I do does not depend on
 	how many other individuals are around
@@ -304,7 +305,11 @@ CONT Assumptions
 
 	Population changes deterministically
 
-CHANGE Show model world picture again?
+NC
+
+CFIG webpix/flat.png
+
+EC
 
 ----------------------------------------------------------------------
 
@@ -336,7 +341,7 @@ Model
 
 		$t_T = T \Delta t$
 
-	POLL free_text_polls/GTPbsggjwpXj2Sp How does $N$ behave in this model?
+	NEWPOLL  How does $N$ behave in this model?
 
 		ANS Increases exponentially (geometrically) when $\lambda>1$
 
@@ -427,13 +432,7 @@ CONT Assumptions
 
 	Population size changes continuously
 
-		ANS Advantageous if reproduction is continuous
-
 	All individuals are the same all the time
-
-		ANS Usually disadvantageous
-
-CHANGE CC: Split advantages/disadvantages into 2 slides to make it more clear
 
 ----------------------------------------------------------------------
 
@@ -548,7 +547,7 @@ BC
 	We \emph{cannot} {add} quantities with different units (unless they
 	can be converted to the same units)
 
-	POLL free_text_polls/nDRr6COgLchiU5B How many seconds are there in a day?
+	NEWPOLL  How many seconds are there in a day?
 
 		ANS
 		$\bigeq \frac{60 \uname{sec}}{\uname{min}} $ 
@@ -608,7 +607,7 @@ DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-4.pdf
 
 Thinking about units 
 
-	POLL free_text_polls/WpdZeN5oUWlF9uQ What is $10^{3 \dd}$?
+	NEWPOLL  What is $10^{3 \dd}$?
 
 		NOANS
 
@@ -672,7 +671,7 @@ Moths
 
 	$\cdot 0.5 \uname{rA}/\uname{A}$
 
-	POLL free_text_polls/O214ighe0x5ACD2 What's the product?
+	NEWPOLL  What's the product?
 
 		ANS $1.5\uname{rA}/\uname{rF}$
 
@@ -681,9 +680,7 @@ Moths
 
 ----------------------------------------------------------------------
 
-Moth spreadsheet
-
-	ADD No more moth spreadsheet
+Closing the loop
 
 	Once we close the loop, it doesn't matter where we start:
 
@@ -694,6 +691,8 @@ Moth spreadsheet
 		Pupae to pupae is common in real studies
 
 			ANS Pupae are easy to count
+
+	If we don't close the loop, we can't correctly move from step to step
 
 ----------------------------------------------------------------------
 
@@ -729,19 +728,19 @@ TSS Discrete-time model
 
 Calculating fecundity
 
-ADD Blackboard
-
 	Fecundity $f$ in our model must be unitless
 
 	Multiply:
 
 		Probability of surviving from census to reproduction
 
-		Expected number of offspring when reproducing
+		Expected number of offspring when reproducing (maternity)
 
 		Probability of offspring surviving to census
 
 	Need to end where we started
+
+	Diagram
 
 ----------------------------------------------------------------------
 
@@ -777,11 +776,11 @@ Reproductive number
 	The reproductive number \R\ measures the average number of offspring
 	produced by a single individual over the course of its lifetime
 
-	POLL free_text_polls/vr3BqzAIemoYqKL The population will increase when \R\ldots:|
+	NEWPOLL  The population will increase when \R\ldots:|
 
 		ANS $\R>1$
 
-	POLL free_text_polls/OCrIQcBwqmfa9l7 What are the units of \R?
+	NEWPOLL  What are the units of \R?
 
 		ANS \R\ must be unitless
 
@@ -825,6 +824,8 @@ Comparison
 
 BCC
 
+	\emph{Lifetime reproduction}
+
 	$\R = f/\mu = f/(1-p)$
 
 	Unitless
@@ -834,6 +835,8 @@ BCC
 		Equivalent to $f:\mu$
 
 NCC
+
+	\emph{Reproduction over one time step}
 
 	$\lambda = f+p = f+(1-\mu)$
 
@@ -845,7 +848,6 @@ NCC
 
 EC
 
-CHANGE CC: add lifespan vs step time perspectives
 ----------------------------------------------------------------------
 
 Is the population increasing?
@@ -1106,7 +1108,7 @@ Balance
 
 Changing growth rates
 
-	POLL free_text_polls/0tUk425po7FPFxM What sort of factors can make species growth rates change?
+	NEWPOLL  What sort of factors can make species growth rates change?
 
 		ANS Seasonality
 
