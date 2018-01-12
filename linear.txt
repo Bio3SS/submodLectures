@@ -307,7 +307,7 @@ BC
 
 NC
 
-CFIG webpix/flat.png
+SIDEFIG webpix/flat.png
 
 EC
 
@@ -788,9 +788,7 @@ Reproductive number
 
 Lifespan
 
-	What is the lifespan of an individual in this model?
-
-CHANGE CC: need to make the question more clear
+	In this model world, how long do individuals live, on average in this model?
 
 	If $p$ is the proportion of individuals that survive, then the
 	proportion that die is:
@@ -816,15 +814,16 @@ Calculating \R
 	Why do we multiply by time \emph{steps} instead of lifetime?
 
 		ANS Because $f$ is also measured per time step
-		
-CHANGE CC: You also liked the answer: because R has to be unitless (need to cancel the units)
+
+		ANS \R\ must be unitless
+
 ----------------------------------------------------------------------
 
 Comparison
 
 BCC
 
-	\emph{Lifetime reproduction}
+\emph{Lifetime reproduction}
 
 	$\R = f/\mu = f/(1-p)$
 
@@ -836,7 +835,7 @@ BCC
 
 NCC
 
-	\emph{Reproduction over one time step}
+\emph{Reproduction over one time step}
 
 	$\lambda = f+p = f+(1-\mu)$
 
@@ -879,14 +878,11 @@ Calculating birth rate
 
 		An instaneous rate
 
-		CHANGE This attempt to pull answers is awkward. Maybe refer specifically to cancelling next time
-
 		Units of [1/time] -- implies what assumption?
 
-			ANS We assume all individuals are effectively the same
+			ANS New individuals are effectively the same as old individuals
 
-			ANS If we know how many individuals we have, we know how many
-			births there will be
+			ANS Not very realistic -- a potential problem with our model world
 
 ----------------------------------------------------------------------
 
@@ -933,6 +929,8 @@ Comparison
 
 BCC
 
+\emph{Lifetime reproduction}
+
 	$\R = bL = b/d$
 
 	Unitless
@@ -942,6 +940,8 @@ BCC
 		Equivalent to $b:d$
 
 NCC
+
+\emph{Instantaneous change}
 
 	$r = b-d $
 
@@ -976,20 +976,25 @@ Is the population increasing?
 
 TSS Links
 
-	If a population grows at rate $r$ for time period $\Delta t$, how
-	much does it change?
+	After one time step in a discrete-time model
 
-		$N_0 \exp(r\Delta t)$ must correspond to $N_0 \lambda$, where 1
-		is:
+		$N_0 \rightarrow N_0 \lambda$
 
-	To link a continuous-time model to a discrete-time model, we
+		$t \rightarrow t + \Delta t$
+
+	In a continuous model
+
+		$N_0 \rightarrow N_0 \exp(r\Delta t)$ in the same time period
+
+	To link them, we
 	set:
 
 		$\lambda = \exp(r\Delta t)$
 
+	In the other direction:
+
 		ANS $r = \log_e(\lambda)/\Delta t$
 
-CHANGE CC: need to make this slide more clear
 ----------------------------------------------------------------------
 
 Characteristic time
@@ -1112,7 +1117,7 @@ Changing growth rates
 
 		ANS Seasonality
 
-		ANS Environmental changes
+		ANS Environmental changes (gradual or dramatic)
 
 		ANS Competition within species
 
@@ -1122,9 +1127,6 @@ Changing growth rates
 
 		ANS Resources (food and space)
 
-		ANS Natural disasters
-
-CHANGE CC: include Natural disasters in enviroonmental changes
 ----------------------------------------------------------------------
 
 Regulation
