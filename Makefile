@@ -93,10 +93,14 @@ Sources += $(wildcard *.txt *.poll)
 # Cribbing
 
 ## %.txt:
-%.txt %.poll:
+%.txt:
 	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
 
-## Get rid of this and submodule when done.
+%.poll:
+	cat Bio3SS_content/$@ > $@
+
+## Get rid of this section and the Bio3SS_content submodule when done.
+## Oops, already refactored that submodule ☹
 
 ######################################################################
 
