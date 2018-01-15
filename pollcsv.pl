@@ -23,6 +23,7 @@ while (<>){
 	} else {
 		print "Open-ended, ";
 	}
-	print '"' . $ques . '", ';
+	# print '"' . $ques . '", ';
+	print $ques . ', ';
 	say join ", ", @choices;
 }
