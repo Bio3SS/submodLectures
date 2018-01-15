@@ -149,6 +149,7 @@ Sources += $(wildcard *.pl)
 
 
 ## Poll conversion
+Ignore += *.poll.csv
 %.poll.csv: %.txt pollcsv.pl
 	$(PUSH)
 
