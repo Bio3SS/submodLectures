@@ -37,12 +37,6 @@ mdirs = $(specdirs)
 
 ORPHAN = Bio3SS_content
 
-### Links
-
-my_images: dir=~/Dropbox
-my_images: 
-	$(linkdir)
-
 ######################################################################
 
 ## Various imperfect ways of curating the submodules
@@ -104,6 +98,11 @@ Sources += $(wildcard *.txt *.poll)
 
 ## Get rid of this section and the Bio3SS_content submodule when done.
 ## Oops, already refactored that submodule ☹
+
+## Images
+
+my_images/%:
+	$(CP) ~/Dropbox/$@ $@
 
 ######################################################################
 
