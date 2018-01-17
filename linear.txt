@@ -659,6 +659,25 @@ Unitless quantities
 
 ----------------------------------------------------------------------
 
+RSLIDE Moth calculation
+
+	Researchers studying a gypsy moth population make the following
+	estimates:
+
+		The average reproductive female lays 600 eggs
+
+		10% of eggs hatch into larvae
+
+		10% of larvae mature into pupae
+
+		50% of pupae mature into adults
+
+		50% of adults survive to reproduce
+
+		All adults die after reproduction
+
+----------------------------------------------------------------------
+
 Moths
 
 	$600 \uname{egg}/\uname{rF}$
