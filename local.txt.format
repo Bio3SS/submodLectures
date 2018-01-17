@@ -30,7 +30,7 @@ handouts complete: Poll: \href{https://www.polleverywhere.com/%}{%|}%!
 outline: %!
 
 ## Show poll question in notes before it's made. Flag in draft
-NEWPOLL %| %!
+NEWPOLL Poll: %| %!
 draft: {\color{pollcolor}Unlinked poll!:} %| %!
 outline: %!
 

@@ -341,7 +341,7 @@ Model
 
 		$t_T = T \Delta t$
 
-	NEWPOLL  How does $N$ behave in this model?
+	NEWPOLL  How does $N$ behave in this model? | How does N behave in this model?
 
 		ANS Increases exponentially (geometrically) when $\lambda>1$
 
@@ -607,7 +607,7 @@ DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-4.pdf
 
 Thinking about units 
 
-	NEWPOLL  What is $10^{3 \dd}$?
+	NEWPOLL  What is $10^{3 \dd}$? | What is 10 to the power of 3d?
 
 		NOANS
 
@@ -776,11 +776,11 @@ Reproductive number
 	The reproductive number \R\ measures the average number of offspring
 	produced by a single individual over the course of its lifetime
 
-	NEWPOLL  The population will increase when \R\ldots:|
+	NEWPOLL  The population will increase when \R\ldots:| The population will increase when R … .
 
 		ANS $\R>1$
 
-	NEWPOLL  What are the units of \R?
+	NEWPOLL  What are the units of \R?  |What are the units of R?
 
 		ANS \R\ must be unitless
 
