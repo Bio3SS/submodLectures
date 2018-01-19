@@ -58,7 +58,3 @@
 	path = sims
 	url = https://github.com/dushoff/SIR_simulations
 	branch = master
-[submodule "wayback"]
-	path = wayback
-	url = https://github.com/Bio3SS/Bio3SS.github.io.git
-	branch = 2017

@@ -17,7 +17,7 @@ target = Makefile
 ### Modules 
 
 ## A special module (should probably be a clone)
-specdirs += web wayback
+specdirs += web
 
 Sources += popmodules.mk
 include popmodules.mk
@@ -25,8 +25,9 @@ include popmodules.mk
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
+clonedirs += wayback
 wayback:
-	git submodule add -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
+	git clone -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 pushdir = web/materials
 
