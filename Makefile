@@ -56,6 +56,9 @@ mfiles: $(mdirs) $(mfiles)
 
 Sources += Makefile .ignore README.md sub.mk LICENSE.md
 
+## Keeping track of schedule
+Sources += lectures.txt
+
 ## See .lmk rule
 Drop = Define_image_drop_in_local.mk
 
