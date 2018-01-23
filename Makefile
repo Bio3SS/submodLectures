@@ -25,7 +25,7 @@ include popmodules.mk
 web:
 	git submodule add -b master https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
-clonedirs += wayback
+## clonedirs += wayback
 wayback:
 	git clone -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
