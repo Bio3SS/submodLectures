@@ -17,7 +17,7 @@ target = Makefile
 ### Modules 
 
 ## A special module (should probably be a clone)
-specdirs += web
+specdirs += web WA_Ebola_Outbreak
 
 Sources += popmodules.mk
 include popmodules.mk
