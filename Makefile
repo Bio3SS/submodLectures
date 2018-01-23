@@ -97,6 +97,8 @@ Sources += $(wildcard *.txt *.poll)
 %.txt:
 	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
 
+## :%s/SSLIDE/PICSLIDE/
+
 %.poll:
 	cat Bio3SS_content/$@ > $@
 
@@ -129,19 +131,33 @@ math.complete.pdf: math.txt
 # Unit 2 (Linear population growth)
 linear.pollnew: 
 linear.pollclean: 
-linear.poll.csv: intro.txt pollcsv.pl
-linear.html: intro.step
-linear.outline.pdf: intro.txt
+linear.poll.csv: linear.txt pollcsv.pl
+linear.html: linear.step
+linear.outline.pdf: linear.txt
 
 linear.final.pdf: linear.txt
 linear.draft.pdf: linear.txt
 linear.handouts.pdf: linear.txt
 linear.complete.pdf: linear.txt
 
+# Unit 3 (Non-linear population growth)
+nonlinear.pollnew: 
+nonlinear.pollclean: 
+nonlinear.poll.csv: nonlinear.txt pollcsv.pl
+nonlinear.html: nonlinear.step
+nonlinear.outline.pdf: nonlinear.txt
+
+nonlinear.final.pdf: nonlinear.txt
+nonlinear.draft.pdf: nonlinear.txt
+nonlinear.handouts.pdf: nonlinear.txt
+nonlinear.complete.pdf: nonlinear.txt
+
 ######################################################################
 
 Sources += $(wildcard *.pl)
 
+### Not using pollclean this year (auto-linking isn't working)
+### Instead I just open a whole bunch of polls in chrome during setup
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
 %.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
@@ -149,7 +165,6 @@ Sources += $(wildcard *.pl)
 ### Change NEWPOLL back to POLL once link is added
 %.pollclean: %.txt
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
-
 
 ## Poll conversion
 Ignore += *.poll.csv

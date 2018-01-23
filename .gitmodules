@@ -58,3 +58,9 @@
 	path = sims
 	url = https://github.com/dushoff/SIR_simulations
 	branch = master
+[submodule "Bio3SS_content"]
+	path = Bio3SS_content
+	url = https://github.com/Bio3SS/Bio3SS_content.git
+[submodule "WA_Ebola_Outbreak"]
+	path = WA_Ebola_Outbreak
+	url = https://github.com/Outbreak-analysis/WA_Ebola_Outbreak.git
