@@ -181,7 +181,7 @@ RSLIDE
 
 Elk
 
-DOUBLEPDF ts/elk.plot.Rout
+DOUBLEPDF ts/elk.elkplot.Rout
 
 ----------------------------------------------------------------------
 
@@ -1039,13 +1039,13 @@ DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
 
 RSLIDE Elk
 
-DOUBLEPDF ts/elk.plot.Rout
+DOUBLEPDF ts/elk.elkplot.Rout
 
-CHANGE CC: for elk: add more tick marks for the y axis 
+----------------------------------------------------------------------
 
-CHANGE CC: wanted to add the paramecia plot
+RSLIDE Paramecia
 
-CHANGE Bigger points for Ebola?
+DOUBLEFIG ts/paramecia.plot.Rout-3.pdf ts/paramecia.plot.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
@@ -1074,7 +1074,7 @@ DOUBLEPDF ts/paramecia.plot.Rout
 
 Elk
 
-DOUBLEPDF ts/elk.plot.Rout
+DOUBLEPDF ts/elk.elkplot.Rout
 
 ----------------------------------------------------------------------
 
@@ -1658,13 +1658,13 @@ DOUBLEFIG ts/paramecia.plot.Rout-3.pdf ts/paramecia.plot.Rout-2.pdf
 
 RSLIDE Elk
 
-DOUBLEPDF ts/elk.plot.Rout
+DOUBLEPDF ts/elk.elkplot.Rout
 
 ----------------------------------------------------------------------
 
 Elk
 
-DOUBLEFIG ts/elk.plot.Rout-3.pdf ts/elk.plot.Rout-2.pdf
+DOUBLEFIG ts/elk.elkplot.Rout-3.pdf ts/elk.elkplot.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
