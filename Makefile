@@ -157,8 +157,11 @@ nonlinear.complete.pdf: nonlinear.txt
 
 Sources += $(wildcard *.pl)
 
+### 2018 Jan 23 (Tue)
 ### Not using pollclean this year (auto-linking isn't working)
 ### Instead I just open a whole bunch of polls in chrome during setup
+### Meaning: I use .pollnew, but don't even bother with pollclean
+
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
 %.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
@@ -218,6 +221,6 @@ jd.lmk:
 -include $(ms)/texdeps.mk
 
 -include $(ms)/webpix.mk
--include $(ms)/wrapR.mk
+## -include $(ms)/wrapR.mk
 
 -include $(ms)/git.mk
