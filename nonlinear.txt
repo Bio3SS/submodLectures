@@ -128,7 +128,7 @@ BC
 	Other species seem like they could easily be more common (pine trees)
 
 		May be controlled by cryptic (hard to see) natural enemies (like
-		disease or parasites
+		disease or parasites)
 
 		May be controlled by limitations that occur only at certain times
 		(e.g., during regular droughts)
@@ -152,7 +152,7 @@ Regulation works over the long term
 	Some species are controlled by big outbreaks of disease
 
 	Some species have big outbreaks into marginal habitat, and spend
-	most of their time contracting back to their "core" habitat
+	most of their time contracting back to their ``core" habitat
 
 ----------------------------------------------------------------------
 
