@@ -17,7 +17,7 @@ target = Makefile
 ### Modules 
 
 ## A special module (should probably be a clone)
-specdirs += web WA_Ebola_Outbreak
+specdirs += web WA_Ebola_Outbreak 
 
 Sources += popmodules.mk
 include popmodules.mk
@@ -30,14 +30,16 @@ Ignore += wayback
 wayback:
 	git clone -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
+## Not tested
+old:
+	git clone -b master https://github.com/Bio3SS/Bio3SS_content.git $@
+
 pushdir = web/materials
 
 ## repodirs have auto-making rules from modules.mk
 ## mdirs are used by recursive git rules
 repodirs += $(specdirs)
 mdirs = $(specdirs)
-
-ORPHAN = Bio3SS_content
 
 ######################################################################
 

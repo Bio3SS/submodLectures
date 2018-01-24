@@ -36,7 +36,7 @@ The second law of population dynamics
 
 ----------------------------------------------------------------------
 
-PICSLIDE Crowding
+PICSLIDE
 
 FIG webpix/ecoli.jpg
 
@@ -50,7 +50,7 @@ The third law of population dynamics
 	Environmental variation cannot be the only thing that changes growth
 	rates
 
-	Populations are, directly or indirectly, liimiting their own growth
+	Populations are, directly or indirectly, limiting their own growth
 	rates
 
 	This is called \textbf{density dependence}
@@ -77,7 +77,8 @@ Changing growth rates
 			ANS As populations go up, pressure from natural enemies could
 			go up \emph{even faster}
 
-			ANS Not good enough if it just goes up per capita
+			ANS If pressure increases at the same rate, per capita effects could
+			stay the same
 
 		ANS Insufficient resources
 
@@ -157,8 +158,7 @@ Regulation works over the long term
 
 How do we know it's regulation?
 
-	Why don't we believe that population growth is controlled by
-	factors that don't depend on the population itself?
+	NEWPOLL Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
 
 		ANS Because the long-term average value of $r$ has to be
 		\emph{very} close to 0
@@ -915,7 +915,7 @@ Basic reproductive number
 
 CONT
 
-	NEWPOLL  What is \Ro\ in our current model?
+	NEWPOLL  What is \Ro\ in our current model? | What is R0?
 
 		ANS $\Ro=b(0)/d(0)$
 
@@ -1290,7 +1290,7 @@ Complex behaviour in our simulations
 
 		ANS We assume it goes down
 
-	NEWPOLL  In our simple models, as $N_T$ increases, what happens to next year's population?
+	NEWPOLL  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
 
 		ANS $\Nprime = \lambda(N) N_T$
 
@@ -1596,7 +1596,7 @@ FIG bd_models/birth.bd.Rout-8.pdf
 
 Model dynamics
 
-	NEWPOLL  If a population is growing, what will happen as it approaches the equilibrium?
+	NEWPOLL  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
 
 		ANS It \emph{keeps} growing
 
