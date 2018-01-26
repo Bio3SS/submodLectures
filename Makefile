@@ -115,6 +115,8 @@ my_images/%:
 
 ######################################################################
 
+Sources += jokes.txt
+
 # Unit 1 (Intro)
 
 intro.pollnew: 

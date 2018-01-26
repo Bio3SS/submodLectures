@@ -69,7 +69,7 @@ Long-term growth rates
 
 Changing growth rates
 
-	NEWPOLL  What is an example of a density-dependent mechanism that
+	POLL LINK  What is an example of a density-dependent mechanism that
 	affects growth rate?
 
 		ANS Predators and diseases
@@ -158,7 +158,7 @@ Regulation works over the long term
 
 How do we know it's regulation?
 
-	NEWPOLL Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
+	POLL LINK Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
 
 		ANS Because the long-term average value of $r$ has to be
 		\emph{very} close to 0
@@ -204,7 +204,7 @@ DOUBLEPDF ts/gm10165.plot.Rout
 
 Gypsy moths
 
-	NEWPOLL  What are some factors that limit gypsy-moth populations?
+	POLL LINK  What are some factors that limit gypsy-moth populations?
 
 	Which are likely to be affected by the moths?
 
@@ -497,7 +497,7 @@ States and state variables
 
 Parameters
 
-	What quantities describe the rules for this system?
+	POLL LINK What quantities describe the rules for this system?
 
 		ANS $b_0$ [1/time]
 
@@ -786,15 +786,15 @@ Other examples
 
 RSLIDE Maximum growth rates
 
-	When does a population in this model have the fastest
-	\emph{per-capita} growth rate?
+	POLL LINK When does a population in this model have the fastest
+	\emph{per-capita} growth rate? | When is per capita growth fastest?
 
 		NOANS When density is low. 
 		
 		NOANS This is an assumption.
 
-	When does a population in this model have the fastest \emph{total}
-	growth rate?
+	POLL LINK When does a population in this model have the fastest \emph{total}
+	growth rate? | When is total growth fastest?
 
 		NOANS Intermediate between low density and the carrying capacity.
 		
@@ -915,7 +915,7 @@ Basic reproductive number
 
 CONT
 
-	NEWPOLL  What is \Ro\ in our current model? | What is R0?
+	POLL LINK  What is \Ro\ in our current model? | What is R0?
 
 		ANS $\Ro=b(0)/d(0)$
 
@@ -939,7 +939,7 @@ Invasion
 
 Invasion examples
 
-	NEWPOLL What are some examples of biological invasions?
+	POLL LINK What are some examples of biological invasions?
 
 		NOANS
 
@@ -1290,7 +1290,7 @@ Complex behaviour in our simulations
 
 		ANS We assume it goes down
 
-	NEWPOLL  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
+	POLL LINK  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
 
 		ANS $\Nprime = \lambda(N) N_T$
 
@@ -1446,7 +1446,7 @@ BC
 
 	Some plant populations are limited by water, and some by light
 
-	NEWPOLL  Which is more likely to work out as a scramble?
+	POLL LINK  Which is more likely to work out as a scramble?
 
 		ANS Light is very likely to work out as a ``contest'' -- the
 		taller individuals will win and do OK
@@ -1596,7 +1596,7 @@ FIG bd_models/birth.bd.Rout-8.pdf
 
 Model dynamics
 
-	NEWPOLL  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
+	POLL LINK  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
 
 		ANS It \emph{keeps} growing
 
@@ -1690,7 +1690,7 @@ Example
 
 BC
 
-	NEWPOLL  What would happen if I released one butterfly into a new, highly suitable habitat?
+	POLL LINK  What would happen if I released one butterfly into a new, highly suitable habitat?
 
 		NOANS
 
@@ -1732,7 +1732,7 @@ TSS Allee effects
 
 CONT What causes Allee effects?
 
-	NEWPOLL  Why might growth rates be low when populations are small?
+	POLL LINK  Why might growth rates be low when populations are small?
 
 		ANS Individuals may have trouble finding mates
 
@@ -1898,7 +1898,7 @@ Allee effect summary
 
 	Population may go extinct if it drops below a certain threshold
 
-	NEWPOLL  How come the population is there in the first place if there's an Allee effect?
+	POLL LINK  How come the population is there in the first place if there's an Allee effect?
 
 		ANS Maybe it's a weak effect
 

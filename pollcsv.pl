@@ -10,7 +10,7 @@ while (<>){
 	chomp;
 
 	## Optionally have a pipe separating the lecture question from the everywhere question
-	s/.*[|]//;
+	s/.*[|]//s;
 	s/\s*\n\s*/ /g;
 	my ($ques, $choices) = /(.*?[.?])(.*)/;
 	# say "Ques: $ques";
