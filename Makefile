@@ -153,6 +153,18 @@ nonlinear.draft.pdf: nonlinear.txt
 nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
+# Unit 3 (Structured populations)
+structure.pollnew: 
+structure.pollclean: 
+structure.poll.csv: structure.txt pollcsv.pl
+structure.html: structure.step
+structure.outline.pdf: structure.txt
+
+structure.final.pdf: structure.txt
+structure.draft.pdf: structure.txt
+structure.handouts.pdf: structure.txt
+structure.complete.pdf: structure.txt
+
 ######################################################################
 
 Sources += $(wildcard *.pl)
