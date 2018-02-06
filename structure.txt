@@ -8,12 +8,13 @@ TSEC Introduction
 	Up until now we've tracked populations with a single state variable
 	(population size or population density)
 
-	POLL free_text_polls/UVRTWo0NBuHpHs5 What assumption are we making?
+	NEWPOLL  What assumption are we making?
 
-		ANS All individuals can be counted the same.  At least at census
-		time
+		ANS All individuals can be counted the same.  
 
-		ANS Never exactly true
+			ANS Always (continuous time) 
+
+			ANS At census time (discrete time)
 
 	What are some organisms for which this seems like a good
 	approximation?
@@ -24,7 +25,6 @@ TSEC Introduction
 
 		ANS Trees, people, codfish
 
-CHANGE CC: Add: dogs/cats : can reproduce anytime → hard to model
 ----------------------------------------------------------------------
 
 Structured populations
@@ -123,11 +123,11 @@ What determines $\lambda$?
 	$\lambda = p + f$ is the total number of individuals per individual
 	after one time step
 
-	POLL free_text_polls/RD108ersZU9xUej What is $f$ in this example?  What is the fecundity in this example?
+	NEWPOLL  What is $f$ in this example?  What is the fecundity in this example?
 
 		ANS 0.8
 
-	POLL free_text_polls/QJSfa3XSSQORvvA What is $p$ in this example?  What is the survival probability in this example?
+	NEWPOLL  What is $p$ in this example?  What is the survival probability in this example?
 
 		ANS 0.5 for 1-year-olds and 0 for 2-year-olds.
 
@@ -143,7 +143,7 @@ What determines $\R$?
 
 	Can start at any stage, but need to close the loop
 
-	POLL free_text_polls/QJSfa3XSSQORvvA What is the reproductive number?
+	NEWPOLL  What is the reproductive number?
 
 	ANS If you become an adult you produce (on average)
 
@@ -207,7 +207,7 @@ Regulation
 
 ----------------------------------------------------------------------
 
-SSLIDE Complexity
+CSLIDE Complexity
 
 FIG webpix/bifurcation.png
 
@@ -266,7 +266,7 @@ Discrete vs.\ continuous time
 
 	Continuous-time models are structurally simpler (and smoother)
 
-	POLL free_text_polls/Mu8xWj5Objdg0WJ How do population characteristics affect the choice? How do population characteristics affect the choice between discrete and continuous models?
+	NEWPOLL  How do population characteristics affect the choice? How do population characteristics affect the choice between discrete and continuous models?
 
 		ANS Populations with continuous reproduction (e.g. bacteria), may be
 		better suited to continuous-time models
@@ -323,7 +323,7 @@ The conceptual model
 
 		We call these values $N_x(T+1)$
 
-	POLL free_text_polls/DHybyQQJegyAYbw What do we need to know? What do we need to know to calculate population for next time?
+	NEWPOLL  What do we need to know? What do we need to know to calculate population for next time?
 
 		ANS The survival probability of each age group: $p_x$
 
@@ -344,11 +344,9 @@ Closing the loop
 
 ----------------------------------------------------------------------
 
-ASLIDE The structured model
+The structured model
 
-WIDEFIG webpix/structure_cc.png
-
-CHANGE Put this in the goddam lecture notes, morph!:e
+WIDEFIG my_images/structure_cc.png
 
 ----------------------------------------------------------------------
 
@@ -386,7 +384,7 @@ Long-term dynamics
 			$f_x$ and $p_x$, and the system will behave like our simple
 			model
 
-	POLL free_text_polls/DtbBUtry5ts5XRz What are the long-term dynamics of such a system?
+	NEWPOLL  What are the long-term dynamics of such a system?
 
 		ANS Exponential growth or exponential decline
 
@@ -469,8 +467,6 @@ Cumulative survivorship
 		ANS $\ell_x$ measures the probability that an
 		individual survives to be counted at age $x$, given that it is
 		ever counted at all (ie., it survives to its first census)
-
-CHANGE CC: add the definition in the notes and explain more l1 = 1 (needed to explain 2 times)
 
 ----------------------------------------------------------------------
 
@@ -566,7 +562,7 @@ INPUT life_tables/sq.empty.tab.tex
 
 Squirrel observations
 
-	POLL free_text_polls/GJ5F4CLnWReepvU Do you notice anything strange about the squirrel life table?
+	NEWPOLL  Do you notice anything strange about the squirrel life table?
 
 		ANS Older age groups seem to be grouped for fecundity.
 
@@ -610,7 +606,7 @@ DOUBLEFIG structure/squirrels.Rout-2.pdf structure/squirrels.Rout-1.pdf
 
 RSLIDE The structured model
 
-WIDEFIG webpix/structure_cc.png
+WIDEFIG my_images/structure_cc.png
 
 ----------------------------------------------------------------------
 
@@ -619,8 +615,6 @@ Salmon example
 	What happens when a population has independent cohorts?
 
 		Does not necessarily converge to a SAD
-
-CHANGE CC: add the solution of salmon table 
 
 ----------------------------------------------------------------------
 
@@ -678,14 +672,13 @@ DEFHEAD $f_x$ vs.~$m_x$
 	An alternative perspective is $m_x$: the total number of offspring
 	per reproducing individual of age $x$
 
-	POLL free_text_polls/JTcb09r4ByRS4uH What is the relationship? What is the relationship between f and m?
+	NEWPOLL  How would I calculate one from the other? 
 
 		ANS To get $f_x$ we multiply $m_x$ by one or more survival terms,
 		depending on when the census is
 
-		ANS Need to close the loop from one census to the next
+		ANS $f_x$ needs to close the loop from one census to the next
 
-CHANGE CC: ask the poll more sharply
 ----------------------------------------------------------------------
 
 When do we start counting?
@@ -747,11 +740,10 @@ Calculating \R
 
 		Which ages have a large \emph{contribution} to \R?
 
-		POLL free_text_polls/pPsDVfbJqwXXMvk Which values of $p_x$ and $f_x$ is \R\ sensitive to? Which values of p_x and f_x is R sensitive to?
+		NEWPOLL  Which values of $p_x$ and $f_x$ is \R\ sensitive to? Which values of p_x and f_x is R sensitive to?
 
 			ANS The $p$s for young individuals affect all the $\ell$s.
 
-CHANGE CC: p1 f1 better answers to the poll: add the fecundity for the young
 ----------------------------------------------------------------------
 
 The effect of old individuals
@@ -761,7 +753,7 @@ The effect of old individuals
 
 		The contribution of an age class to $\R$ is $\ell_x f_x$
 
-		POLL free_text_polls/Liv5rLUGya1qW91 Extreme how?  How are these values extreme?
+		NEWPOLL  Extreme how?  How are these values extreme?
 
 		ANS In most populations $\ell$ can be very small for large $x$
 
@@ -770,13 +762,12 @@ The effect of old individuals
 	Reproductive potential of old individuals \emph{may} or \emph{may
 	not} be important
 
-		ANS In tree populations, most trees don't survive to get huge,
+		ANS In many tree populations, most individuals don't survive to get huge,
 		but the huge trees may have most of the total reproduction
 
-		ANS In bird populations, old birds produce fairly well, but not
+		ANS In many bird populations, old birds produce fairly well, but not
 		nearly enough to outweigh the low probability of being old.
 
-CHANGE CC: for birds need to add "most bird population ..." + probably add the Canadian fish example you were thinking about
 ----------------------------------------------------------------------
 
 CSLIDE Old individuals
@@ -829,10 +820,9 @@ The Euler equation
 
 	Under this assumption, is the next generation $\lambda$ times bigger
 	again?
-	
-  CHANGE MK: I think it may be useful to have a numeric life table example to show in parallel with these equations. 
 
-CHANGE CC: you went very fast using different values of lambda, then erasing the results of the calculation, then quickly do another one... Should go slower (you realized at the end of the explanation that you went fast), a little too fast to be clear 
+	Example from spreadsheet
+
 ----------------------------------------------------------------------
 
 DEFHEAD $\lambda$ and \R
@@ -865,12 +855,12 @@ Time scales
 	$\R$ gives the number of individuals per individual \emph{over a
 	lifetime}
 
-	POLL free_text_polls/eOupL6vFaV2QAsn What relationship do we expect for an annual population (individuals die every year)?  What relationship do we expect for an annual population?
+	NEWPOLL  What relationship do we expect for an annual population (individuals die every year)?  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS $\R=\lambda$; each organism observed reproduces \R\ offspring
 		on average, all in one time step
 
-	POLL free_text_polls/98SeJLcR0TmWqcT For a long-lived population?  What relationship do we expect for a long-lived population?
+	NEWPOLL  For a long-lived population?  What relationship do we expect for a long-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS The \R\ offspring are produced slowly, so population changes
 		slowly
@@ -880,7 +870,6 @@ Time scales
 			ANS But on the same side (same answer about whether population
 			is growing)
 
-CHANGE CC: change 1st poll into multiple choices and for the answers of 2nd poll: don’t suppose that the pop is growing
 ----------------------------------------------------------------------
 
 Studying population growth
@@ -893,7 +882,7 @@ Studying population growth
 
 		More useful in cases where we expect the life table to be
 		constant with exponential growth or decline for a long time
-		
+
   CHANGE MK: In tutorial I showed how lambda changes per generation as the age distribution is approaching its stable distribution, which seemed to help students. Maybe include a quick calculation?
 
 ----------------------------------------------------------------------
@@ -911,10 +900,9 @@ Growth and decline
 		In a declining population, what happens late in life is more
 		important to $\lambda$ than to \R.
 
-	A common error is to assume that periods of exponential
-	\emph{growth} are more important to ecology and evolution the
-	periods of exponential \emph{decline}.  In the long term, these
-	should balance.
+	Which is likely to be more important to ecology and evolution?
+
+		ANS The two phases (growth and decline) will be roughly balanced
 
 		ANS Because otherwise the population would go to zero or infinity
 
@@ -930,7 +918,7 @@ SS Survivorship
 
 Patterns of survivorship
 
-	POLL free_text_polls/Y3w5PwZhoobOKoN What sort of patterns do you expect to see in $p_x$?
+	NEWPOLL  What sort of patterns do you expect to see in $p_x$?
 
 		ANS Younger individuals usually have lower survivorship
 
@@ -952,7 +940,7 @@ Starting off
 
 		If we count newborns, we still call them class 1.  
 
-	POLL free_text_polls/hIXTOy066y90aYM What is $\ell_1$ when we count before reproduction?  What is l_1 when we count before reproduction?
+	NEWPOLL  What is $\ell_1$ when we count before reproduction?  What is l_1 when we count before reproduction?
 
 		ANS 1
 
@@ -1044,9 +1032,7 @@ Fecundity patterns
 
 	Fecundity often goes up early in life and then remains constant
 
-		ANS Birds, large mammals
-		
-	CHANGE ML: clarify the question for fecundity, what is going on for big mammals, if you don't want humans as the answer for the first question
+		ANS Most birds, many large mammals
 
 	It may also go up and then come down
 
@@ -1054,7 +1040,7 @@ Fecundity patterns
 
 	It may also go up and up as organisms get older
 
-		ANS Fish, trees
+		ANS Many fish, many frees
 
 ----------------------------------------------------------------------
 
@@ -1066,37 +1052,37 @@ TSEC Age distributions
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/israelpop.png
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/cypruspop.png
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/iranpop.png
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/canadapop.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/bahrainpop.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Age distributions
+CSLIDE Age distributions
 
 WIDEFIG webpix/cambodiapop.png
 
@@ -1167,13 +1153,11 @@ University cohorts
 
 			ANS The lower classes are larger
 
-		POLL multiple_choice_polls/zVzkAaxM72179t0 More students are admitted each year?  If more students are admitted each year, lower classes will be: larger, smaller, it depends.
+		NEWPOLL  More students are admitted each year?  If more students are admitted each year, lower classes will be: larger, smaller, it depends.
 
 			ANS The lower classes are larger (even more so)
 
-		POLL multiple_choice_polls/8PrdYl9yqvpOh0F Fewer students are admitted each year?  If fewer students are admitted each year, lower classes will be: larger, smaller, it depends.
-		
-		CHANGE ML: McMaster is being more elite, becoming number 1 university in the world
+		NEWPOLL  Fewer students are admitted each year?  If fewer students are admitted each year, lower classes will be: larger, smaller, it depends.
 
 			ANS Anything could happen (drop outs and size change are
 			operating in different directions)
@@ -1186,6 +1170,7 @@ DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
 
 CHANGE CC: Should perhaps explain a little why you can observe these different patterns on the plots
 Or when explain the patterns later perhaps add again the corresponding picture (even if small plot) on the slide
+
 ----------------------------------------------------------------------
 
 Age distributions
@@ -1252,7 +1237,7 @@ Forest size classes
 	When we go to an apparently stable forest ecosystem, it seems to be
 	dominated by large trees, not small ones.  What up?
 
-	POLL free_text_polls/mkl5y840jbHtonl How is it possible that these systems are dominated by large trees?
+	NEWPOLL  How is it possible that these systems are dominated by large trees?
 
 		ANS Large trees are larger
 

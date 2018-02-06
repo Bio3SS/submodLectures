@@ -169,12 +169,12 @@ structure.complete.pdf: structure.txt
 
 Sources += $(wildcard *.pl)
 
-### Not using pollclean this year (auto-linking isn't working)
-### Instead I just open a whole bunch of polls in chrome during setup
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
 %.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
 
+### Not using pollclean this year (auto-linking isn't working)
+### Instead I just open a whole bunch of polls in chrome during setup
 ### Change NEWPOLL back to POLL once link is added
 %.pollclean: %.txt
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
@@ -230,6 +230,6 @@ jd.lmk:
 -include $(ms)/texdeps.mk
 
 -include $(ms)/webpix.mk
--include $(ms)/wrapR.mk
+# -include $(ms)/wrapR.mk
 
 -include $(ms)/git.mk
