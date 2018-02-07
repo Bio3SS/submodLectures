@@ -37,7 +37,7 @@ pushdir = web/materials
 repodirs += $(specdirs)
 mdirs = $(specdirs)
 
-ORPHAN = Bio3SS_content
+Ignore += Bio3SS_content
 
 ######################################################################
 
