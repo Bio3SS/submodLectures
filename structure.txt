@@ -123,11 +123,11 @@ What determines $\lambda$?
 	$\lambda = p + f$ is the total number of individuals per individual
 	after one time step
 
-	NEWPOLL  What is $f$ in this example?  What is the fecundity in this example?
+	NEWPOLL  What is $f$ in this example? |  What is the fecundity in this example?
 
 		ANS 0.8
 
-	NEWPOLL  What is $p$ in this example?  What is the survival probability in this example?
+	NEWPOLL  What is $p$ in this example? |  What is the survival probability in this example?
 
 		ANS 0.5 for 1-year-olds and 0 for 2-year-olds.
 
@@ -266,7 +266,7 @@ Discrete vs.\ continuous time
 
 	Continuous-time models are structurally simpler (and smoother)
 
-	NEWPOLL  How do population characteristics affect the choice? How do population characteristics affect the choice between discrete and continuous models?
+	NEWPOLL  How do population characteristics affect the choice? | When might we prefer a continuous-time model?
 
 		ANS Populations with continuous reproduction (e.g. bacteria), may be
 		better suited to continuous-time models
@@ -277,6 +277,12 @@ Discrete vs.\ continuous time
 	Adding age structure is conceptually simpler with discrete time
 
 		ANS So we'll do that.
+
+	CHANGE Extra polls here, incorporate with a command
+
+	CHANGE When might we prefer a continuous-time model?
+
+	CHANGE When might we prefer a discrete-time model? (maybe not bother)
 
 ----------------------------------------------------------------------
 
@@ -323,7 +329,7 @@ The conceptual model
 
 		We call these values $N_x(T+1)$
 
-	NEWPOLL  What do we need to know? What do we need to know to calculate population for next time?
+	NEWPOLL  What do we need to know? | What do we need to know to calculate population for next time?
 
 		ANS The survival probability of each age group: $p_x$
 
@@ -740,7 +746,7 @@ Calculating \R
 
 		Which ages have a large \emph{contribution} to \R?
 
-		NEWPOLL  Which values of $p_x$ and $f_x$ is \R\ sensitive to? Which values of p_x and f_x is R sensitive to?
+		NEWPOLL  Which values of $p_x$ and $f_x$ is \R\ sensitive to? | Which values of p_x and f_x is R sensitive to?
 
 			ANS The $p$s for young individuals affect all the $\ell$s.
 
@@ -753,7 +759,7 @@ The effect of old individuals
 
 		The contribution of an age class to $\R$ is $\ell_x f_x$
 
-		NEWPOLL  Extreme how?  How are these values extreme?
+		NEWPOLL  Extreme how? |  How are these values extreme?
 
 		ANS In most populations $\ell$ can be very small for large $x$
 
@@ -855,12 +861,12 @@ Time scales
 	$\R$ gives the number of individuals per individual \emph{over a
 	lifetime}
 
-	NEWPOLL  What relationship do we expect for an annual population (individuals die every year)?  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+	NEWPOLL  What relationship do we expect for an annual population (individuals die every year)? |  What relationship do we expect for an annual population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS $\R=\lambda$; each organism observed reproduces \R\ offspring
 		on average, all in one time step
 
-	NEWPOLL  For a long-lived population?  What relationship do we expect for a long-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
+	NEWPOLL  For a long-lived population? |  What relationship do we expect for a long-lived population? R>lam; R<lam; R=lam; R between lam and 1; lam between R and 1.
 
 		ANS The \R\ offspring are produced slowly, so population changes
 		slowly
@@ -918,7 +924,7 @@ SS Survivorship
 
 Patterns of survivorship
 
-	NEWPOLL  What sort of patterns do you expect to see in $p_x$?
+	NEWPOLL  What sort of patterns do you expect to see in $p_x$? | What sort of patterns do you expect to see in survival probabilities?
 
 		ANS Younger individuals usually have lower survivorship
 
@@ -940,7 +946,7 @@ Starting off
 
 		If we count newborns, we still call them class 1.  
 
-	NEWPOLL  What is $\ell_1$ when we count before reproduction?  What is l_1 when we count before reproduction?
+	NEWPOLL  What is $\ell_1$ when we count before reproduction? |  What is l_1 when we count before reproduction?
 
 		ANS 1
 
@@ -1153,11 +1159,11 @@ University cohorts
 
 			ANS The lower classes are larger
 
-		NEWPOLL  More students are admitted each year?  If more students are admitted each year, lower classes will be: larger, smaller, it depends.
+		NEWPOLL  More students are admitted each year? |  If more students are admitted each year, lower classes will be: larger, smaller, it depends.
 
 			ANS The lower classes are larger (even more so)
 
-		NEWPOLL  Fewer students are admitted each year?  If fewer students are admitted each year, lower classes will be: larger, smaller, it depends.
+		NEWPOLL  Fewer students are admitted each year? |  If fewer students are admitted each year, lower classes will be: larger, smaller, it depends.
 
 			ANS Anything could happen (drop outs and size change are
 			operating in different directions)
