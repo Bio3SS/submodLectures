@@ -40,21 +40,6 @@ mdirs = $(specdirs)
 Ignore += Bio3SS_content
 
 ######################################################################
-
-## Various imperfect ways of curating the submodules
-
-## Overkill?
-modules:
-	git submodule init
-	git submodule update
-	$(MAKE) rmpull
-
-### Not used yet here
-mfiles = $(mdirs:%=%/Makefile)
-mfiles: $(mdirs) $(mfiles)
-
-######################################################################
-
 Sources += Makefile .ignore README.md sub.mk LICENSE.md
 
 ## Keeping track of schedule
@@ -153,7 +138,7 @@ nonlinear.draft.pdf: nonlinear.txt
 nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
-# Unit 3 (Structured populations)
+# Unit 4 (Structured populations)
 structure.pollnew: 
 structure.pollclean: 
 structure.poll.csv: structure.txt pollcsv.pl
@@ -164,6 +149,54 @@ structure.final.pdf: structure.txt
 structure.draft.pdf: structure.txt
 structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
+
+# Unit 5 (Life history)
+life_history.pollnew: 
+life_history.pollclean: 
+life_history.poll.csv: life_history.txt pollcsv.pl
+life_history.html: life_history.step
+life_history.outline.pdf: life_history.txt
+
+life_history.final.pdf: life_history.txt
+life_history.draft.pdf: life_history.txt
+life_history.handouts.pdf: life_history.txt
+life_history.complete.pdf: life_history.txt
+
+# Unit 6 (competition)
+competition.pollnew: 
+competition.pollclean: 
+competition.poll.csv: competition.txt pollcsv.pl
+competition.html: competition.step
+competition.outline.pdf: competition.txt
+
+competition.final.pdf: competition.txt
+competition.draft.pdf: competition.txt
+competition.handouts.pdf: competition.txt
+competition.complete.pdf: competition.txt
+
+# Unit 7 (exploitation)
+exploitation.pollnew: 
+exploitation.pollclean: 
+exploitation.poll.csv: exploitation.txt pollcsv.pl
+exploitation.html: exploitation.step
+exploitation.outline.pdf: exploitation.txt
+
+exploitation.final.pdf: exploitation.txt
+exploitation.draft.pdf: exploitation.txt
+exploitation.handouts.pdf: exploitation.txt
+exploitation.complete.pdf: exploitation.txt
+
+# Unit 8 (Disease)
+disease.pollnew: 
+disease.pollclean: 
+disease.poll.csv: disease.txt pollcsv.pl
+disease.html: disease.step
+disease.outline.pdf: disease.txt
+
+disease.final.pdf: disease.txt
+disease.draft.pdf: disease.txt
+disease.handouts.pdf: disease.txt
+disease.complete.pdf: disease.txt
 
 ######################################################################
 
