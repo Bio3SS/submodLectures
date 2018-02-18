@@ -83,8 +83,6 @@ Sources += $(wildcard *.txt *.poll)
 %.txt:
 	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
 
-## :%s/SSLIDE/PICSLIDE/
-
 %.poll:
 	cat Bio3SS_content/$@ > $@
 
@@ -149,6 +147,9 @@ structure.final.pdf: structure.txt
 structure.draft.pdf: structure.txt
 structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
+
+Sources += format_notes.txt
+## :%s/SSLIDE/PSLIDE/
 
 # Unit 5 (Life history)
 life_history.pollnew: 
