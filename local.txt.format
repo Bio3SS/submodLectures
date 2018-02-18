@@ -70,3 +70,5 @@ complete: NULLSLIDE
 CONT %!
 webnotes draft final: ^DEFHEAD {\sl %%}
 
+# Fit a highfig that doesn't fit in frame
+FIGHFIG ^HFIG 0.9 %%
