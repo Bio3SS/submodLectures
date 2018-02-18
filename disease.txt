@@ -1,4 +1,4 @@
-UNIT 7: Infectious disease
+UNIT 8: Infectious disease
 
 ----------------------------------------------------------------------
 
@@ -169,16 +169,17 @@ BC
 
 NC
 
-SIDEFIG generationTime.Rout-0.pdf
+SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
 
 CHANGE CC: put the SSLIDE Fighting Ebola picture here?
+
 ----------------------------------------------------------------------
 
 Generation intervals
 
-DOUBLEFIG generationTime.Rout-0.pdf generationTime.Rout-1.pdf
+DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
@@ -196,7 +197,7 @@ BC
 
 NC
 
-SIDEFIG generationTime.Rout-0.pdf
+SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
 
@@ -227,19 +228,19 @@ Generation time and risk
 
 RSLIDE Generation time and risk
 
-FIG steps.Rout-0.pdf
+FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
 RSLIDE Generation time and risk
 
-FIG steps.Rout-1.pdf
+FIG boxes/steps.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 Generation time and risk
 
-DOUBLEPDF steps.Rout
+DOUBLEPDF boxes/steps.Rout
 
 ----------------------------------------------------------------------
 
