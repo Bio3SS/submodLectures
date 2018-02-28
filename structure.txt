@@ -1046,7 +1046,7 @@ Fecundity patterns
 
 	It may also go up and up as organisms get older
 
-		ANS Many fish, many frees
+		ANS Many fish, many trees
 
 ----------------------------------------------------------------------
 
@@ -1054,7 +1054,7 @@ TSEC Age distributions
 
 	HLINK http://www.gapminder.org/population/tool/
 
-	HLINK https://en.wikipedia.org/
+	HLINK https://en.wikipedia.org/wiki/Population_pyramid
 
 ----------------------------------------------------------------------
 
