@@ -160,9 +160,15 @@ FIG life_history/frontier.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Optimization frontiers
+RSLIDE Optimization frontiers
 
 FIG life_history/frontier.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+Optimization frontiers
+
+FIG life_history/frontier.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
@@ -178,7 +184,7 @@ BC
 
 NC
 
-SIDEFIG life_history/frontier.Rout-1.pdf
+SIDEFIG life_history/frontier.Rout-2.pdf
 
 EC
 
