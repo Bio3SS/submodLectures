@@ -5,14 +5,16 @@ $/ = "";
 
 while (<>){
 	## Call everything NEWPOLL until we've updated it
-	## There's a make rule for this change
+	## Change back to NEWPOLL each year using make %.pollnew
 	next unless s/^\s*NEWPOLL\b\s*//;
 	chomp;
 
 	## Optionally have a pipe separating the lecture question from the everywhere question
+	## 2018 Mar 01 (Thu) Experimenting with ? divider as well. Why not?
 	s/.*[|]//s;
+	s/.*[?]\s*(.*[?])/$1/s;
 	s/\s*\n\s*/ /g;
-	my ($ques, $choices) = /(.*?[.?])(.*)/;
+	my ($ques, $choices) = /(.*?[.?:])(.*)/;
 	# say "Ques: $ques";
 	# say "Choice: $choices";
 

@@ -1,5 +1,5 @@
 
-UNIT 4: Life history
+UNIT 5: Life history
 
 ----------------------------------------------------------------------
 
@@ -8,7 +8,7 @@ TSEC Introduction
 	{\bf Life history} refers to patterns of how organisms allocate
 	resources to key components underlying reproductive success:
 
-	POLL free_text_polls/kjRkTLMDSwSqi6g Give a one-word example of such a component. 
+	NEWPOLL  Give a one-word example of such a component. 
 
 		ANS Survival
 
@@ -59,7 +59,7 @@ Oaks and dandelions
 
 		ANS Water, sunlight, nutrients
 
-	POLL free_text_polls/RxLfPtycVi4bTyp What are some differences?
+	NEWPOLL  What are some differences?
 
 		ANS Oak trees are bigger
 
@@ -135,7 +135,6 @@ RSLIDE Tradeoffs
 
 FIG webpix/bamboo.jpg
 
-CHANGE CC: add tradeoff with photosynthesis
 ----------------------------------------------------------------------
 
 RSLIDE Tradeoffs
@@ -195,7 +194,9 @@ Evolution and optimization
 	We often think of organisms as making ``choices" that maximize their
 	evolutionary fitness.
 
-	What is really happening here?
+	Do oaks choose how big their acorns should be?
+
+	Then what's going on?
 
 		ANS Natural selection is selecting random variants
 
@@ -346,13 +347,16 @@ Tradeoff example: many offspring vs.~high-quality offspring
 
 		ANS Tsetses vs. mosquitoes
 
-	POLL free_text_polls/5vyO0qrVgRGFWHm What are potential advantages of producing fewer offspring with the same amount of energy?
+	NEWPOLL  What are potential advantages of producing fewer offspring with the same amount of energy?
 
 		ANS Greater chance of survival (or reproductive success)
 
 		ANS Dispersal
 
-CHANGE CC: add higher chance to reproduce again
+		ANS More energy left over?
+
+			ANS No (see question)
+
 ----------------------------------------------------------------------
 
 RSLIDE How many offspring?
@@ -508,9 +512,9 @@ Measuring $K$
 
 	Which has a higher value of $K$?
 
-		POLL multiple_choice_polls/oJIl9jyOs45P3ti In [indiv/ha]? Which has a higher carrying capacity [indiv/ha]? maples, marigolds
+		NEWPOLL  In [indiv/ha]? Which has a higher carrying capacity [indiv/ha]? maples; marigolds
 
-		POLL multiple_choice_polls/jg5HEJysPyiJUWS In [kg/ha]? Which has a higher carrying capacity [kg/ha]? maples, marigolds
+		NEWPOLL  In [kg/ha]? Which has a higher carrying capacity [kg/ha]? maples; marigolds
 
 	To compare species, we attempt to measure $K$ in units that reflect
 	the effect of crowding on the competitive environment
@@ -556,8 +560,8 @@ Example: trees
 	Assuming there is a tradeoff between $\rmax$ and $K$, would you
 	expect individuals with high $\rmax$, or high $K$, to do well:
 
-		In an empty, suitable habitat after a fire, flood or other major
-		{\bf disturbance}?
+		In an empty, suitable habitat after a fire, flood, clearcut or other
+		major {\bf disturbance}?
 
 			ANS High $\rmax$ leads to faster exponential growth
 
@@ -566,7 +570,6 @@ Example: trees
 			ANS High $K$ means you can continue doing well when the forest
 			is already too crowded for others
 
-CHANGE CC: add agriculture/human activities as disturbance
 ----------------------------------------------------------------------
 
 DEFHEAD $r$ vs.~$K$ strategists
@@ -629,14 +632,14 @@ Biology is complicated
 
 	Some species mature slowly but reproduce only once
 
-		17-year locusts, century plants
+		17-year cicadas, century plants
 
 	Every species life history has specific, important {\em details}
 
 		But general principles are very important to guide our
 		understanding
 
-CHANGE CC: change locust into cicadas
+
 ----------------------------------------------------------------------
 
 RSLIDE Biology is complicated
@@ -665,13 +668,14 @@ Changing conditions
 
 		ANS Fast
 
-	POLL free_text_polls/zw4SJE9HcxG3rZP When conditions are bad ($\R<1$),
+	NEWPOLL  When conditions are bad ($\R<1$),
 	should organisms be fast or slow to maximize $\lambda$?  When conditions are
-	bad (R<1), should organisms be fast or slow, to maximize λ?
+	bad (R<1), should organisms be fast or slow, to maximize λ? fast; slow; it depends
 
 		ANS Slow!
 
-CHANGE CC: change poll into multiple choices
+		ANS Decrease more slowly during the bad times
+
 ----------------------------------------------------------------------
 
 Changing life history
@@ -681,10 +685,10 @@ Changing life history
 
 		ANS Move slow when things are bad, and fast when things are good
 
-	POLL free_text_polls/uXfLWxzcQeTNO9E What are some examples? Can you think of an example of changing life-history patterns?
+	NEWPOLL  What are some examples? Can you think of an example of changing life-history patterns?
 
 		ANS Many animals reach sexual maturity faster under good
-		conditions
+		conditions: horses, elephants
 
 		ANS Trees may survive longer under bad conditions (by growing
 		slowly and not allocating energy to reproduction)
@@ -693,7 +697,6 @@ Changing life history
 		bad -- don't reproduce or grow at all, but may survive for a long
 		time
 
-CHANGE CC: you were thinking of adding a reminder in slide about putting away phones after polls? and maybe give a species name example for animals that reach maturity faster under good conditions
 ----------------------------------------------------------------------
 
 Applications
@@ -706,21 +709,19 @@ Applications
 	What are advantages of $r$ or $K$ strategists for human production (eg.
 	biofuels, agriculture, drug production etc..)?
 
-	POLL free_text_polls/RrvAaSlcPCYevro What are some advantages of $r$ strategists?
+	NEWPOLL  What are some advantages of $r$ strategists?
 	What are some advantages of r strategists?
 
-		ANS $r$ strategists are likely to respond better to human attempts
-		to manipulate the environment to their advantage
+		ANS grow faster
 
-	POLL free_text_polls/Ac5nrU1aNcHWopy What are some advantages of $K$ strategists?
+		ANS likely to respond well to disturbance
+
+	NEWPOLL  What are some advantages of $K$ strategists?
 	What are some advantages of K strategists?
 
-		ANS $K$ strategists may be more sustainable to grow for a long
+		ANS may be more sustainable to grow for a long
 		time in a stable environment
 
-CHANGE CC: rephrase the 1st question + advantages r: add grow faster
-
-CHANGE CC: stop here on Feb 28
 ----------------------------------------------------------------------
 
 TSEC Bet hedging
@@ -757,7 +758,6 @@ Averaging
 
 		$x * y * z = m * m * m$
 
-CHANGE CC: not sure the example of stealing money was very clear
 ----------------------------------------------------------------------
 
 Averaging
@@ -788,11 +788,10 @@ Example: plant Q
 
 	The three kinds of year are equally likely
 	
-	POLL free_text_polls/mUguRKsPmb9MaZh What is the long term average growth rate of plant Q?
+	NEWPOLL  What is the long term average growth rate of plant Q?
 
 		ANS The geometric mean of 6, 0.6 and 0.06: $\lambda=0.6$
 
-CHANGE CC: not a change but a note: students did not know how to calculate the GM
 ----------------------------------------------------------------------
 
 Plant D
@@ -807,13 +806,12 @@ Plant D
 	but they disperse so far (in this hypothetical example) that 1/3 of
 	them experience good, normal and bad conditions every year.
 
-	POLL free_text_polls/KkFgfiBDNr8CAtX What is the average growth rate of plant D?
+	NEWPOLL  What is the average growth rate of plant D?
 
 		ANS Average survival is the mean of 0.2, 0.02, and 0.002
 
 		ANS Growth is the arithmetic mean of 3, 0.3 and 0.03: $\lambda=1.11$
 
-CHANGE CC: apparently you went a little bit too fast to explain how you did the calculations
 ----------------------------------------------------------------------
 
 Averaging
@@ -869,6 +867,8 @@ Dispersal, spreading risk over space
 		
 			ANS the parent survived and is reproducing
 
+		ANS Support from kin group
+
 	Advantages of dispersal
 
 		ANS Reduce competition between offspring
@@ -876,8 +876,10 @@ Dispersal, spreading risk over space
 		ANS Distribute risk -- if you don't disperse, \emph{all}
 		of your offspring could die if there is a disturbance
 
-CHANGE CC: staying home: ANS of a student: group protection
-CHANGE CC: dispersal: ANS students: decrease inbreeding, find a better place
+		ANS Reduce inbreeding
+
+		ANS May find a beter place
+
 ----------------------------------------------------------------------
 
 Spreading risk over time
@@ -905,15 +907,11 @@ Why is it called bet hedging?
 		ANS If you don't disperse in space, or spread out risk in time,
 		you are ``betting" all of your offspring on a single environment
 
-CHANGE CC: not sure why this slide
-CHANGE CC: stop here on March 2nd
 ----------------------------------------------------------------------
-
-\clearpage
 
 TSEC Sex ratios
 
-	POLL free_text_polls/XVdaqUEFBnNJXxX Should organisms allocate more resources to producing males or females?
+	NEWPOLL  To maximize fitness, should organisms allocate more resources to producing males or females?
 
 		ANS They should allocate more resources to females because it is
 		females that limit the growth rate
@@ -925,7 +923,6 @@ TSEC Sex ratios
 		ANS They should allocate more resources to males, because males
 		have greater potential reproductive success
 
-CHANGE CC: Comparative aspects better explain for the poll
 ----------------------------------------------------------------------
 
 The balance argument
@@ -942,8 +939,7 @@ The balance argument
 		ANS If the population on average is allocating more to one type,
 		individuals who allocate more to the other type would do better
 		than average
-		
-CHANGE CC: Add more explanation for the ANS of balance arg
+
 ----------------------------------------------------------------------
 
 Example: elephant seals
@@ -966,7 +962,6 @@ SIDEFIG webpix/elephant_seal_couple.jpg
 
 EC
 
-CHANGE CC: Add poll for the question
 ----------------------------------------------------------------------
 
 Elephant seal details
@@ -984,7 +979,6 @@ Elephant seal details
 		ANS Males' average fitness is 300/360=0.83; females' is 300/40 =
 		7.5
 
-CHANGE CC: Better explanation after a question (future should explain how you get each number from the beginning)
 ----------------------------------------------------------------------
 
 Sex ratio and balance
@@ -995,18 +989,18 @@ Sex ratio and balance
 	Thus, the \emph{number} of offspring I can make does not depend on
 	sex
 
-	POLL free_text_polls/w1XdvYUv8V4ycCh If everyone else is making more males than females, what should I do?
+	NEWPOLL  If everyone else is making more males than females, what should I
+	do? | If everyone else is making more males than females, I should make more: males; females
 
 		ANS Make more females, because that will increase my average
 		fitness
 
-	How will this population evolve in the long term?
+	NEWPOLL How will this population evolve in the long term?
 
 		ANS More and more females
 
 		ANS Eventually, a balanced sex ratio
 
-CHANGE CC: Change How will this population evolve in the long term? As a poll
 ----------------------------------------------------------------------
 
 Allocation and balance
@@ -1042,7 +1036,8 @@ BC
 
 		Most sex is between brothers and sisters
 
-		How can the mother maximize fitness in this case?
+		NEWPOLL What offspring ratio would maximize the mother's fitness in this
+		case?
 
 			ANS Have mostly female offspring
 
@@ -1052,7 +1047,6 @@ SIDEFIG webpix/fig_wasp_dimorphism.png
 
 EC
 
-CHANGE CC: add a poll for more female/male? (not sure everybody understand)
 ----------------------------------------------------------------------
 
 Fig wasp details
@@ -1070,7 +1064,9 @@ Fig wasp details
 		higher works only if your males can \emph{share} that average
 		fitness
 
-CHANGE CC: If more males, competition between your own offspring
+		ANS In this case, if I produce more males, they would probably compete
+		only with their brothers
+
 ----------------------------------------------------------------------
 
 Female-biased sex ratios
@@ -1200,16 +1196,13 @@ BC
 	Researchers tried to save the endangered kakapos by providing food to
 	females.
 
-	Females responded to these "good years" by producing too many males making
+	Females responded to these ``good years" by producing too many males making
 	population crisis worse
+
+	Consistent with adaptation for resource balance
 
 NC
 
 	SIDEFIG webpix/kakapo_portrait.jpg
 
 EC
-
-----------------------------------------------------------------------
-
-ADD Conclusion for next  year?
-

@@ -214,6 +214,9 @@ Sources += $(wildcard *.pl)
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
 
 ## Poll conversion
+## Wants NEWPOLL (idea is that we change to POLL once we get a link back from polleverywhere)
+## Use semi-colons for MC
+## | for separation (or ?; will that work for pdf outputs?)
 Ignore += *.poll.csv
 %.poll.csv: %.txt pollcsv.pl
 	$(PUSH)
