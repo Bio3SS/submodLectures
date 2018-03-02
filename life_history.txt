@@ -669,8 +669,7 @@ Changing conditions
 		ANS Fast
 
 	NEWPOLL  When conditions are bad ($\R<1$),
-	should organisms be fast or slow to maximize $\lambda$?  When conditions are
-	bad (R<1), should organisms be fast or slow, to maximize λ? fast; slow; it depends
+	should organisms be fast or slow to maximize $\lambda$?  Should organisms be fast or slow to maximize λ under bad conditions? fast; slow; it depends
 
 		ANS Slow!
 
@@ -911,7 +910,8 @@ Why is it called bet hedging?
 
 TSEC Sex ratios
 
-	NEWPOLL  To maximize fitness, should organisms allocate more resources to producing males or females?
+	NEWPOLL  To maximize fitness, should organisms allocate more resources to producing males or females? | Organisms can maximize fitness by allocating:
+	equally; more to males; more to females
 
 		ANS They should allocate more resources to females because it is
 		females that limit the growth rate
@@ -990,7 +990,7 @@ Sex ratio and balance
 	sex
 
 	NEWPOLL  If everyone else is making more males than females, what should I
-	do? | If everyone else is making more males than females, I should make more: males; females
+	do? | If everyone else is making more males than females I should allocate:  equally; more to males; more to females
 
 		ANS Make more females, because that will increase my average
 		fitness

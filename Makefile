@@ -148,9 +148,6 @@ structure.draft.pdf: structure.txt
 structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
 
-Sources += format_notes.txt
-## :%s/SSLIDE/PSLIDE/
-
 # Unit 5 (Life history)
 life_history.pollnew: 
 life_history.pollclean: 
@@ -162,6 +159,9 @@ life_history.final.pdf: life_history.txt
 life_history.draft.pdf: life_history.txt
 life_history.handouts.pdf: life_history.txt
 life_history.complete.pdf: life_history.txt
+
+Sources += format_notes.txt
+## :%s/SSLIDE/PSLIDE/
 
 # Unit 6 (competition)
 competition.pollnew: 
