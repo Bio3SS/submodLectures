@@ -36,10 +36,10 @@ Competition
 	Competition occurs when two species both depend on the same
 	resource, or resources
 
-	Each species ability to reproduce successfully is reduced by the
+	Each species' ability to reproduce successfully is reduced by the
 	presence of the other 
 	
-	CHANGE ML : (components of successful reproduction)
+	Via effects on any component of successful reproduction:
 
 		ANS Survival, growth, producing offspring
 
@@ -657,8 +657,6 @@ Results of competition
 		ANS We expect that species to always win: dominance
 
 	SHOW DIAGRAM
-
-	CHANGE Check here
 
 ----------------------------------------------------------------------
 
