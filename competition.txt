@@ -656,7 +656,37 @@ Results of competition
 
 		ANS We expect that species to always win: dominance
 
-	SHOW DIAGRAM
+----------------------------------------------------------------------
+
+RSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-0.pdf
+
+----------------------------------------------------------------------
+
+RSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+
+RSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+
+RSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-3.pdf
+
+----------------------------------------------------------------------
+
+Results of competition
+
+FIG competition/bifurcation.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
@@ -776,7 +806,7 @@ Growth rates
 
 	In between, we get coexistence at the level of multiple populations
 
-	CHANGE Say landscape
+		i.e., at the landscape level species may coexist
 
 ----------------------------------------------------------------------
 
