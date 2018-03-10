@@ -832,7 +832,7 @@ BC
 
 NC
 
-NEWFIG Seuss
+SIDEFIG my_images/Seuss.pdf
 
 EC
 

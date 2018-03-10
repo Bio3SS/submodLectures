@@ -877,7 +877,7 @@ Dispersal, spreading risk over space
 
 		ANS Reduce inbreeding
 
-		ANS May find a beter place
+		ANS May find a better place
 
 ----------------------------------------------------------------------
 
@@ -1108,6 +1108,8 @@ Variation in reproductive success
 Sexual roles
 
 	What do you expect to happen in a population where males contributing more to raising offspring than females do?
+
+	CHANGE typo contributing
 
 		ANS All of these stories can be reversed
 
