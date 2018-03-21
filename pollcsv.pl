@@ -11,6 +11,8 @@ while (<>){
 
 	## Optionally have a pipe separating the lecture question from the everywhere question
 	## 2018 Mar 01 (Thu) Experimenting with ? divider as well. Why not?
+	## ? Only works if there are two of them. 
+	## Don't have two ?s and also a |
 	s/.*[|]//s;
 	s/.*[?]\s*(.*[?])/$1/s;
 	s/\s*\n\s*/ /g;
