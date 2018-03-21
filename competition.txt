@@ -27,7 +27,7 @@ Inter-species interactions
 
 		NOANS
 
-CHANGE Make sure you ask for examples. How should NOANS show up in complete notes?
+CHANGE Ask for examples. 
 
 ----------------------------------------------------------------------
 
@@ -746,8 +746,6 @@ Founder control
 		ANS Initial maximum growth rate
 
 		ANS How strongly they affect each other 
-
-		CHANGE Think again about this list!
 
 ----------------------------------------------------------------------
 
