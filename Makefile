@@ -182,8 +182,8 @@ exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
 exploitation.outline.pdf: exploitation.txt
 
-exploitation.final.pdf: exploitation.txt
 exploitation.draft.pdf: exploitation.txt
+exploitation.final.pdf: exploitation.txt
 exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 
