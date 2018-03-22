@@ -27,7 +27,7 @@ Inter-species interactions
 
 		NOANS
 
-CHANGE Make sure you ask for examples. How should NOANS show up in complete notes?
+CHANGE Ask for examples. 
 
 ----------------------------------------------------------------------
 
@@ -99,11 +99,11 @@ Flour beetles
 	The larger species survives better in drier conditions, and the
 	smaller species reproduces faster in moister conditions
 
-	POLL free_text_polls/0b9fhjVf23qirZU What outcomes do you expect under wet vs dry conditions?
+	NEWPOLL  What outcomes do you expect under wet vs dry conditions?
 
 		ANS Each species wins when conditions are better for it
 
-	POLL free_text_polls/qH625W9P4YsheuW What if I ``tune" the conditions to something in between? What if I tune the conditions to something in between?
+	NEWPOLL  What if I ``tune" the conditions to something in between? What if I tune the conditions to something in between?
 
 		ANS The species could both survive together
 
@@ -331,7 +331,7 @@ Balanced competition example
 	Two plants compete with each other for water.  The value of
 	$\alpha_{21}$ is $4 \indiv_1/\indiv_2$
 
-	POLL free_text_polls/g5R5Ndmc1sWEW0y Which species is bigger?
+	NEWPOLL  Which species is bigger?
 
 		ANS $4 indiv_1$ have as much impact as $indiv_2$
 
@@ -354,7 +354,7 @@ FIG webpix/water_compete.jpg
 
 Balanced competition
 
-	POLL free_text_polls/mzmM5jlhNAR7acn What results do we expect from balanced competition?
+	NEWPOLL  What results do we expect from balanced competition?
 
 		ANS It seems like the bigger species should win
 
@@ -420,7 +420,7 @@ Coexistence
 
 	Coexistence \emph{may} occur when $C<1$
 
-	POLL free_text_polls/lwU5FiTR9eTocwE Why might individuals have relatively weaker competitive interactions with members of the other species?
+	NEWPOLL  Why might individuals have relatively weaker competitive interactions with members of the other species?
 
 		ANS They may compete for mates or mating sites
 
@@ -478,7 +478,7 @@ Founder control
 
 	Founder control \emph{may} occur when $C>1$
 
-	POLL free_text_polls/jy0DfNHbO3Y2oci Why might individuals have relatively stronger competitive interactions with members of the other species?
+	NEWPOLL  Why might individuals have relatively stronger competitive interactions with members of the other species?
 
 		ANS Conspecifics might co-operate to defend resources
 
@@ -562,7 +562,7 @@ Results of competition
 	$C$ may stay (about) the same, even as we switch conditions so that
 	one or the other species dominates
 
-	POLL free_text_polls/0TyG26NIKwEG1BY $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance?
+	NEWPOLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance?
 
 		ANS Founder effects, neutrality or coexistence
 
@@ -739,15 +739,13 @@ Founder control
 	But from the point of view of the competing species, it's pretty
 	important which one of them gets control
 
-	POLL free_text_polls/gHep7iMXNN0oI1Q What factors determine who gets control?
+	NEWPOLL  What factors determine who gets control?
 
 		ANS Who gets there first
 
 		ANS Initial maximum growth rate
 
 		ANS How strongly they affect each other 
-
-		CHANGE Think again about this list!
 
 ----------------------------------------------------------------------
 
@@ -782,7 +780,7 @@ TSS Colonization and co-existence
 		$r$ strategists do better in the short term; $K$ strategists do
 		better do better in the long term
 	
-	POLL free_text_polls/kPxgrXkNfkdj7sU When can you survive by doing better in the short term?
+	NEWPOLL  When can you survive by doing better in the short term?
 
 		ANS When new opportunities (empty habitat) keep coming available
 
@@ -943,7 +941,7 @@ Competitive exclusion and biodiversity
 	
 	\ldots but it must also break down 
 
-	POLL XXX How? Why do we observe species co-existing?
+	NEWPOLL  How? Why do we observe species co-existing?
 
 		ANS Species may not use resources in the same way
 
