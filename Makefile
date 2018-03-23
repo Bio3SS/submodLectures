@@ -99,7 +99,7 @@ my_images/%:
 # Unit 1 (Intro)
 
 intro.pollnew: 
-intro.pollclean: 
+## intro.pollclean: 
 intro.poll.csv: intro.txt pollcsv.pl
 intro.html: intro.step
 intro.outline.pdf: intro.txt
@@ -114,7 +114,7 @@ math.complete.pdf: math.txt
 
 # Unit 2 (Linear population growth)
 linear.pollnew: 
-linear.pollclean: 
+## linear.pollclean: 
 linear.poll.csv: linear.txt pollcsv.pl
 linear.html: linear.step
 linear.outline.pdf: linear.txt
@@ -126,7 +126,7 @@ linear.complete.pdf: linear.txt
 
 # Unit 3 (Non-linear population growth)
 nonlinear.pollnew: 
-nonlinear.pollclean: 
+## nonlinear.pollclean: 
 nonlinear.poll.csv: nonlinear.txt pollcsv.pl
 nonlinear.html: nonlinear.step
 nonlinear.outline.pdf: nonlinear.txt
@@ -138,7 +138,7 @@ nonlinear.complete.pdf: nonlinear.txt
 
 # Unit 4 (Structured populations)
 structure.pollnew: 
-structure.pollclean: 
+## structure.pollclean: 
 structure.poll.csv: structure.txt pollcsv.pl
 structure.html: structure.step
 structure.outline.pdf: structure.txt
@@ -150,7 +150,7 @@ structure.complete.pdf: structure.txt
 
 # Unit 5 (Life history)
 life_history.pollnew: 
-life_history.pollclean: 
+## life_history.pollclean: 
 life_history.poll.csv: life_history.txt pollcsv.pl
 life_history.html: life_history.step
 life_history.outline.pdf: life_history.txt
@@ -165,7 +165,7 @@ Sources += format_notes.txt
 
 # Unit 6 (competition)
 competition.pollnew: 
-competition.pollclean: 
+## competition.pollclean: 
 competition.poll.csv: competition.txt pollcsv.pl
 competition.html: competition.step
 competition.outline.pdf: competition.txt
@@ -177,7 +177,7 @@ competition.complete.pdf: competition.txt
 
 # Unit 7 (exploitation)
 exploitation.pollnew: 
-exploitation.pollclean: 
+## exploitation.pollclean: 
 exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
 exploitation.outline.pdf: exploitation.txt
@@ -189,7 +189,7 @@ exploitation.complete.pdf: exploitation.txt
 
 # Unit 8 (Disease)
 disease.pollnew: 
-disease.pollclean: 
+## disease.pollclean: 
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
 disease.outline.pdf: disease.txt
