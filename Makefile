@@ -1,9 +1,3 @@
-# Auto-merging dd
-# CONFLICT (submodule): Merge conflict in dd
-# Auto-merging bd_models
-# CONFLICT (submodule): Merge conflict in bd_models
-
-######################################################################
 
 # Lectures
 
