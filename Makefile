@@ -1,3 +1,4 @@
+
 # Lectures
 
 ## https://avenue.cllmcmaster.ca/d2l/lms/news/newedit.d2l?ou=235353
