@@ -331,7 +331,11 @@ Balanced competition example
 	Two plants compete with each other for water.  The value of
 	$\alpha_{21}$ is $4 \indiv_1/\indiv_2$
 
+<<<<<<< HEAD
+	NEWPOLL  Which species is bigger? 1; 2
+=======
 	NEWPOLL  Which species is bigger?
+>>>>>>> 436a764d876e87a4c34028e33b054e118ea3302d
 
 		ANS $4 indiv_1$ have as much impact as $indiv_2$
 
@@ -562,7 +566,7 @@ Results of competition
 	$C$ may stay (about) the same, even as we switch conditions so that
 	one or the other species dominates
 
-	NEWPOLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance?
+	NEWPOLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance? What are the possible results, other than dominance?
 
 		ANS Founder effects, neutrality or coexistence
 
