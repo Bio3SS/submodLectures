@@ -25,7 +25,7 @@ Infectious disease
 
 Disease agents
 
-	NEWPOLL  Can you name an infectious agent that causes disease in humans?
+	NEWPOLL  Name an infectious agent that causes disease in humans?
 
 	Disease agents vary tremendously:
 
@@ -46,19 +46,19 @@ Disease agents
 
 ----------------------------------------------------------------------
 
-SSLIDE Influenza virus
+PSLIDE Influenza virus
 
 FIG webpix/flu_virus.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Tuberculosis bacilli
+PSLIDE Tuberculosis bacilli
 
 FIG webpix/tb.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Malaria sporozoite
+PSLIDE Malaria sporozoite
 
 FIG webpix/sporozoite.jpg
 
@@ -107,7 +107,7 @@ BC
 
 NC
 
-SIDEFIG webpix/trans.jpg
+SIDEFIG boxes/trans.jpg
 
 SIDEFIG dd/ewmeas.Rout.pdf
 
@@ -173,7 +173,7 @@ SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
 
-CHANGE CC: put the SSLIDE Fighting Ebola picture here?
+CHANGE CC: put the PSLIDE Fighting Ebola picture here?
 
 ----------------------------------------------------------------------
 
@@ -203,7 +203,7 @@ EC
 
 ----------------------------------------------------------------------
 
-SSLIDE Fighting Ebola
+PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
