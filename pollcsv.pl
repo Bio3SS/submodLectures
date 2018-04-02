@@ -16,6 +16,8 @@ while (<>){
 	s/.*[|]//s;
 	s/.*[?]\s*(.*[?])/$1/s;
 	s/\s*\n\s*/ /g;
+
+	## Choices start after .?:
 	my ($ques, $choices) = /(.*?[.?:])(.*)/;
 	# say "Ques: $ques";
 	# say "Choice: $choices";
@@ -28,7 +30,7 @@ while (<>){
 	} else {
 		print "Open-ended, ";
 	}
-	# print '"' . $ques . '", ';
+
 	print $ques . ', ';
 	say join ", ", @choices;
 }

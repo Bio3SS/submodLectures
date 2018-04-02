@@ -25,7 +25,7 @@ Infectious disease
 
 Disease agents
 
-	NEWPOLL  Can you name an infectious agent that causes disease in humans?
+	NEWPOLL  Name an infectious agent that causes disease in humans?
 
 	Disease agents vary tremendously:
 
@@ -46,19 +46,19 @@ Disease agents
 
 ----------------------------------------------------------------------
 
-SSLIDE Influenza virus
+PSLIDE Influenza virus
 
 FIG webpix/flu_virus.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Tuberculosis bacilli
+PSLIDE Tuberculosis bacilli
 
 FIG webpix/tb.jpg
 
 ----------------------------------------------------------------------
 
-SSLIDE Malaria sporozoite
+PSLIDE Malaria sporozoite
 
 FIG webpix/sporozoite.jpg
 
@@ -107,7 +107,7 @@ BC
 
 NC
 
-SIDEFIG webpix/trans.jpg
+SIDEFIG boxes/trans.jpg
 
 SIDEFIG dd/ewmeas.Rout.pdf
 
@@ -118,29 +118,34 @@ EC
 TSEC Rate of spread
 
 	NEWPOLL  For many diseases, especially new diseases, we can \emph{observe}
-	and \emph{estimate} $r$. What is r?
+	and \emph{estimate} $r$. | What is r?
 
-		ANS the exponential rate of spread
+		ANS Instantaneous rate of increase (per capita)
+
+			ANS Units of 1/t
+
+			ANS Gives the exponential rate of spread
 
 	NEWPOLL  Want to know what factors contribute to that, and how it relates to
-	\R. What is R?
+	\R. | What is R?
 
 		ANS number of new cases per case
 
-CHANGE CC: 1st poll wasn't working and replace answer of r by per capita growth rate (unit 1/t)
+		ANS Unitless
+
 ----------------------------------------------------------------------
 
 Basic reproductive number
 
 	People in the disease field love to talk specifically about \Ro
 
-	But they don't always mean the same thing:
+	But they don't always mean the same thing when they say \Ro:
 
 		Actual value of \R\ before an epidemic
 
 		Hypothetical value assuming no immunity
 
-		Hypothetical value assuming no control efforts whatsoever
+		Hypothetical value assuming no immunity and no control efforts whatsoever
 
 	Often easier to talk simply about \R.
 
@@ -150,7 +155,6 @@ Example: the West African Ebola epidemic
 
 DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
 
-CHANGE CC: Need to increase the size of axis (numbers + labels)
 ----------------------------------------------------------------------
 
 Generation intervals
@@ -172,8 +176,6 @@ NC
 SIDEFIG boxes/generationTime.Rout-0.pdf
 
 EC
-
-CHANGE CC: put the SSLIDE Fighting Ebola picture here?
 
 ----------------------------------------------------------------------
 
@@ -203,7 +205,7 @@ EC
 
 ----------------------------------------------------------------------
 
-SSLIDE Fighting Ebola
+PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
@@ -246,9 +248,13 @@ DOUBLEPDF boxes/steps.Rout
 
 Generation time and risk
 
+	$\R = \exp(r \hat G)$
+
 	An intuitive view:
 
-		Epidemic speed = Generation speed $\times$ Generation strength
+		Epidemic speed = Generation strength $\times$ Generation speed
+
+		COMMENT Mathematically: $r = \log(\R) * (1/\hat G)$
 
 	If we know generation speed, then a faster epidemic speed means:
 
@@ -258,12 +264,11 @@ Generation time and risk
 
 		ANS Less strength required (smaller $\R$)
 
-CHANGE CC: add the previous formula R = \exp(r \hat G)
 ----------------------------------------------------------------------
 
 TSEC Single-epidemic model
 
-WIDEFIG boxes/sir.np.three.pdf
+PRESENT WIDEFIG boxes/sir.np.three.pdf
 
 	Susceptible $\to$ Infectious $\to$ Recovered
 
@@ -312,6 +317,8 @@ Interpreting
 
 		ANS If the disease can't spread well enough in the population
 
+			ANS Could depend on season, or immunity \ldots
+
 		ANS Demographic stochasticity: if we only start with one
 		individual, we expect an element of chance
 
@@ -319,9 +326,6 @@ Interpreting
 
 		NOANS
 
-		CHANGE How is this one resolved?
-
-CHANGE CC: add environment as sub-reasons (influenza during summer)
 ----------------------------------------------------------------------
 
 Implementing the model
@@ -337,12 +341,13 @@ BC
 
 		$$\frac{dR}{dt}  = \gamma I $$
 
+		$$ N = S+I+R $$
+
 NC
 
 SIDEFIG boxes/sir.three.pdf
 
 EC
-
 
 ----------------------------------------------------------------------
 
@@ -354,7 +359,7 @@ State variables
 
 	$S, I, R, N$: [people] or [people/ha]
 
-CHANGE CC: Stop here on March 30
+
 ----------------------------------------------------------------------
 
 CONT Quantities
@@ -405,7 +410,10 @@ Basic reproductive number
 			ANS That is: the number they would cause on average if
 			everyone else were susceptible
 
-CHANGE CC: good idea to write the def/unit of the variables on the board
+		ANS The product of the rate $\beta$ (units [1/t]) and the duration $D$ (
+		[t])
+
+
 ----------------------------------------------------------------------
 
 Basic reproductive number implications
@@ -417,10 +425,9 @@ Basic reproductive number implications
 
 	What happens early in the epidemic if $\Ro<1$?
 
-		ANS Number of infected individuals cannot grow (disease cannot
+		ANS Number of infected individuals does not grow (disease cannot
 		invade)
 
-CHANGE CC: Perhaps consider to also have the 2nd one as a poll too (only 1 person was willing to participate)
 ----------------------------------------------------------------------
 
 Effective reproductive number
@@ -442,7 +449,6 @@ Effective reproductive number
 
 		ANS When $\Reff<1$, the disease dies out on its own (less than one case per case)
 
-CHANGE CC: perhaps for next year consider to have the boxes plots (or have it small on slides where you are referring to it) (you drew it later for TSS Epidemic size but probably usefull to also have it earlier)
 ----------------------------------------------------------------------
 
 TSS Epidemic size
@@ -461,7 +467,11 @@ TSS Epidemic size
 
 			ANS \ldots and \emph{fewer} susceptibles at the end
 
-CHANGE CC: probably add the number of sick people at the beginning as the 3rd factor
+		ANS The number of infected individuals at the beginning of the epidemic
+
+			ANS Usually relatively small (and a relatively small effect)
+
+
 ----------------------------------------------------------------------
 
 Overshoot 
@@ -471,13 +481,17 @@ BC
 	Why does more susceptibles at the beginning mean fewer susceptibles at the
 	end?
 
+		ANS More susceptibles $\implies$
+
+		ANS Faster initial growth $\implies$
+
 		ANS Bigger epidemic $\implies$
 
 		ANS More infections at peak (same number of susceptibles) $\implies$
 
-		ANS More infections after peak \ldots
+		ANS More generations needed for disease to fade out \implies$
 
-CHANGE CC: For answer: need more steps / more details
+		ANS More infections after peak \ldots
 
 NC
 
@@ -520,7 +534,6 @@ What limits epidemics?
 
 		ANS Heterogeneity (differences between hosts, locations, etc.)
 
-CHANGE CC: Stop here on March 31st
 ----------------------------------------------------------------------
 
 TSEC Recurrent epidemic models
@@ -533,7 +546,7 @@ BC
 
 		ANS People might lose immunity
 
-		ANS Births and deaths
+		ANS Births and deaths; newborns are susceptible
 
 NC
 
@@ -541,7 +554,6 @@ SIDEFIG dd/ewmeas.Rout.pdf
 
 EC
 
-CHANGE CC: add more details for the ans
 ----------------------------------------------------------------------
 
 Recurrent epidemics
@@ -590,6 +602,10 @@ EC
 
 ----------------------------------------------------------------------
 
+SS Dynamics
+
+----------------------------------------------------------------------
+
 Equilibrium
 
 	At equilibrium, we know that $\Reff=1$
@@ -600,7 +616,9 @@ Equilibrium
 		to keep infection in balance
 
 			$S/N = 1/\Ro$
-		
+
+	What does this remind you of?
+
 		ANS Reciprocal control!
 
 ----------------------------------------------------------------------
@@ -619,7 +637,7 @@ CONT Equilibrium
 
 Reciprocal control
 
-	What happens if we protect susceptibles (move them to $R$ class)?
+	What happens to \emph{equilibrium} if we protect susceptibles (move them to $R$ class)?
 
 		ANS Equation for $dI/dt$ does not change
 
@@ -638,7 +656,6 @@ Reciprocal control
 
 			ANS Number of susceptibles goes down
 
-CHANGE CC: add that it is at the equilibrium?
 ----------------------------------------------------------------------
 
 Reciprocal control
@@ -702,6 +719,10 @@ BC
 
 		ANS Weather
 
+			ANS Seasonality
+
+			ANS Environmental stochasticity
+
 		ANS School terms
 
 		ANS Demographic stochasticity
@@ -716,7 +737,6 @@ SIDEFIG dd/ewmeas.Rout.pdf
 
 EC
 
-CHANGE CC: ANS seasonality (add/change compared to weather?)?
 ----------------------------------------------------------------------
 
 TSEC Reproductive numbers and risk
@@ -732,11 +752,15 @@ TSEC Reproductive numbers and risk
 
 ----------------------------------------------------------------------
 
-Reproductive numbers and risk
+RSLIDE Reproductive numbers and risk
 
-DOUBLEFIG sims/fs.Rout-1.pdf sims/fs.Rout-0.pdf
+DOUBLEPDF sims/recurrent.plots.Rout
 
-CHANGE CC: Go slower when you draw the plots on the board: V/N vs R0 and I vs S (for the last one also explain more what are the loops)
+----------------------------------------------------------------------
+
+CONT Reproductive numbers and risk
+
+DOUBLEPDF sims/fs.Rout
 
 ----------------------------------------------------------------------
 
@@ -757,10 +781,10 @@ Threshold for elimination
 	What proportion of the population should be vaccinated to eliminate
 	a disease?
 
-		ANS Transmission should be reduced by a factor of $\R$, so a
+		ANS Transmission should be reduced by a factor of $\R$, so at least
 		fraction $1-1/\R$ should be vaccinated
 
-CHANGE CC: add "at least" (+ can also be killing mosquito or other stuff to decrease the repro of virus…)
+
 ----------------------------------------------------------------------
 
 Examples: 
@@ -776,6 +800,11 @@ Examples:
 	should be vaccinated to eliminate measles?
 
 		ANS At least 1-1/20 = 95%
+
+	If gonorrhea has an $\Ro$ of about 2, what proportion of unprotected sexual
+	encounters should be protected to eliminate gonorrhea?
+
+		ANS At least 1-1/2 = 50%
 
 ----------------------------------------------------------------------
 

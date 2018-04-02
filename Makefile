@@ -161,9 +161,6 @@ life_history.draft.pdf: life_history.txt
 life_history.handouts.pdf: life_history.txt
 life_history.complete.pdf: life_history.txt
 
-Sources += format_notes.txt
-## :%s/SSLIDE/PSLIDE/
-
 # Unit 6 (competition)
 competition.pollnew: 
 ## competition.pollclean: 

@@ -1,2 +1,0 @@
-working on steps.R (lecture wants it here!)
-also, still need better debugging info from texdeps
