@@ -25,7 +25,7 @@ Infectious disease
 
 Disease agents
 
-	NEWPOLL  Name an infectious agent that causes disease in humans?
+	NEWPOLL  Name an infectious agent that causes disease in humans.
 
 	Disease agents vary tremendously:
 
@@ -399,7 +399,7 @@ DOUBLEFIG sims/burnouts.plots.Rout-0.pdf sims/burnouts.plots.Rout-4.pdf
 Basic reproductive number
 
 	NEWPOLL  What \emph{unitless} parameter can you make from the model above?
-	What unitless parameter can you make?
+	How can you make a unitless parameter reflecting disease spread?
 
 		ANS $\Ro = \beta D = \beta/\gamma$ is the \textbf{basic
 		reproductive number}
