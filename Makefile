@@ -37,7 +37,7 @@ pushdir = ../web/materials
 ## repodirs += $(specdirs)
 ## mdirs = $(specdirs)
 
-mdirs += age bd_models boxes compensation competition dd exploitation exponential git_push life_history life_tables makestuff sims structure ts
+mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
 
 ######################################################################
 Sources += Makefile .ignore README.md sub.mk LICENSE.md
