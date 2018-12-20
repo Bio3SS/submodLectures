@@ -1,6 +1,12 @@
 Fresh install
 * Clone
 * make makestuff.msync
+* make pullup
+* make rmsync is good if things are out-of-date, but chokes (can't commit) if they're not
+	* make rmaster seems like a good substitute
+* make all.time then gets most of the way
+
+######################################################################
 
 * make rum (makestuff seems to make itself on the way)
 * make local.mk (I use `make jd.lmk`)
