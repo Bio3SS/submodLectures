@@ -2,10 +2,6 @@
 	path = makestuff
 	url = https://github.com/dushoff/makestuff.git
 	branch = master
-[submodule "web"]
-	path = web
-	url = https://github.com/Bio3SS/Bio3SS.github.io.git
-	branch = master
 [submodule "ts"]
 	path = ts
 	url = https://github.com/Bio3SS/Population_time_series
@@ -58,6 +54,3 @@
 	path = sims
 	url = https://github.com/dushoff/SIR_simulations
 	branch = master
-[submodule "WA_Ebola_Outbreak"]
-	path = WA_Ebola_Outbreak
-	url = https://github.com/Outbreak-analysis/WA_Ebola_Outbreak.git
