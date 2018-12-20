@@ -1,5 +1,7 @@
 Fresh install
 * Clone
+* make makestuff.msync
+
 * make rum (makestuff seems to make itself on the way)
 * make local.mk (I use `make jd.lmk`)
 * make rup required a ton of makestuff syncs
