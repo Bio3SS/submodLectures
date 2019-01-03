@@ -9,8 +9,24 @@
 ######################################################################
 
 current: target
-target = Makefile
 -include target.mk
+
+Sources = Makefile README.md LICENSE.md
+
+ms = makestuff
+
+Makefile: $(ms)/Makefile
+	touch $@
+
+$(ms)/%.mk: $(ms)/Makefile
+	touch $@
+
+$(ms)/Makefile:
+	git submodule update -i $(ms) 
+	touch $@
+
+-include $(ms)/os.mk
+-include $(ms)/perl.def
 
 ###################################################################
 
@@ -27,9 +43,6 @@ include popmodules.mk
 
 ## Move up one level. Use?
 ## clonedirs += wayback
-Ignore += wayback
-wayback:
-	git clone -b 2017 https://github.com/Bio3SS/Bio3SS.github.io.git $@
 
 pushdir = ../web/materials
 
@@ -40,9 +53,9 @@ pushdir = ../web/materials
 
 mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
 
-######################################################################
+hotdirs += $(mdirs)
 
-Sources += Makefile .ignore README.md sub.mk LICENSE.md
+######################################################################
 
 ## Keeping track of schedule
 Sources += lectures.txt
@@ -50,7 +63,6 @@ Sources += lectures.txt
 ## See .lmk rule
 Drop = Define_image_drop_in_local.mk
 
-include sub.mk
 -include $(ms)/newtalk.def
 -include $(ms)/perl.def
 -include $(ms)/repos.def
@@ -80,6 +92,7 @@ Sources += $(wildcard *.txt *.poll)
 ##################################################################
 
 # Cribbing
+## Probably dead 2019 Jan 03 (Thu)`
 
 ## %.txt:
 %.txt:
@@ -260,7 +273,7 @@ jd.lmk:
 ######################################################################
 
 -include $(ms)/visual.mk
--include $(ms)/modules.mk
+-include $(ms)/hotcold.mk
 
 -include $(ms)/newtalk.mk
 -include $(ms)/texdeps.mk
