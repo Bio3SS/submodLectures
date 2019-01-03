@@ -72,9 +72,8 @@ Sources += $(mdirs)
 ##################################################################
 
 ## Formatting
-## Script is makestuff/newtalk/lect.pl
-## Old 3SS rules are in makestuff/lect/lect.format
-## Current rules are in makestuff/newtalk/txt.format _and_
+## Script is talkdir/lect.pl
+## Current rules are in talkdir/txt.format _and_
 Sources += local.txt.format
 
 ## Copyright notice
