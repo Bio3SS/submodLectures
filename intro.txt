@@ -28,12 +28,9 @@ Communication
 
 		Office hours will be announced
 
-		Or ask questions on facebook group 
+		Or ask questions electronically
 
-			HREF https://www.facebook.com/groups/142375533149250/
-			Bio 3SS Winter 2018
-
-			I am not your friend
+			We need a forum!
 
 ----------------------------------------------------------------------
 
@@ -48,9 +45,7 @@ Expectations of professor
 	Open to questions -- both in class (within reason) and at office
 	hours
 
-	Responsive to questions on class forums (Facebook and AtL)
-
-		CHANGE Not AtL
+	Responsive to questions on class forums (to be decided)
 
 ----------------------------------------------------------------------
 
@@ -124,7 +119,7 @@ Polling
 
 		Text from your cell phone, or answer on the web
 
-	POLL multiple_choice_polls/GIIaWUc3IILowd0 Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
+	NEWPOLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
 ----------------------------------------------------------------------
 
@@ -150,43 +145,45 @@ Dushoff
 
 ----------------------------------------------------------------------
 
-RSLIDE Pythagorean triples
+PSLIDE Pythagorean triples
 
 HIGHFIG webpix/pythagoras.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Which country? 
+PSLIDE Which country?
 
 WIDEFIG webpix/phila_skyline.jpg
 
+ADD More characteristic pictures
+
 --------------------------------------------------------------------
 
-RSLIDE Which country? 
+PSLIDE Which country? 
 
 WIDEFIG webpix/taiwan_street.jpg
 
 --------------------------------------------------------------------
 
-RSLIDE Which country? 
+PSLIDE Which country? 
 
 WIDEFIG webpix/big_bend.jpg
 
 --------------------------------------------------------------------
 
-RSLIDE Which country? 
+PSLIDE Which country? 
 
 WIDEFIG webpix/tims.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Ebola research
+PSLIDE Ebola research
 
 WIDEFIG my_images/weitz_full.pdf
 
 ----------------------------------------------------------------------
 
-TAs
+EXTRA TAs
 
 BC
 
@@ -217,20 +214,31 @@ EC
 
 ----------------------------------------------------------------------
 
+TAs
+
+	Morgan Kain
+
+		Ecology and evolution of infectious diseases
+
+	Michael Li
+
+		Disease forecasting and control
+
+	Steve Cygu
+
+		Machine learning and health
+
+----------------------------------------------------------------------
 
 Students
 
-	POLL multiple_choice_polls/P4JlnQ75rj0OHRW  What year are you in? First; Second; Third; Fourth; other
+	NEWPOLL   What year are you in? First; Second; Third; Fourth; other
 
-	POLL multiple_choice_polls/wIHNJDJLbzsWtBT  What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
-
-----------------------------------------------------------------------
-
-EXTRA Poor outlining. Make content a SECTION?
+	NEWPOLL   What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
 
 ----------------------------------------------------------------------
 
-SS Course content
+SEC Course content
 
 ----------------------------------------------------------------------
 
@@ -244,7 +252,9 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	POLL free_text_polls/AB9Spl3gAPFr4bZ  What is ecology?
+Ecology
+
+	NEWPOLL   What is ecology?
 
 	My answer
 
@@ -255,7 +265,9 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	POLL free_text_polls/XzV6zQmcKffjjd7  What is population ecology?
+Population ecology
+
+	NEWPOLL   What is population ecology?
 
 	My answer
 
@@ -397,7 +409,7 @@ EC
 
 Populations 
 
-	POLL free_text_polls/GyIcFVUx5vQMoUK  What population of organisms interests you?
+	NEWPOLL   What population of organisms interests you?
 
 ----------------------------------------------------------------------
 
@@ -491,7 +503,7 @@ DOUBLEPDF ts/gm10165.simple.Rout
 
 ----------------------------------------------------------------------
 
-RSLIDE Moth calculation
+PRESLIDE Moth calculation
 
 	Researchers studying a gypsy moth population make the following
 	estimates:
@@ -508,7 +520,7 @@ RSLIDE Moth calculation
 
 		All adults die after reproduction
 
-	POLL free_text_polls/9SHAHiIXftPsdFb  What happens if we start with 10 moths?
+	NEWPOLL   What happens if we start with 10 moths?
 
 		ANS We end up with 15 moths
 
@@ -555,19 +567,19 @@ Stochastic version
 
 ----------------------------------------------------------------------
 
-RSLIDE Stochastic model
+PRESLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Stochastic model
+PRESLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Stochastic model
+PRESLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-2.pdf
 
@@ -613,7 +625,7 @@ TSS Bacteria
 
 ----------------------------------------------------------------------
 
-RSLIDE Bacteria in a tank
+PSLIDE Bacteria in a tank
 
 FIG webpix/chemostats.png
 
@@ -644,7 +656,7 @@ Units
 
 ----------------------------------------------------------------------
 
-RSLIDE Bacteriostasis
+PRESLIDE Bacteriostasis
 
 	What if we add an agent to the tank that makes the birth and death
 	rates nearly zero?
@@ -653,9 +665,9 @@ RSLIDE Bacteriostasis
 
 	If we start with 10 bacteria/ml, how many do we have after:
 
-		POLL free_text_polls/2sUt7xpk42pf4BO  1 hr?
+		NEWPOLL   1 hr?
 
-		POLL free_text_polls/PmeeJZDooAtHOVx  1 wk?
+		NEWPOLL   1 wk?
 
 ----------------------------------------------------------------------
 
@@ -669,65 +681,65 @@ FIG exponential/exponential.Rout.four.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE A
+REPSLIDE A
 
 FIG exponential/exponential.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE B
+REPSLIDE B
 
 FIG exponential/exponential.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE C
+REPSLIDE C
 
 FIG exponential/exponential.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE D
+REPSLIDE D
 
 FIG exponential/exponential.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Exponential growth
+REPSLIDE Exponential growth
 
-	POLL free_text_polls/RzyqCCYuxcxUfKv  What is exponential growth?
+	NEWPOLL   What is exponential growth?
 
-	POLL free_text_polls/Qtg5sktIFeaoci8  Which of these is an example?
+	NEWPOLL   Which of these is an example?
 
 FIG exponential/exponential.Rout.four.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE A
+REPSLIDE A
 
 FIG exponential/exponential.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE B
+REPSLIDE B
 
 FIG exponential/exponential.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE C
+REPSLIDE C
 
 FIG exponential/exponential.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE D
+REPSLIDE D
 
 FIG exponential/exponential.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE A 
+REPSLIDE A 
 
 FIG exponential/exponential.Rout-0.pdf
 
@@ -739,7 +751,7 @@ FIG exponential/exponential.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE C 
+REPSLIDE C 
 
 FIG exponential/exponential.Rout-2.pdf
 
@@ -775,7 +787,7 @@ Types of growth
 
 Exponential decline?
 
-	POLL free_text_polls/nkvVfOaWep7DRVh  What does exponential decline look like?
+	NEWPOLL   What is exponential decline?
 
 		ANS Decline is proportional to size
 
@@ -821,7 +833,7 @@ SS Log and linear scales
 
 Scales of comparison
 
-	POLL free_text_polls/5CkGPhs0D8iQmz0  1 is to 10 as 10 is to what?
+	NEWPOLL   1 is to 10 as 10 is to what?
 
 		ANS If you said 100, you are thinking multiplicatively
 
@@ -865,9 +877,9 @@ Canadian provinces
 
 	How many people know the Canadian provinces song?
 
-	POLL free_text_polls/0z2hVt0R4wmIVUh Which Canadian province is the most unusual in terms of area?
+	NEWPOLL  Which Canadian province is the most unusual in terms of area?
 
-	POLL free_text_polls/CFAwWjVMgr8H4Wv Which Canadian province is the most unusual in terms of population?
+	NEWPOLL  Which Canadian province is the most unusual in terms of population?
 
 ----------------------------------------------------------------------
 
@@ -961,7 +973,7 @@ BC
 
 	A 300 lb lion is attacking a 600 lb buffalo!
 
-	POLL multiple_choice_polls/DRRIZxOUTjF1UEd  This is analogous to a 15 lb red fox attacking: a beaver, an elk | This is analogous to a fox attacking? a beaver; an elk
+	NEWPOLL   This is analogous to a 15 lb red fox attacking: a beaver, an elk | This is analogous to a fox attacking? a beaver; an elk
 
 		A 30 lb beaver (twice as heavy)?
 
@@ -1062,7 +1074,7 @@ CSLIDE Speeding in Taiwan
 
 	Imagine now that I follow the signs exactly and unrealistically.
 
-	POLL free_text_polls/S26Ff64KtIKSTZF  Do I ever arrive in the (ideal) town of Speed?
+	NEWPOLL   Do I ever arrive in the (ideal) town of Speed?
 
 		ANS No. I am always an hour away!
 
@@ -1124,9 +1136,9 @@ Bacteriostasis
 
 	If we start with 10 bacteria/ml, how many do we have after:
 
-		POLL free_text_polls/JRJ9UOOsZ3052bz  1 hr?
+		NEWPOLL   1 hr?
 
-		POLL free_text_polls/Vyxs1snuAcpzKCj  1 wk?
+		NEWPOLL   1 wk?
 
 ----------------------------------------------------------------------
 
