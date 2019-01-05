@@ -14,6 +14,7 @@ current: target
 Sources = Makefile README.md LICENSE.md
 
 ms = makestuff
+Sources += $(ms)
 
 Makefile: $(ms)/Makefile
 	touch $@
