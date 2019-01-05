@@ -567,19 +567,19 @@ Stochastic version
 
 ----------------------------------------------------------------------
 
-PRESLIDE Stochastic model
+PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-PRESLIDE Stochastic model
+PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-PRESLIDE Stochastic model
+PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-2.pdf
 
@@ -841,25 +841,25 @@ Scales of comparison
 
 ----------------------------------------------------------------------
 
-RSLIDE Scales of display
+PSLIDE Scales of display
 
 FIG exponential/comparison.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Scales of display
+PSLIDE Scales of display
 
 FIG exponential/comparison.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Scales of display
+PSLIDE Scales of display
 
 FIG exponential/comparison.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Scales of display
+PSLIDE Scales of display
 
 FIG exponential/comparison.Rout-1.pdf
 
@@ -883,13 +883,13 @@ Canadian provinces
 
 ----------------------------------------------------------------------
 
-RSLIDE Canadian provinces 
+PSLIDE Canadian provinces 
 
 FIG exponential/canada.Rout-0.pdf 
 
 ----------------------------------------------------------------------
 
-Canadian provinces 
+PSLIDE Canadian provinces 
 
 FIG exponential/canada.Rout-1.pdf
 
@@ -901,25 +901,25 @@ DOUBLEFIG exponential/canada.Rout-0.pdf exponential/canada.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canadian provinces plus Canada?
+PSLIDE Canadian provinces plus Canada?
 
 DOUBLEFIG exponential/canada.Rout-0.pdf exponential/canada.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canadian provinces plus Canada
+PSLIDE Canadian provinces plus Canada
 
 DOUBLEFIG exponential/canada.Rout-0.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canadian provinces plus Canada?
+PSLIDE Canadian provinces plus Canada?
 
 DOUBLEFIG exponential/canada.Rout-1.pdf exponential/canada.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canadian provinces plus Canada
+PSLIDE Canadian provinces plus Canada
 
 DOUBLEFIG exponential/canada.Rout-1.pdf exponential/canada.Rout-3.pdf
 
@@ -931,25 +931,25 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus B135
+PSLIDE Canada plus B135
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus B135
+PSLIDE Canada plus B135
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room B135?
+PSLIDE Canada plus room B135?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Canada plus room B135
+PSLIDE Canada plus room B135
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
@@ -1103,13 +1103,13 @@ Characteristic times
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/speed_story.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/speed_story.Rout-1.pdf
 
@@ -1121,7 +1121,7 @@ FIG exponential/speed_story.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/speed_story.Rout-3.pdf
 
@@ -1174,13 +1174,13 @@ Bacteriostasis analysis
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-1.pdf
 
@@ -1192,7 +1192,7 @@ FIG exponential/bacteria_scales.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-3.pdf
 
@@ -1237,13 +1237,13 @@ Exponential growth
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-5.pdf
 
@@ -1255,58 +1255,60 @@ FIG exponential/bacteria_scales.Rout-6.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 FIG exponential/bacteria_scales.Rout-7.pdf
 
 ----------------------------------------------------------------------
 
-Doubling time
+Half life
 
-	Some people prefer to think about doubling times.
+	Some people prefer to think about half lives.
 
-	These make just as much sense as characteristic times, but don't
+	Half life is similar to characteristic time, but doesn't
 	have the direct link to the instantaneous change.
 
-		It takes $T_c$ time to increase by a factor of $e$
+		It takes $T_c$ time to decrease by a factor of $e$
 
-		It takes $\log_e(2) T_c \approx 0.69 T_c$ to increase by a factor
+		It takes $\log_e(2) T_c \approx 0.69 T_c$ to decrease by a factor
 		of 2
 
-		We can write $T_d = \log_e(2) T_c$
+		We can write $T_h = \log_e(2) T_c$
 
 	You should be able to do this calculation
 
-		NOTES $\exp(rT_d) = 2$
+		NOTES $\exp(-rT_h) = 1/2$
 
-		NOTES $T_d = \log_e(2)/r$
+		NOTES $-rT_h = log_e(1/2) = -\log_e(2)$
 
-		NOTES $T_d = \log_e(2) T_c$
+		NOTES $T_h = \log_e(2)/r$
 
-----------------------------------------------------------------------
-
-RSLIDE
-
-FIG exponential/bacteria_times.Rout-3.pdf
+		NOTES $T_h = \log_e(2) T_c$
 
 ----------------------------------------------------------------------
 
-RSLIDE
+PSLIDE
 
-FIG exponential/bacteria_times.Rout-4.pdf
-
-----------------------------------------------------------------------
-
-ASLIDE Characteristic time and doubling time
-
-FIG exponential/bacteria_times.Rout-5.pdf
+FIG exponential/bacteria_times.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-Half life
+PSLIDE
 
-	The half life plays the same role for exponential decline as the
-	doubling time does for exponential growth:
+FIG exponential/bacteria_times.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+ASLIDE Characteristic time and half life
+
+FIG exponential/bacteria_times.Rout-2.pdf
+
+----------------------------------------------------------------------
+
+Doubling time
+
+	The doubling time plays the same role for exponential growth as the
+	half life does for exponential decline:
 
 		$T_h = \log_e(2) T_c$
 
@@ -1320,22 +1322,36 @@ Half life
 
 ----------------------------------------------------------------------
 
-RSLIDE
+PSLIDE
 
-FIG exponential/bacteria_times.Rout-0.pdf
-
-----------------------------------------------------------------------
-
-RSLIDE
-
-FIG exponential/bacteria_times.Rout-1.pdf
+FIG exponential/bacteria_times.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Characteristic time and half life
+PSLIDE
 
-FIG exponential/bacteria_times.Rout-2.pdf
-
+FIG exponential/bacteria_times.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
+ASLIDE Characteristic time and doubling time
+
+FIG exponential/bacteria_times.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Summary
+
+	Exponential growth is a specific thing
+
+		At least in math and science
+
+	Often tied to a specific mechanism
+
+		ANS Individuals growing or declining
+
+		ANS Population behaves in proportion to number of individuals
+
+	Units can help us think clearly
+
+		or notice our mistakes

@@ -67,7 +67,8 @@ Drop = Define_image_drop_in_local.mk
 
 -include $(ms)/newtalk.def
 -include $(ms)/perl.def
--include $(ms)/repos.def
+-include local.mk
+## -include $(ms)/repos.def
 
 Sources += $(mdirs)
 

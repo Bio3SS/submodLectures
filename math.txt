@@ -35,7 +35,7 @@ Logarithms
 
 Complementarity
 
-	$log_e$ and exp are complementary functions
+	$\log_e$ and exp are complementary functions
 
 		$\exp(\log_e(x)) \equiv e^{\log_e(x)} = x$
 
