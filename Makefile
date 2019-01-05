@@ -38,6 +38,7 @@ $(ms)/Makefile:
 ## A special module (should probably be a clone)
 ## Resting! investigate
 specdirs += WA_Ebola_Outbreak
+Ignore += $(specdirs)
 
 Sources += popmodules.mk
 include popmodules.mk
