@@ -93,20 +93,7 @@ Sources += $(wildcard *.txt *.poll)
 
 ##################################################################
 
-# Cribbing
-## Probably dead 2019 Jan 03 (Thu)`
-
-## %.txt:
-%.txt:
-	perl -npe 's|images/|webpix/|' Bio3SS_content/$@ > $@
-
-%.poll:
-	cat Bio3SS_content/$@ > $@
-
-## Get rid of this section and the Bio3SS_content submodule when done.
-## Oops, already refactored that submodule ☹
-
-## Images
+## Images (pull necessary from an old, bigger my_images)
 
 my_images/%:
 	$(CP) ~/Dropbox/$@ $@
@@ -217,12 +204,15 @@ disease.complete.pdf: disease.txt
 
 Sources += $(wildcard *.pl)
 
+### NEWPOLL was fun, but probably too fancy. 
+
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
 %.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
 
 ### Not using pollclean this year (auto-linking isn't working)
 ### Instead I just open a whole bunch of polls in chrome during setup
+
 ### Change NEWPOLL back to POLL once link is added
 %.pollclean: %.txt
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
@@ -234,7 +224,6 @@ Sources += $(wildcard *.pl)
 Ignore += *.poll.csv
 %.poll.csv: %.txt pollcsv.pl
 	$(PUSH)
-
 
 ######################################################################
 
