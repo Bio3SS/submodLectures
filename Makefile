@@ -1,7 +1,5 @@
 # Lectures
 
-## https://avenue.cllmcmaster.ca/d2l/lms/news/newedit.d2l?ou=235353
-
 ## Request
 	##  http://avenue.mcmaster.ca/course/course_request_check.php
 ## Activate (cryptic):
@@ -201,6 +199,14 @@ disease.final.pdf: disease.txt
 disease.draft.pdf: disease.txt
 disease.handouts.pdf: disease.txt
 disease.complete.pdf: disease.txt
+
+######################################################################
+
+## Note chopping
+
+day1.txt: intro.txt Makefile
+	perl -npe "last if /Example/" $< | perl -npe "s/CHAPTER.*/CHAPTER Day 1 complete notes/" > $@
+day1.complete.pdf: intro.txt
 
 ######################################################################
 
