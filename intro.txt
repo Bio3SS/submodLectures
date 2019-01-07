@@ -153,27 +153,26 @@ HIGHFIG webpix/pythagoras.pdf
 
 PSLIDE Which country?
 
-WIDEFIG webpix/phila_skyline.jpg
-
-ADD More characteristic pictures
+WIDEFIG webpix/independenceHall.jpg
 
 --------------------------------------------------------------------
 
 PSLIDE Which country? 
 
-WIDEFIG webpix/taiwan_street.jpg
+WIDEFIG webpix/mantenga.jpg
+
+--------------------------------------------------------------------
+
+
+PSLIDE Which country? 
+
+WIDEFIG webpix/101.jpg
 
 --------------------------------------------------------------------
 
 PSLIDE Which country? 
 
-WIDEFIG webpix/big_bend.jpg
-
---------------------------------------------------------------------
-
-PSLIDE Which country? 
-
-WIDEFIG webpix/tims.jpg
+WIDEFIG webpix/timHamilton.jpg
 
 ----------------------------------------------------------------------
 
