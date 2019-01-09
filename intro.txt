@@ -570,6 +570,8 @@ PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-0.pdf
 
+ADD Put a page with just two traces…
+
 ----------------------------------------------------------------------
 
 PSLIDE Stochastic model
@@ -823,6 +825,8 @@ Terminology
 		ANS \textbf{discrete} vs.\ \textbf{continuous} time
 
 	We won't worry much about this.
+
+	REMARK Back to spreadsheet
 
 ----------------------------------------------------------------------
 

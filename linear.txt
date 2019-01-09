@@ -3,14 +3,11 @@ UNIT 2: Linear population models
 
 ----------------------------------------------------------------------
 
-
 SEC Constructing models
 
 ----------------------------------------------------------------------
 
 TSS Dynamical models
-
-----------------------------------------------------------------------
 
 BC
 
@@ -29,6 +26,8 @@ NC
 SIDEFIG webpix/touching.jpg
 
 SIDEFIG webpix/ew_measles.png
+
+ADD How to incorporate dandelion spreadsheet?
 
 EC
 
@@ -359,7 +358,7 @@ SIDEFIG webpix/spreadsheet.png
 
 NC
 
-	HREF http://tinyurl.com/DandelionModel2017 Spreadsheet (see resource page)
+	HREF http://tinyurl.com/DandelionModel2019 Spreadsheet (see resource page)
 
 EC
 
