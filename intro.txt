@@ -934,31 +934,31 @@ DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus B135
+PSLIDE Canada plus Room 1102
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus B135
+PSLIDE Canada plus Room 1102
 
 DOUBLEFIG exponential/canada.Rout-2.pdf exponential/canada.Rout-4.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room B135?
+PSLIDE Canada plus room Room 1102?
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-PSLIDE Canada plus room B135
+PSLIDE Canada plus room Room 1102
 
 DOUBLEFIG exponential/canada.Rout-3.pdf exponential/canada.Rout-5.pdf
 
 ----------------------------------------------------------------------
 
-ASLIDE Canada plus room B135
+ASLIDE Canada plus room Room 1102
 
 DOUBLEFIG exponential/canada.Rout-4.pdf exponential/canada.Rout-5.pdf
 
