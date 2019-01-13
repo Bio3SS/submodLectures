@@ -11,6 +11,17 @@ UNIT 2: Linear population models
 
 ----------------------------------------------------------------------
 
+EXTRA
+
+ADD
+
+CORRECTION
+
+Do a better job with intermediate variables
+* Add a question
+
+----------------------------------------------------------------------
+
 SEC Constructing models
 
 ----------------------------------------------------------------------
