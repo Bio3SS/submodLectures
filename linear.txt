@@ -2,14 +2,6 @@ UNIT 2: Linear population models
 
 ----------------------------------------------------------------------
 
-EXTRA
-
-ADD
-
-Clean up repeats
-
-----------------------------------------------------------------------
-
 SEC Constructing models
 
 ----------------------------------------------------------------------
@@ -33,8 +25,6 @@ NC
 SIDEFIG webpix/touching.jpg
 
 SIDEFIG webpix/ew_measles.png
-
-ADD How to incorporate dandelion spreadsheet?
 
 EC
 
