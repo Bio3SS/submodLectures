@@ -18,15 +18,13 @@ draft final: NOFRAME \title{%%}
 ## For the notes, we want to just get rid of link text
 ## No obvious mechanism in current dmu
 
-## Odd-year poll question (update link)
-## Not used; maybe eliminate
-ODDPOLL ^POLLTEXT %%
-draft final: {\color{pollcolor}Outdated poll!:} \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
-outline: %!
-
 ## Even-year poll question (current)
-POLL Poll: \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
-handouts complete: Poll: \href{https://www.polleverywhere.com/%}{%|}%!
+## POLL Poll: \href{https://www.polleverywhere.com/%}{\color{pollcolor}%|}%!
+## handouts complete: Poll: \href{https://www.polleverywhere.com/%}{%|}%!
+## outline: %!
+
+POLL Poll: %| %!
+draft: {\color{pollcolor} %|} %!
 outline: %!
 
 ## Show poll question in notes before it's made. Flag in draft
@@ -41,6 +39,9 @@ POLLTEXT %? %| %!
 
 ### Special reference
 MATREF ^HREF https://bio3ss.github.io/materials/% %%
+
+ADD %!
+draft: Aadd %%
 
 
 ######################################################################

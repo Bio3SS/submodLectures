@@ -1,12 +1,3 @@
-
-EXTRA
-
-ADD
-
-POLL simplification
-
-----------------------------------------------------------------------
-
 UNIT 2: Linear population models
 
 ----------------------------------------------------------------------
@@ -15,10 +6,7 @@ EXTRA
 
 ADD
 
-CORRECTION
-
-Do a better job with intermediate variables
-* Add a question
+Clean up repeats
 
 ----------------------------------------------------------------------
 
@@ -125,7 +113,7 @@ How do populations change?
 	I survey a population in 2009, and again in 2013.  I get a different
 	answer the second time.
 
-	NEWPOLL  What are some reasons why this answer might change?
+	POLL  What are some reasons why this answer might change?
 
 		ANS Birth
 
@@ -175,7 +163,7 @@ SS Examples
 
 ----------------------------------------------------------------------
 
-RSLIDE Gypsy moths
+REPSLIDE Gypsy moths
 
 BC
 
@@ -195,7 +183,7 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Gypsy moth populations
+REPSLIDE Gypsy moth populations
 
 DOUBLEPDF ts/gm10165.simple.Rout
 
@@ -205,7 +193,7 @@ Moth example
 
 BC
 
-	NEWPOLL State variable | What might be a state variable in this system?
+	POLL State variable | What might be a state variable in this system?
 
 		ANS Number of moths/ha
 
@@ -240,7 +228,7 @@ BC
 
 		ANS Number of bacteria/ml
 
-	NEWPOLL Parameters | What might be a parameter in this system?
+	POLL Parameters | What might be a parameter in this system?
 
 		ANS Division rate, death rate, washout rate
 
@@ -263,6 +251,8 @@ BC
 	State variables
 
 		ANS Number of dandelions in a field
+
+		POLL Are there intermediate variables?
 
 	Parameters 
 
@@ -359,7 +349,7 @@ Model
 
 		$t_T = T \Delta t$
 
-	NEWPOLL  How does $N$ behave in this model? | How does N behave in this model?
+	POLL  How does $N$ behave in this model? | How does N behave in this model?
 
 		ANS Increases exponentially (geometrically) when $\lambda>1$
 
@@ -367,7 +357,7 @@ Model
 
 ----------------------------------------------------------------------
 
-RSLIDE Example
+PSLIDE Example
 
 BC
 
@@ -565,7 +555,7 @@ BC
 	We \emph{cannot} {add} quantities with different units (unless they
 	can be converted to the same units)
 
-	NEWPOLL  How many seconds are there in a day?
+	POLL  How many seconds are there in a day?
 
 		ANS
 		$\bigeq \frac{60 \uname{sec}}{\uname{min}} $ 
@@ -598,7 +588,7 @@ Scaling
 
 ----------------------------------------------------------------------
 
-RSLIDE Scaling time in bacteria
+PSLIDE Scaling time in bacteria
 
 DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-1.pdf
 
@@ -625,7 +615,7 @@ DOUBLEFIG exponential/growth.Rout-0.pdf exponential/growth.Rout-4.pdf
 
 Thinking about units 
 
-	NEWPOLL  What is $10^{3 \dd}$? | What is 10 to the power of 3d?
+	POLL  What is $10^{3 \dd}$? | What is 10 to the power of 3d?
 
 		NOANS
 
@@ -677,7 +667,7 @@ Unitless quantities
 
 ----------------------------------------------------------------------
 
-RSLIDE Moth calculation
+REPSLIDE Moth calculation
 
 	Researchers studying a gypsy moth population make the following
 	estimates:
@@ -708,7 +698,7 @@ Moths
 
 	$\cdot 0.5 \uname{rA}/\uname{A}$
 
-	NEWPOLL  What's the product?
+	POLL  What's the product?
 
 		ANS $1.5\uname{rA}/\uname{rF}$
 
@@ -813,11 +803,11 @@ Reproductive number
 	The reproductive number \R\ measures the average number of offspring
 	produced by a single individual over the course of its lifetime
 
-	NEWPOLL  The population will increase when \R\ldots:| The population will increase when R … .
+	POLL  The population will increase when \R\ldots:| The population will increase when R … .
 
 		ANS $\R>1$
 
-	NEWPOLL  What are the units of \R?  |What are the units of R?
+	POLL  What are the units of \R?  |What are the units of R?
 
 		ANS \R\ must be unitless
 
@@ -942,9 +932,9 @@ Instaneous rate of increase
 
 		ANS [1/time]
 
-	But we still have a unitless criterion: $r=0$
-
-		ANS 0 times anything is really just zero
+	So how can $r=0$ be a criterion? 
+	
+		ANS Because 0 anything is unitless!
 
 		ANS Does 0km = 0cm?
 
@@ -1051,7 +1041,7 @@ SEC Growth and regulation
 
 ----------------------------------------------------------------------
 
-RSLIDE Long-term growth rate
+PRESLIDE Long-term growth rate
 
 BC
 
@@ -1150,7 +1140,7 @@ Balance
 
 Changing growth rates
 
-	NEWPOLL  What sort of factors can make species growth rates change?
+	POLL  What sort of factors can make species growth rates change?
 
 		ANS Seasonality
 

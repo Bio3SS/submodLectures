@@ -1,12 +1,12 @@
 use strict;
 use 5.10.0;
 
+## Change tag to NEWPOLL if messing with everywhere links
 $/ = "";
+my $tag = "POLL";
 
 while (<>){
-	## Call everything NEWPOLL until we've updated it
-	## Change back to NEWPOLL each year using make %.pollnew
-	next unless s/^\s*NEWPOLL\b\s*//;
+	next unless s/^\s*$tag\b\s*//;
 	chomp;
 
 	## Optionally have a pipe separating the lecture question from the everywhere question

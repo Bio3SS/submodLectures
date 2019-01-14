@@ -213,20 +213,20 @@ day1.complete.pdf: intro.txt
 Sources += $(wildcard *.pl)
 
 ### NEWPOLL was fun, but probably too fancy. 
+### The only real advantage is to put poll links into the notes
+### For lecture, just open a whole bunch of polls during setup
 
 ### Change POLL to NEWPOLL automatically (get rid of everywhere links)
 %.pollnew: %.txt
 	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
 
 ### Not using pollclean this year (auto-linking isn't working)
-### Instead I just open a whole bunch of polls in chrome during setup
 
 ### Change NEWPOLL back to POLL once link is added
 %.pollclean: %.txt
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
 
 ## Poll conversion
-## Wants NEWPOLL (idea is that we change to POLL once we get a link back from polleverywhere)
 ## Use semi-colons for MC
 ## | for separation (or ?; will that work for pdf outputs?)
 Ignore += *.poll.csv
