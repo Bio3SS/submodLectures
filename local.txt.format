@@ -35,6 +35,11 @@ outline: %!
 ## Useful syntax? Not used.
 POLLTEXT %? %| %!
 
+# Comments are shown in class, but not in the notes
+OLDCOMMENT %!
+complete: {\em\underline{Comment}: }%%
+draft final: {\color{oldshortcolor}\sl %%}
+
 ######################################################################
 
 ### Special reference

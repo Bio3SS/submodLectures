@@ -100,6 +100,8 @@ my_images/%:
 
 ######################################################################
 
+sandbox.draft.pdf: sandbox.txt
+
 # Unit 1 (Intro)
 
 intro.pollnew: 
