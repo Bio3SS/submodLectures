@@ -89,8 +89,8 @@ States and state variables
 
 Parameters
 
-	\textbf{Parameters} are the quantities that describe how the rules for
-	our system
+	CORRECTION \textbf{Parameters} are the quantities that describe how the
+	rules for our system work
 
 	Examples:
 
