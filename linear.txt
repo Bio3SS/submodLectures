@@ -244,6 +244,8 @@ BC
 
 		POLL Are there intermediate variables?
 
+			CORRECTION Number of seeds
+
 	Parameters 
 
 		ANS Seed production, survival to adulthood, adult survival
@@ -521,15 +523,17 @@ BC
 
 	What is $1\wk \cdot 0.02/\dd$?
 
-		ANS $1\wk \cdot 0.02\dd$
+		ANS $1\wk \cdot 0.02/\dd$
 
-		ANS $1\wk \cdot 0.02\dd \cdot \frac{7\dd}{\wk}$
+		ANS $1\wk \cdot 0.02/\dd \cdot \frac{7\dd}{\wk}$
 
 		ANS 0.14
 
 NC
 
 SIDEFIG webpix/espresso.jpg
+
+ADD Use hour not week
 
 EC
 
