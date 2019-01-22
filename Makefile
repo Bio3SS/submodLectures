@@ -56,7 +56,7 @@ pushdir = ../web/materials
 
 mdirs += age bd_models boxes compensation competition dd exploitation exponential life_history life_tables sims structure ts
 
-hotdirs += $(mdirs)
+hotdirs += $(mdirs) $(clonedirs)
 Sources += $(mdirs)
 
 ######################################################################

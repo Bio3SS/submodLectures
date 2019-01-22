@@ -12,6 +12,18 @@ TODO:
 
 ----------------------------------------------------------------------
 
+Updating
+========
+
+POLL (something)
+* Seems to be lecture specific up until now
+
+RSLIDE ⇒
+* PSLIDE (generic, present)
+* PRESLIDE (preview)
+* REPSLIDE (repeat)
+* FUNSLIDE (extra)
+
 2018
 ====
 

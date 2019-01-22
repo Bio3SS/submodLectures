@@ -69,7 +69,7 @@ Long-term growth rates
 
 Changing growth rates
 
-	POLL LINK  What is an example of a density-dependent mechanism that
+	POLL  What is an example of a density-dependent mechanism that
 	affects growth rate?
 
 		ANS Predators and diseases
@@ -158,7 +158,7 @@ Regulation works over the long term
 
 How do we know it's regulation?
 
-	POLL LINK Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
+	POLL Why don't we believe that population growth is controlled by factors that don't depend on the population itself?
 
 		ANS Because the long-term average value of $r$ has to be
 		\emph{very} close to 0
@@ -176,7 +176,7 @@ SS Population Examples
 
 ----------------------------------------------------------------------
 
-RSLIDE
+PRESLIDE
 
 Elk
 
@@ -190,13 +190,13 @@ DOUBLEFIG WA_Ebola_Outbreak/liberia.npc.tsplot.Rout-0.pdf WA_Ebola_Outbreak/libe
 
 ----------------------------------------------------------------------
 
-RSLIDE Paramecia
+PRESLIDE Paramecia
 
 DOUBLEPDF ts/paramecia.plot.Rout
 
 ----------------------------------------------------------------------
 
-RSLIDE Gypsy moths
+PRESLIDE Gypsy moths
 
 DOUBLEPDF ts/gm10165.plot.Rout
 
@@ -204,7 +204,7 @@ DOUBLEPDF ts/gm10165.plot.Rout
 
 Gypsy moths
 
-	POLL LINK  What are some factors that limit gypsy-moth populations?
+	POLL  What are some factors that limit gypsy-moth populations?
 
 	Which are likely to be affected by the moths?
 
@@ -497,7 +497,7 @@ States and state variables
 
 Parameters
 
-	POLL LINK What quantities describe the rules for this system?
+	POLL What quantities describe the rules for this system?
 
 		ANS $b_0$ [1/time]
 
@@ -560,19 +560,19 @@ Dynamics
 
 ----------------------------------------------------------------------
 
-RSLIDE What will this model do?
+PSLIDE What will this model do?
 
 FIG bd_models/birth.bd.Rout-0.pdf 
 
 ----------------------------------------------------------------------
 
-RSLIDE What will this model do?
+PSLIDE What will this model do?
 
 FIG bd_models/birth.bd.Rout-6.pdf 
 
 ----------------------------------------------------------------------
 
-RSLIDE What will this model do?
+PSLIDE What will this model do?
 
 FIG bd_models/birth.bd.Rout-8.pdf 
 
@@ -596,13 +596,13 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Low starting population example
+PSLIDE Low starting population example
 
 DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE High starting population example
+PSLIDE High starting population example
 
 DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-4.pdf
 
@@ -646,7 +646,7 @@ Individual-scale pictures
 
 ----------------------------------------------------------------------
 
-RSLIDE What will this model do?
+REPSLIDE What will this model do?
 
 DOUBLEFIG bd_models/birth.bd.Rout-8.pdf bd_models/birth.bd.Rout-2.pdf 
 
@@ -694,13 +694,13 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Decreasing birth rates
+REPSLIDE Decreasing birth rates
 
 FIG bd_models/birth.bd.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Increasing death rates
+PSLIDE Increasing death rates
 
 FIG bd_models/death.bd.Rout-0.pdf
 
@@ -784,16 +784,16 @@ Other examples
 
 ----------------------------------------------------------------------
 
-RSLIDE Maximum growth rates
+PRESLIDE Maximum growth rates
 
-	POLL LINK When does a population in this model have the fastest
+	POLL When does a population in this model have the fastest
 	\emph{per-capita} growth rate? | When is per capita growth fastest?
 
 		NOANS When density is low. 
 		
 		NOANS This is an assumption.
 
-	POLL LINK When does a population in this model have the fastest \emph{total}
+	POLL When does a population in this model have the fastest \emph{total}
 	growth rate? | When is total growth fastest?
 
 		NOANS Intermediate between low density and the carrying capacity.
@@ -802,13 +802,13 @@ RSLIDE Maximum growth rates
 
 ----------------------------------------------------------------------
 
-RSLIDE Individual perspective
+REPSLIDE Individual perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Population perspective
+REPSLIDE Population perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -832,13 +832,13 @@ Maximum growth rates
 
 ----------------------------------------------------------------------
 
-RSLIDE Individual perspective
+REPSLIDE Individual perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Population perspective
+REPSLIDE Population perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -874,7 +874,7 @@ Stable and unstable equilibria
 
 ----------------------------------------------------------------------
 
-RSLIDE Population perspective
+REPSLIDE Population perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -915,7 +915,7 @@ Basic reproductive number
 
 CONT
 
-	POLL LINK  What is \Ro\ in our current model? | What is R0?
+	POLL  What is \Ro\ in our current model? | What is R0?
 
 		ANS $\Ro=b(0)/d(0)$
 
@@ -939,7 +939,7 @@ Invasion
 
 Invasion examples
 
-	POLL LINK What are some examples of biological invasions?
+	POLL What are some examples of biological invasions?
 
 		NOANS
 
@@ -981,7 +981,7 @@ DOUBLEFIG bd_models/fail.bd.Rout-1.pdf bd_models/fail.bd.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Individual perspective
+REPSLIDE Individual perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
 
@@ -989,7 +989,7 @@ DOUBLEFIG bd_models/birth.bd.Rout-0.pdf bd_models/birth.bd.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Population perspective
+REPSLIDE Population perspective
 
 DOUBLEFIG bd_models/birth.bd.Rout-1.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -1028,7 +1028,7 @@ Characteristic times
 
 ----------------------------------------------------------------------
 
-RSLIDE Characteristic times
+PSLIDE Characteristic times
 
 DOUBLEFIG bd_models/birth.bd.Rout-2.pdf bd_models/birth.bd.Rout-3.pdf
 
@@ -1212,13 +1212,13 @@ TSS Simulating this system
 
 ----------------------------------------------------------------------
 
-RSLIDE What dynamics do we expect?
+PSLIDE What dynamics do we expect?
 
 FIG compensation/stable.plots.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE What dynamics do we expect?
+PSLIDE What dynamics do we expect?
 
 FIG compensation/stable.plots.Rout-1.pdf
 
@@ -1230,7 +1230,7 @@ DOUBLEPDF compensation/stable.plots.Rout
 
 ----------------------------------------------------------------------
 
-RSLIDE What dynamics do we get?
+PSLIDE What dynamics do we get?
 
 ----------------------------------------------------------------------
 
@@ -1278,7 +1278,7 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Interpreting complex behaviour 
+REPSLIDE Interpreting complex behaviour 
 
 DOUBLEPDF compensation/two.plots.Rout
 
@@ -1290,7 +1290,7 @@ Complex behaviour in our simulations
 
 		ANS We assume it goes down
 
-	POLL LINK  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
+	POLL  In our simple models, as $N_T$ increases, what happens to next year's population? | What happens to next year's population as N_T increases?
 
 		ANS $\Nprime = \lambda(N) N_T$
 
@@ -1392,7 +1392,7 @@ Contest competition
 
 ----------------------------------------------------------------------
 
-RSLIDE Contest competition
+PSLIDE Contest competition
 
 BC
 
@@ -1446,7 +1446,7 @@ BC
 
 	Some plant populations are limited by water, and some by light
 
-	POLL LINK  Which is more likely to work out as a scramble?
+	POLL  Which is more likely to work out as a scramble?
 
 		ANS Light is very likely to work out as a ``contest'' -- the
 		taller individuals will win and do OK
@@ -1492,7 +1492,7 @@ Complex behaviour in real populations
 
 ----------------------------------------------------------------------
 
-RSLIDE Paramecia
+REPSLIDE Paramecia
 
 DOUBLEPDF ts/paramecia.plot.Rout
 
@@ -1504,7 +1504,7 @@ DOUBLEFIG ts/paramecia.plot.Rout-3.pdf ts/paramecia.plot.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Elk
+REPSLIDE Elk
 
 DOUBLEPDF ts/elk.elkplot.Rout
 
@@ -1588,7 +1588,7 @@ Our model
 
 ----------------------------------------------------------------------
 
-RSLIDE Arrows with time delay
+PSLIDE Arrows with time delay
 
 FIG bd_models/birth.bd.Rout-8.pdf
 
@@ -1596,7 +1596,7 @@ FIG bd_models/birth.bd.Rout-8.pdf
 
 Model dynamics
 
-	POLL LINK  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
+	POLL  If a population is growing, what will happen as it approaches the equilibrium? | What happens as a growing population approaches equilibrium?
 
 		ANS It \emph{keeps} growing
 
@@ -1690,7 +1690,7 @@ Example
 
 BC
 
-	POLL LINK  What would happen if I released one butterfly into a new, highly suitable habitat?
+	POLL  What would happen if I released one butterfly into a new, highly suitable habitat?
 
 		NOANS
 
@@ -1732,7 +1732,7 @@ TSS Allee effects
 
 CONT What causes Allee effects?
 
-	POLL LINK  Why might growth rates be low when populations are small?
+	POLL  Why might growth rates be low when populations are small?
 
 		ANS Individuals may have trouble finding mates
 
@@ -1797,7 +1797,7 @@ DOUBLEFIG bd_models/allee.bd.Rout-5.pdf bd_models/allee.bd.Rout-7.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Population comparison
+REPSLIDE Population comparison
 
 DOUBLEFIG bd_models/allee.bd.Rout-1.pdf bd_models/birth.bd.Rout-9.pdf
 
@@ -1898,7 +1898,7 @@ Allee effect summary
 
 	Population may go extinct if it drops below a certain threshold
 
-	POLL LINK  How come the population is there in the first place if there's an Allee effect?
+	POLL  How come the population is there in the first place if there's an Allee effect?
 
 		ANS Maybe it's a weak effect
 
