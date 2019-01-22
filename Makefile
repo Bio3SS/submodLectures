@@ -37,7 +37,6 @@ $(ms)/Makefile:
 
 ## A special module (should probably be a clone)
 ## Resting! investigate
-specdirs += WA_Ebola_Outbreak
 Ignore += $(specdirs)
 
 Sources += popmodules.mk
@@ -45,6 +44,8 @@ include popmodules.mk
 
 ## Move up one level. Use?
 ## clonedirs += wayback
+
+clonedirs += WA_Ebola_Outbreak
 
 pushdir = ../web/materials
 
