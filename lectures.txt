@@ -24,6 +24,12 @@ RSLIDE ⇒
 * REPSLIDE (repeat)
 * FUNSLIDE (extra)
 
+ADD, COMMENT, EXTRA, REMARK, CORRECTION
+
+Make polls
+
+Distribute handouts
+
 2018
 ====
 

@@ -1052,10 +1052,6 @@ Dynamics of density-dependent populations
 
 ----------------------------------------------------------------------
 
-EXTRA The following plots do not appear in the notes until here. Good practice?
-
-----------------------------------------------------------------------
-
 Paramecia
 
 DOUBLEPDF ts/paramecia.plot.Rout
