@@ -46,6 +46,8 @@ include popmodules.mk
 ## clonedirs += wayback
 
 clonedirs += WA_Ebola_Outbreak
+WA_Ebola_Outbreak:
+	git clone https://github.com/Outbreak-analysis/WA_Ebola_Outbreak.git
 
 pushdir = ../web/materials
 
