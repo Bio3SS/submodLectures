@@ -798,7 +798,7 @@ PRESLIDE Maximum growth rates
 
 		NOANS Intermediate between low density and the carrying capacity.
 		
-		NOANS This is a something we learn from the model
+		NOANS This is something we learn from the model!
 
 ----------------------------------------------------------------------
 
@@ -920,6 +920,10 @@ CONT
 		ANS $\Ro=b(0)/d(0)$
 
 		ANS $\Ro$, $b(0)$, and $d(0)$ are limits
+
+			ANS Nothing actually grows or dies when $N=0$
+
+ADD A leading statement for the second question: how does that make sense?
 
 ----------------------------------------------------------------------
 
