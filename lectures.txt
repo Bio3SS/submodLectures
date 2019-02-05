@@ -8,7 +8,8 @@ TODO:
 
 * Intro: 4 lectures
 * Linear: ~4?
-* Nonlinear
+* Nonlinear: ~6
+* Midterm 1 after lecture 15.
 
 ----------------------------------------------------------------------
 
