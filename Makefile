@@ -241,7 +241,16 @@ Ignore += *.poll.csv
 
 ######################################################################
 
-## Pix (too many!!)
+## Midterm complete notes
+
+midterm1.txt: nonlinear.txt Makefile
+	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Midterm 1 extra notes/" > $@
+## midterm1.complete.pdf: nonlinear.txt
+
+
+######################################################################
+
+## Pixfiles (too many!!)
 aging.html: aging.step
 competition.html: competition.step
 dandelions.html: dandelions.step
