@@ -110,7 +110,7 @@ Polling
 
 		Text from your cell phone, or answer on the web
 
-	NEWPOLL  Why are you taking this class?
+	POLL  Why are you taking this class?
 
 ----------------------------------------------------------------------
 
@@ -180,9 +180,9 @@ WIDEFIG weitz_full.pdf
 
 Students
 
-	NEWPOLL  What year are you in?
+	POLL  What year are you in?
 
-	NEWPOLL  What kind of career are you aiming for?
+	POLL  What kind of career are you aiming for?
 
 ----------------------------------------------------------------------
 
@@ -200,7 +200,7 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	NEWPOLL  What is ecology?
+	POLL  What is ecology?
 
 	My answer
 
@@ -211,7 +211,7 @@ TSS Learning goals
 
 ----------------------------------------------------------------------
 
-	NEWPOLL  What is population ecology?
+	POLL  What is population ecology?
 
 	My answer
 
@@ -353,7 +353,7 @@ EC
 
 Populations 
 
-	NEWPOLL  What population of organisms interests you?
+	POLL  What population of organisms interests you?
 
 ----------------------------------------------------------------------
 

@@ -10,6 +10,8 @@ TODO:
 * Linear: ~4?
 * Nonlinear: ~6
 * Midterm 1 after lecture 15.
+	* Instead we had a lecture cancelled and everything in chaos
+** Starting Unit 4 (name?) on Mon 11
 
 ----------------------------------------------------------------------
 

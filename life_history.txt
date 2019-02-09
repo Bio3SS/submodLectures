@@ -8,7 +8,7 @@ TSEC Introduction
 	{\bf Life history} refers to patterns of how organisms allocate
 	resources to key components underlying reproductive success:
 
-	NEWPOLL  Give a one-word example of such a component. 
+	POLL  Give a one-word example of such a component. 
 
 		ANS Survival
 
@@ -59,7 +59,7 @@ Oaks and dandelions
 
 		ANS Water, sunlight, nutrients
 
-	NEWPOLL  What are some differences?
+	POLL  What are some differences?
 
 		ANS Oak trees are bigger
 
@@ -347,7 +347,7 @@ Tradeoff example: many offspring vs.~high-quality offspring
 
 		ANS Tsetses vs. mosquitoes
 
-	NEWPOLL  What are potential advantages of producing fewer offspring with the same amount of energy?
+	POLL  What are potential advantages of producing fewer offspring with the same amount of energy?
 
 		ANS Greater chance of survival (or reproductive success)
 
@@ -512,9 +512,9 @@ Measuring $K$
 
 	Which has a higher value of $K$?
 
-		NEWPOLL  In [indiv/ha]? Which has a higher carrying capacity [indiv/ha]? maples; marigolds
+		POLL  In [indiv/ha]? Which has a higher carrying capacity [indiv/ha]? maples; marigolds
 
-		NEWPOLL  In [kg/ha]? Which has a higher carrying capacity [kg/ha]? maples; marigolds
+		POLL  In [kg/ha]? Which has a higher carrying capacity [kg/ha]? maples; marigolds
 
 	To compare species, we attempt to measure $K$ in units that reflect
 	the effect of crowding on the competitive environment
@@ -668,7 +668,7 @@ Changing conditions
 
 		ANS Fast
 
-	NEWPOLL  When conditions are bad ($\R<1$),
+	POLL  When conditions are bad ($\R<1$),
 	should organisms be fast or slow to maximize $\lambda$?  Should organisms be fast or slow to maximize λ under bad conditions? fast; slow; it depends
 
 		ANS Slow!
@@ -684,7 +684,7 @@ Changing life history
 
 		ANS Move slow when things are bad, and fast when things are good
 
-	NEWPOLL  What are some examples? Can you think of an example of changing life-history patterns?
+	POLL  What are some examples? Can you think of an example of changing life-history patterns?
 
 		ANS Many animals reach sexual maturity faster under good
 		conditions: horses, elephants
@@ -708,14 +708,14 @@ Applications
 	What are advantages of $r$ or $K$ strategists for human production (eg.
 	biofuels, agriculture, drug production etc..)?
 
-	NEWPOLL  What are some advantages of $r$ strategists?
+	POLL  What are some advantages of $r$ strategists?
 	What are some advantages of r strategists?
 
 		ANS grow faster
 
 		ANS likely to respond well to disturbance
 
-	NEWPOLL  What are some advantages of $K$ strategists?
+	POLL  What are some advantages of $K$ strategists?
 	What are some advantages of K strategists?
 
 		ANS may be more sustainable to grow for a long
@@ -787,7 +787,7 @@ Example: plant Q
 
 	The three kinds of year are equally likely
 	
-	NEWPOLL  What is the long term average growth rate of plant Q?
+	POLL  What is the long term average growth rate of plant Q?
 
 		ANS The geometric mean of 6, 0.6 and 0.06: $\lambda=0.6$
 
@@ -805,7 +805,7 @@ Plant D
 	but they disperse so far (in this hypothetical example) that 1/3 of
 	them experience good, normal and bad conditions every year.
 
-	NEWPOLL  What is the average growth rate of plant D?
+	POLL  What is the average growth rate of plant D?
 
 		ANS Average survival is the mean of 0.2, 0.02, and 0.002
 
@@ -910,7 +910,7 @@ Why is it called bet hedging?
 
 TSEC Sex ratios
 
-	NEWPOLL  To maximize fitness, should organisms allocate more resources to producing males or females? | Organisms can maximize fitness by allocating:
+	POLL  To maximize fitness, should organisms allocate more resources to producing males or females? | Organisms can maximize fitness by allocating:
 	equally; more to males; more to females
 
 		ANS They should allocate more resources to females because it is
@@ -989,13 +989,13 @@ Sex ratio and balance
 	Thus, the \emph{number} of offspring I can make does not depend on
 	sex
 
-	NEWPOLL  If everyone else is making more males than females, what should I
+	POLL  If everyone else is making more males than females, what should I
 	do? | If everyone else is making more males than females I should allocate:  equally; more to males; more to females
 
 		ANS Make more females, because that will increase my average
 		fitness
 
-	NEWPOLL How will this population evolve in the long term?
+	POLL How will this population evolve in the long term?
 
 		ANS More and more females
 
@@ -1036,7 +1036,7 @@ BC
 
 		Most sex is between brothers and sisters
 
-		NEWPOLL What offspring ratio would maximize the mother's fitness in this
+		POLL What offspring ratio would maximize the mother's fitness in this
 		case?
 
 			ANS Have mostly female offspring

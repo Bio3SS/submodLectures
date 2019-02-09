@@ -119,7 +119,7 @@ Polling
 
 		Text from your cell phone, or answer on the web
 
-	NEWPOLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
+	POLL  Why are you taking this class? Fits my career plans; Prerequisite for another course; Need a biology elective; Fits my schedule; Interested in ecology; Interested in quantitative biology
 
 ----------------------------------------------------------------------
 
@@ -231,9 +231,9 @@ TAs
 
 Students
 
-	NEWPOLL   What year are you in? First; Second; Third; Fourth; other
+	POLL   What year are you in? First; Second; Third; Fourth; other
 
-	NEWPOLL   What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
+	POLL   What kind of career are you aiming for?  Health care or medicine; Government or public health; Research; Teaching; Corporate; Entrepreneur or small business; Other
 
 ----------------------------------------------------------------------
 
@@ -253,7 +253,7 @@ TSS Learning goals
 
 Ecology
 
-	NEWPOLL   What is ecology?
+	POLL   What is ecology?
 
 	My answer
 
@@ -266,7 +266,7 @@ Ecology
 
 Population ecology
 
-	NEWPOLL   What is population ecology?
+	POLL   What is population ecology?
 
 	My answer
 

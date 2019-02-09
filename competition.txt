@@ -99,11 +99,11 @@ Flour beetles
 	The larger species survives better in drier conditions, and the
 	smaller species reproduces faster in moister conditions
 
-	NEWPOLL  What outcomes do you expect under wet vs dry conditions?
+	POLL  What outcomes do you expect under wet vs dry conditions?
 
 		ANS Each species wins when conditions are better for it
 
-	NEWPOLL  What if I ``tune" the conditions to something in between? What if I tune the conditions to something in between?
+	POLL  What if I ``tune" the conditions to something in between? What if I tune the conditions to something in between?
 
 		ANS The species could both survive together
 
@@ -332,9 +332,9 @@ Balanced competition example
 	$\alpha_{21}$ is $4 \indiv_1/\indiv_2$
 
 <<<<<<< HEAD
-	NEWPOLL  Which species is bigger? 1; 2
+	POLL  Which species is bigger? 1; 2
 =======
-	NEWPOLL  Which species is bigger?
+	POLL  Which species is bigger?
 >>>>>>> 436a764d876e87a4c34028e33b054e118ea3302d
 
 		ANS $4 indiv_1$ have as much impact as $indiv_2$
@@ -358,7 +358,7 @@ FIG webpix/water_compete.jpg
 
 Balanced competition
 
-	NEWPOLL  What results do we expect from balanced competition?
+	POLL  What results do we expect from balanced competition?
 
 		ANS It seems like the bigger species should win
 
@@ -424,7 +424,7 @@ Coexistence
 
 	Coexistence \emph{may} occur when $C<1$
 
-	NEWPOLL  Why might individuals have relatively weaker competitive interactions with members of the other species?
+	POLL  Why might individuals have relatively weaker competitive interactions with members of the other species?
 
 		ANS They may compete for mates or mating sites
 
@@ -482,7 +482,7 @@ Founder control
 
 	Founder control \emph{may} occur when $C>1$
 
-	NEWPOLL  Why might individuals have relatively stronger competitive interactions with members of the other species?
+	POLL  Why might individuals have relatively stronger competitive interactions with members of the other species?
 
 		ANS Conspecifics might co-operate to defend resources
 
@@ -566,7 +566,7 @@ Results of competition
 	$C$ may stay (about) the same, even as we switch conditions so that
 	one or the other species dominates
 
-	NEWPOLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance? What are the possible results, other than dominance?
+	POLL  $C$ tells us what will happen \emph{if} neither species is dominating. What are the possible results, other than dominance? What are the possible results, other than dominance?
 
 		ANS Founder effects, neutrality or coexistence
 
@@ -743,7 +743,7 @@ Founder control
 	But from the point of view of the competing species, it's pretty
 	important which one of them gets control
 
-	NEWPOLL  What factors determine who gets control?
+	POLL  What factors determine who gets control?
 
 		ANS Who gets there first
 
@@ -784,7 +784,7 @@ TSS Colonization and co-existence
 		$r$ strategists do better in the short term; $K$ strategists do
 		better do better in the long term
 	
-	NEWPOLL  When can you survive by doing better in the short term?
+	POLL  When can you survive by doing better in the short term?
 
 		ANS When new opportunities (empty habitat) keep coming available
 
@@ -945,7 +945,7 @@ Competitive exclusion and biodiversity
 	
 	\ldots but it must also break down 
 
-	NEWPOLL  How? Why do we observe species co-existing?
+	POLL  How? Why do we observe species co-existing?
 
 		ANS Species may not use resources in the same way
 

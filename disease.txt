@@ -25,7 +25,7 @@ Infectious disease
 
 Disease agents
 
-	NEWPOLL  Name an infectious agent that causes disease in humans.
+	POLL  Name an infectious agent that causes disease in humans.
 
 	Disease agents vary tremendously:
 
@@ -117,7 +117,7 @@ EC
 
 TSEC Rate of spread
 
-	NEWPOLL  For many diseases, especially new diseases, we can \emph{observe}
+	POLL  For many diseases, especially new diseases, we can \emph{observe}
 	and \emph{estimate} $r$. | What is r?
 
 		ANS Instantaneous rate of increase (per capita)
@@ -126,7 +126,7 @@ TSEC Rate of spread
 
 			ANS Gives the exponential rate of spread
 
-	NEWPOLL  Want to know what factors contribute to that, and how it relates to
+	POLL  Want to know what factors contribute to that, and how it relates to
 	\R. | What is R?
 
 		ANS number of new cases per case
@@ -292,7 +292,7 @@ Conceptual modeling
 
 BC
 
-	NEWPOLL  What happens in the long term if we introduce an infectious individual?
+	POLL  What happens in the long term if we introduce an infectious individual?
 
 		ANS The \emph{may be} an \textbf{epidemic} -- an outbreak of
 		disease
@@ -398,7 +398,7 @@ DOUBLEFIG sims/burnouts.plots.Rout-0.pdf sims/burnouts.plots.Rout-4.pdf
 
 Basic reproductive number
 
-	NEWPOLL  What \emph{unitless} parameter can you make from the model above?
+	POLL  What \emph{unitless} parameter can you make from the model above?
 	How can you make a unitless parameter reflecting disease spread?
 
 		ANS $\Ro = \beta D = \beta/\gamma$ is the \textbf{basic
@@ -418,7 +418,7 @@ Basic reproductive number
 
 Basic reproductive number implications
 
-	NEWPOLL  What happens early in the epidemic if $\Ro>1$?
+	POLL  What happens early in the epidemic if $\Ro>1$?
 	What happens early in the epidemic if Ro>1?
 
 		ANS Number of infected individuals grows exponentially
@@ -522,11 +522,11 @@ EC
 
 What limits epidemics?
 
-	NEWPOLL  What limits epidemics in our simple models?
+	POLL  What limits epidemics in our simple models?
 
 		ANS Depletion of susceptibles
 
-	NEWPOLL  What else limits epidemics in real life?
+	POLL  What else limits epidemics in real life?
 
 		ANS Interventions
 
@@ -540,7 +540,7 @@ TSEC Recurrent epidemic models
 
 BC
 
-	NEWPOLL 
+	POLL 
 	If epidemics tend to burn out, why do we often see repeated
 	epidemics?
 
@@ -660,7 +660,7 @@ Reciprocal control
 
 Reciprocal control
 
-	NEWPOLL  What happens if we remove infectious individuals at a constant rate (find them and cure them or isolate them)?
+	POLL  What happens if we remove infectious individuals at a constant rate (find them and cure them or isolate them)?
 	What happens if we remove infectious individuals at a constant rate?
 
 		ANS We need more susceptibles to balance $dI/dt$
@@ -714,7 +714,7 @@ Persistent oscillations
 
 BC
 
-	NEWPOLL  If oscillations tend to be damped in simple models, why do they
+	POLL  If oscillations tend to be damped in simple models, why do they
 	persist in real life?
 
 		ANS Weather
@@ -791,7 +791,7 @@ Examples:
 
 	Polio has an $\Ro$ of about 5.
 
-	NEWPOLL  What proportion of the population
+	POLL  What proportion of the population
 	should be vaccinated to eliminate polio?
 
 		ANS At least 1-1/5 = 80%

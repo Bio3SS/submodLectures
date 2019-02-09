@@ -108,7 +108,6 @@ sandbox.draft.pdf: sandbox.txt
 
 # Unit 1 (Intro)
 
-intro.pollnew: 
 ## intro.pollclean: 
 intro.poll.csv: intro.txt pollcsv.pl
 intro.html: intro.step
@@ -147,8 +146,6 @@ nonlinear.handouts.pdf: nonlinear.txt
 nonlinear.complete.pdf: nonlinear.txt
 
 # Unit 4 (Structured populations)
-structure.pollnew: 
-## structure.pollclean: 
 structure.poll.csv: structure.txt pollcsv.pl
 structure.html: structure.step
 structure.outline.pdf: structure.txt
@@ -159,7 +156,6 @@ structure.handouts.pdf: structure.txt
 structure.complete.pdf: structure.txt
 
 # Unit 5 (Life history)
-life_history.pollnew: 
 ## life_history.pollclean: 
 life_history.poll.csv: life_history.txt pollcsv.pl
 life_history.html: life_history.step
@@ -171,7 +167,6 @@ life_history.handouts.pdf: life_history.txt
 life_history.complete.pdf: life_history.txt
 
 # Unit 6 (competition)
-competition.pollnew: 
 ## competition.pollclean: 
 competition.poll.csv: competition.txt pollcsv.pl
 competition.html: competition.step
@@ -183,7 +178,6 @@ competition.handouts.pdf: competition.txt
 competition.complete.pdf: competition.txt
 
 # Unit 7 (exploitation)
-exploitation.pollnew: 
 ## exploitation.pollclean: 
 exploitation.poll.csv: exploitation.txt pollcsv.pl
 exploitation.html: exploitation.step
@@ -195,7 +189,6 @@ exploitation.handouts.pdf: exploitation.txt
 exploitation.complete.pdf: exploitation.txt
 
 # Unit 8 (Disease)
-disease.pollnew: 
 ## disease.pollclean: 
 disease.poll.csv: disease.txt pollcsv.pl
 disease.html: disease.step
@@ -218,19 +211,13 @@ day1.complete.pdf: intro.txt
 
 Sources += $(wildcard *.pl)
 
-### NEWPOLL was fun, but probably too fancy. 
-### The only real advantage is to put poll links into the notes
-### For lecture, just open a whole bunch of polls during setup
+### NEWPOLL gone 2019 Feb 09 (Sat); don't use poll links anymore
 
-### Change POLL to NEWPOLL automatically (get rid of everywhere links)
-%.pollnew: %.txt
-	perl -pi -e 's/\bPOLL\b\s*\S*/NEWPOLL /' $<
-
-### Not using pollclean this year (auto-linking isn't working)
-
+## This can go for 2020 (still using it to clean 2018 lectures)
 ### Change NEWPOLL back to POLL once link is added
 %.pollclean: %.txt
 	perl -pi -e "s|NEWPOLL.*?everywhere.com/|POLL |" $<
+
 
 ## Poll conversion
 ## Use semi-colons for MC
@@ -243,10 +230,17 @@ Ignore += *.poll.csv
 
 ## Midterm complete notes
 
+## Deprecated 2019 Feb 09 (Sat)
 midterm1.txt: nonlinear.txt Makefile
 	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Midterm 1 extra notes/" > $@
 ## midterm1.complete.pdf: nonlinear.txt
 
+## New paradigm 2019 Feb 09 (Sat)
+## Remember to search/destroy old CUTOFF before using
+## If we keep these intermediate, they should disappear (and not be committed)
+nonlinear.cut.complete.pdf:
+%.cut.txt: %.txt
+	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Midterm 1 extra notes/" > $@
 
 ######################################################################
 
