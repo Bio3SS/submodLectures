@@ -69,7 +69,7 @@ draft final: ^DEFHEAD {\sl %%}
 webnotes complete: ^DEFHEAD {\underline{Comment slide}: \sl %%}
 
 # Question slide for class and _incomplete_ notes
-QSLIDE %%
+QSLIDE ^DEFHEAD %%
 complete: NULLSLIDE
 
 # Continue a slide with the same heading

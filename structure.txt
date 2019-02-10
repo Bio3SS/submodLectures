@@ -99,7 +99,7 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Example: biennial dandelions
+REPSLIDE Example: biennial dandelions
 
 	Imagine a population of dandelions
 
@@ -154,8 +154,6 @@ What determines $\R$?
 		ANS 0.4 adults your second year
 
 	ANS $\R=1.2$
-
-CHANGE CC: Explaining how to calculate R on the board was helpful I think but probably go a little slower
 
 ----------------------------------------------------------------------
 
@@ -301,8 +299,6 @@ TSEC Constructing a model
 
 	Parameters: $p$ and $f$ \emph{for each age that we are modeling}
 
-CHANGE CC: Helpful to draw the table of what is happening to each age-class next year but probably a little slower for the explanations
-
 ----------------------------------------------------------------------
 
 When to count
@@ -354,6 +350,8 @@ Closing the loop
 		$p_x$ has units [age $x+1$ indiv (at census time)]/[age $x$ indiv
 		(at census time)]
 
+	COMMENT Diagram
+
 ----------------------------------------------------------------------
 
 The structured model
@@ -399,6 +397,12 @@ Long-term dynamics
 	POLL  What are the long-term dynamics of such a system?
 
 		ANS Exponential growth or exponential decline
+
+	CLASS HREF http://tinyurl.com/DandelionModel2019 Spreadsheet
+
+	NOTES HLINK http://tinyurl.com/DandelionModel2019
+
+	ADD Make a command for this; it's cool
 
 ----------------------------------------------------------------------
 
@@ -500,11 +504,11 @@ SS Examples
 
 Dandelion example
 
-CLASS HIGHFIG webpix/dandy_field.jpg
+CLASS FIG webpix/dandy_field.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Example: biennial dandelions
+REPSLIDE Example: biennial dandelions
 
 	Adults produce 80 seeds each
 
@@ -524,7 +528,7 @@ INPUT life_tables/dandy.skeleton.tab.tex
 
 ----------------------------------------------------------------------
 
-RSLIDE Dandelion life table
+REPSLIDE Dandelion life table
 
 INPUT life_tables/dandy.empty.tab.tex
 
@@ -542,13 +546,13 @@ FIG structure/dandy.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Dandelion dynamics
+PSLIDE Dandelion population dynamics
 
 FIG structure/dandy.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Dandelion dynamics
+PSLIDE Dandelion age dynamics
 
 FIG structure/dandy.Rout-2.pdf
 
@@ -562,7 +566,7 @@ DOUBLEFIG structure/dandy.Rout-1.pdf structure/dandy.Rout-2.pdf
 
 Squirrel example
 
-CLASS HIGHFIG webpix/grey_squirrel.jpg
+CLASS FIG webpix/grey_squirrel.jpg
 
 ----------------------------------------------------------------------
 
@@ -592,21 +596,21 @@ INPUT life_tables/sq.tab.tex
 
 ----------------------------------------------------------------------
 
-RSLIDE Gray squirrel dynamics
+Gray squirrel dynamics
 
 FIG structure/squirrels.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Gray squirrel dynamics
+PSLIDE Gray squirrel population dynamics
 
-FIG structure/squirrels.Rout-2.pdf
+FIG structure/squirrels.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Gray squirrel dynamics
+PSLIDE Gray squirrel age dynamics
 
-FIG structure/squirrels.Rout-1.pdf
+FIG structure/squirrels.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
@@ -616,7 +620,7 @@ DOUBLEFIG structure/squirrels.Rout-2.pdf structure/squirrels.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE The structured model
+REPSLIDE The structured model
 
 WIDEFIG my_images/structure_cc.png
 
@@ -642,29 +646,30 @@ INPUT life_tables/salmon.tab.tex
 
 ----------------------------------------------------------------------
 
-RSLIDE Salmon example
+PSLIDE Salmon example
 
 WIDEFIG webpix/salmon.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Salmon dynamics
+PSLIDE Salmon dynamics
 
 FIG structure/salmon.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Salmon dynamics
+PSLIDE Salmon population dynamics
+
+FIG structure/salmon.Rout-1.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Salmon age dynamics
 
 FIG structure/salmon.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Salmon dynamics
-
-FIG structure/salmon.Rout-1.pdf
-
-----------------------------------------------------------------------
 
 Salmon dynamics
 
@@ -704,7 +709,7 @@ When do we start counting?
 
 ----------------------------------------------------------------------
 
-RSLIDE Example: biennial dandelions
+REPSLIDE Example: biennial dandelions
 
 	Adults produce 80 seeds each ($m_x$)
 
@@ -715,8 +720,6 @@ RSLIDE Example: biennial dandelions
 	Second-year adults never survive
 
 	What does the life table look like?
-
-CHANGE CC: It was cool that you re-do the life table on the board (life cycle+calculation with explanation at the same time)
 
 ----------------------------------------------------------------------
 
@@ -767,9 +770,9 @@ The effect of old individuals
 
 		POLL  Extreme how? |  How are these values extreme?
 
-		ANS In most populations $\ell$ can be very small for large $x$
+			ANS In most populations $\ell$ can be very small for large $x$
 
-		ANS In many populations, $f$ can be very large for large $x$
+			ANS In many populations, $f$ can be very large for large $x$
 
 	Reproductive potential of old individuals \emph{may} or \emph{may
 	not} be important
@@ -777,8 +780,8 @@ The effect of old individuals
 		ANS In many tree populations, most individuals don't survive to get huge,
 		but the huge trees may have most of the total reproduction
 
-		ANS In many bird populations, old birds produce fairly well, but not
-		nearly enough to outweigh the low probability of being old.
+		ANS In many bird populations, old birds produce well, but not
+		enough to outweigh the low probability of surviving to get old.
 
 ----------------------------------------------------------------------
 
@@ -895,8 +898,6 @@ Studying population growth
 		More useful in cases where we expect the life table to be
 		constant with exponential growth or decline for a long time
 
-  CHANGE MK: In tutorial I showed how lambda changes per generation as the age distribution is approaching its stable distribution, which seemed to help students. Maybe include a quick calculation?
-
 ----------------------------------------------------------------------
 
 Growth and decline
@@ -912,7 +913,7 @@ Growth and decline
 		In a declining population, what happens late in life is more
 		important to $\lambda$ than to \R.
 
-	Which is likely to be more important to ecology and evolution?
+	POLL Which is likely to be more important to ecology and evolution?
 
 		ANS The two phases (growth and decline) will be roughly balanced
 
@@ -957,25 +958,25 @@ Starting off
 		ANS 1
 
 		ANS $\ell_1$ is the probability you're counted at age class 1,
-		\emph{given} that you're counted at age class 1.
+		\emph{given that} you're counted at age class 1.
 
 		ANS We don't count individuals that we don't count
 
 ----------------------------------------------------------------------
 
-RSLIDE Constant survivorship
+PSLIDE Constant survivorship
 
 FIG age/const.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Constant survivorship
+PSLIDE Constant survivorship
 
 FIG age/const.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Constant survivorship
+PSLIDE Constant survivorship
 
 FIG age/const.Rout-1.pdf
 
@@ -1002,17 +1003,18 @@ DEFHEAD ``Types'' of survivorship
 
 ----------------------------------------------------------------------
 
-RSLIDE Changing survivorship
+PSLIDE Changing survivorship
 
 FIG age/arch.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Changing survivorship
+PSLIDE Changing survivorship
 
 FIG age/arch.Rout-1.pdf
 
 ----------------------------------------------------------------------
+
 Changing survivorship
 
 DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
@@ -1176,7 +1178,7 @@ University cohorts
 
 ----------------------------------------------------------------------
 
-RSLIDE Changing survivorship
+REPSLIDE Changing survivorship
 
 DOUBLEFIG age/arch.Rout-0.pdf age/arch.Rout-1.pdf
 
@@ -1200,7 +1202,7 @@ FIG age/arch_sad.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE The Euler equation
+REPSLIDE The Euler equation
 
 	If the life table doesn't change, then $\lambda$ is given by $\sum_x
 	\ell_x f_x \lambda^{-x} = 1$
@@ -1376,3 +1378,10 @@ Dynamics
 
 		whether the population has been growing or declining recently
 
+----------------------------------------------------------------------
+
+EXTRA
+
+	Better conclusion?
+
+	More balance with non-exponential populations?
