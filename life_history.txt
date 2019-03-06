@@ -8,7 +8,7 @@ TSEC Introduction
 	{\bf Life history} refers to patterns of how organisms allocate
 	resources to key components underlying reproductive success:
 
-	POLL  Give a one-word example of such a component. 
+	POLL  Give a one-word example of a fundamental component of success
 
 		ANS Survival
 
@@ -35,7 +35,7 @@ Diversity
 
 ----------------------------------------------------------------------
 
-RSLIDE Oaks and dandelions
+PSLIDE Oaks and dandelions
 
 BC
 
@@ -73,7 +73,7 @@ Oaks and dandelions
 
 ----------------------------------------------------------------------
 
-RSLIDE Strategies
+PSLIDE Strategies
 
 BCC
 
@@ -101,13 +101,13 @@ Scales of competition
 
 ----------------------------------------------------------------------
 
-RSLIDE Within species
+PSLIDE Within species
 
 FIG webpix/mallard_nest.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Between populations
+PSLIDE Between populations
 
 FIG webpix/tree_competition.jpg
 
@@ -131,13 +131,13 @@ TSEC Tradeoffs
 
 ----------------------------------------------------------------------
 
-RSLIDE Tradeoffs
+PSLIDE Tradeoffs
 
 FIG webpix/bamboo.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Tradeoffs
+PSLIDE Tradeoffs
 
 FIG webpix/peacock.jpg
 
@@ -153,13 +153,13 @@ Optimization frontiers
 
 ----------------------------------------------------------------------
 
-RSLIDE Optimization frontiers
+PSLIDE Optimization frontiers
 
 FIG life_history/frontier.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Optimization frontiers
+PSLIDE Optimization frontiers
 
 FIG life_history/frontier.Rout-1.pdf
 
@@ -219,13 +219,13 @@ Programmed optimization
 
 ----------------------------------------------------------------------
 
-RSLIDE Programmed optimization
+PSLIDE Programmed optimization
 
 FIG webpix/moth_light.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Programmed optimization
+PSLIDE Programmed optimization
 
 HIGHFIG webpix/teenage_couple.jpg
 
@@ -279,13 +279,13 @@ Semelparity
 
 ----------------------------------------------------------------------
 
-RSLIDE Semele
+PSLIDE Semele
 
 HIGHFIG webpix/semele.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Cole's paradox
+PSLIDE Cole's paradox
 
 FIG webpix/tomato.jpg
 
@@ -328,7 +328,7 @@ Responses to Cole
 
 ----------------------------------------------------------------------
 
-RSLIDE Responses to Cole
+PSLIDE Responses to Cole
 
 SIDEFIG webpix/jungle.jpg
 
@@ -359,7 +359,7 @@ Tradeoff example: many offspring vs.~high-quality offspring
 
 ----------------------------------------------------------------------
 
-RSLIDE How many offspring?
+PSLIDE How many offspring?
 
 BCC
 
@@ -373,13 +373,13 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE How many offspring?
+PSLIDE How many offspring?
 
 FIG webpix/mosquito_laying.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE How many offspring?
+PSLIDE How many offspring?
 
 FIG webpix/tsetse_laying.jpg
 
@@ -404,19 +404,19 @@ Tradeoff: direct investment vs.~dispersal investment
 
 ----------------------------------------------------------------------
 
-RSLIDE Dispersal investment
+PSLIDE Dispersal investment
 
 FIG webpix/mulberries.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Dispersal investment
+PSLIDE Dispersal investment
 
 FIG webpix/maple_fruit.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Dispersal investment
+PSLIDE Dispersal investment
 
 FIG webpix/sandbox_fruit.jpg
 
@@ -483,7 +483,7 @@ DEFHEAD $K$-strategists
 
 ----------------------------------------------------------------------
 
-RSLIDE Maples and marigolds
+PSLIDE Maples and marigolds
 
 BC
 
@@ -523,7 +523,7 @@ Measuring $K$
 
 ----------------------------------------------------------------------
 
-RSLIDE Strategies
+PSLIDE Strategies
 
 BCC
 
@@ -537,19 +537,19 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Example: trees
+PSLIDE Example: trees
 
 FIG webpix/larches.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Open environment
+PSLIDE Open environment
 
 FIG webpix/old_field.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Stable environment
+PSLIDE Stable environment
 
 FIG webpix/old_growth_opal.jpg
 
@@ -642,7 +642,7 @@ Biology is complicated
 
 ----------------------------------------------------------------------
 
-RSLIDE Biology is complicated
+PSLIDE Biology is complicated
 
 BC
 
@@ -835,13 +835,13 @@ Averaging
 
 ----------------------------------------------------------------------
 
-RSLIDE Comparing averages
+PSLIDE Comparing averages
 
 FIG life_history/meancomp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Comparing averages
+PSLIDE Comparing averages
 
 FIG life_history/meancomp.Rout-1.pdf
 
@@ -1107,9 +1107,7 @@ Variation in reproductive success
 
 Sexual roles
 
-	What do you expect to happen in a population where males contributing more to raising offspring than females do?
-
-	CHANGE typo contributing
+	POLL What do you expect to happen in a population where males contributing more to raising offspring than females do?
 
 		ANS All of these stories can be reversed
 
@@ -1127,25 +1125,25 @@ Sexual roles
 
 ----------------------------------------------------------------------
 
-RSLIDE Pregnant seahorse
+PSLIDE Pregnant seahorse
 
 FIG webpix/pregnant_seahorse.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Midshipman nest
+PSLIDE Midshipman nest
 
 FIG webpix/midshipman_nest.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Equids
+PSLIDE Equids
 
 FIG webpix/zebra_harem.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Equids
+PSLIDE Equids
 
 FIG webpix/horses.jpg
 
@@ -1185,7 +1183,7 @@ CONT Equids
 
 ----------------------------------------------------------------------
 
-RSLIDE Kakapos
+PSLIDE Kakapos
 
 FIG webpix/kakapo_fruit.jpg
 
