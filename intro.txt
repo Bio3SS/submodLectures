@@ -566,6 +566,8 @@ Stochastic version
 
 ----------------------------------------------------------------------
 
+ADD Investigate whether you really need divOffset in the numerator (bd.R)
+
 PSLIDE Stochastic model
 
 FIG exponential/dandelion.Rout-0.pdf
