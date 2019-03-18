@@ -238,9 +238,9 @@ midterm1.txt: nonlinear.txt Makefile
 ## New paradigm 2019 Feb 09 (Sat)
 ## Remember to search/destroy old CUTOFF before using
 ## If we keep these intermediate, they should disappear (and not be committed)
-nonlinear.cut.complete.pdf:
+life_history.cut.complete.pdf:
 %.cut.txt: %.txt
-	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Midterm 1 extra notes/" > $@
+	perl -npe "last if /CUTOFF/" $< | perl -npe "s/UNIT.*/UNIT Extra notes/" > $@
 
 ######################################################################
 

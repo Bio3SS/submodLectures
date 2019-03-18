@@ -740,7 +740,8 @@ TSEC Bet hedging
 
 	All ``successful" organisms have strategies for spreading risk
 
-		ANS By successful organism, I mean surviving organism
+		ANS In fact, \emph{every} organism must have successfully spread
+		risk to survive to where you saw it
 
 ----------------------------------------------------------------------
 
@@ -905,6 +906,8 @@ Why is it called bet hedging?
 
 		ANS If you don't disperse in space, or spread out risk in time,
 		you are ``betting" all of your offspring on a single environment
+
+		ANS If you bet on many different environments, you are reducing your risk, or ``hedging''
 
 ----------------------------------------------------------------------
 
