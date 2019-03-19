@@ -504,22 +504,23 @@ Founder control
 
 ----------------------------------------------------------------------
 
-RSLIDE Founder control
+PSLIDE Founder control
 
 FIG webpix/wild_dogs.jpg
 
 COMMENT Co-operation
 
+ADD Leopard
+
 ----------------------------------------------------------------------
 
-RSLIDE Founder control
+PSLIDE Founder control
 
 FIG webpix/savanna_burn.jpg
 
 COMMENT Changing the environment
 
 ----------------------------------------------------------------------
-
 
 CSLIDE Founder control
 
@@ -671,35 +672,46 @@ Results of competition
 
 ----------------------------------------------------------------------
 
-RSLIDE Results of competition
+PSLIDE Results of competition
 
 FIG competition/bifurcation.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Results of competition
+PSLIDE Results of competition
 
 FIG competition/bifurcation.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
 
-RSLIDE Results of competition
+PSLIDE Results of competition
 
 FIG competition/bifurcation.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-
-RSLIDE Results of competition
+PSLIDE Results of competition
 
 FIG competition/bifurcation.Rout-3.pdf
 
 ----------------------------------------------------------------------
 
-Results of competition
+PSLIDE Results of competition
 
 FIG competition/bifurcation.Rout-4.pdf
+
+----------------------------------------------------------------------
+
+PSLIDE Results of competition
+
+FIG competition/bifurcation.Rout-5.pdf
+
+----------------------------------------------------------------------
+
+Results of competition
+
+FIG competition/bifurcation.Rout-6.pdf
 
 ----------------------------------------------------------------------
 
@@ -719,7 +731,7 @@ Measuring competition
 		$C$ tells us: do the species have a \emph{tendency} for founder
 		control or coexistence?
 
-	For specific conditions, we would need to also know values of $E$
+	For specific conditions, we also need to know values of $E$
 
 		Each species may dominate when conditions are good for it
 
@@ -768,7 +780,7 @@ FIG competition/rmutual.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Growth rate and founder control
+PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-1.pdf
 
