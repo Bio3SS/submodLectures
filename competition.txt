@@ -53,13 +53,13 @@ Competition
 
 ----------------------------------------------------------------------
 
-RSLIDE Competition
+PSLIDE Competition
 
 FIG webpix/larches.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Competition
+PSLIDE Competition
 
 BC
 
@@ -73,7 +73,7 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Competition
+PSLIDE Competition
 
 FIG webpix/mussels_algae.jpg
 
@@ -113,7 +113,7 @@ Flour beetles
 
 ----------------------------------------------------------------------
 
-RSLIDE Outcomes of competition
+PSLIDE Outcomes of competition
 
 FIG webpix/confusum.jpg
 
@@ -236,11 +236,12 @@ FIG competition/first.comp.Rout-2.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Dominance phase plot
+PSLIDE Dominance phase plot
 
 DOUBLEFIG competition/first.comp.Rout-2.pdf competition/first.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
+
 Dominance
 
 DOUBLEFIG competition/second.comp.Rout-4.pdf competition/second.comp.Rout-0.pdf
@@ -286,10 +287,15 @@ Reading phase plots
 
 ----------------------------------------------------------------------
 
+Dominance again
 
-Dominance reversed
+DOUBLEFIG competition/third.comp.Rout-4.pdf competition/third.comp.Rout-0.pdf
 
-DOUBLEFIG competition/third.comp.Rout-0.pdf competition/third.comp.Rout-1.pdf
+----------------------------------------------------------------------
+
+REPSLIDE What's the difference?
+
+DOUBLEFIG competition/second.comp.Rout-4.pdf competition/second.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
@@ -303,6 +309,13 @@ Log plots and linear plots
 	Linear plots show \emph{absolute} differences
 
 ----------------------------------------------------------------------
+
+Different scales
+
+DOUBLEPDF competition/second.comp.Rout
+
+----------------------------------------------------------------------
+
 
 Units of $\alpha$
 
@@ -331,11 +344,7 @@ Balanced competition example
 	Two plants compete with each other for water.  The value of
 	$\alpha_{21}$ is $4 \indiv_1/\indiv_2$
 
-<<<<<<< HEAD
 	POLL  Which species is bigger? 1; 2
-=======
-	POLL  Which species is bigger?
->>>>>>> 436a764d876e87a4c34028e33b054e118ea3302d
 
 		ANS $4 indiv_1$ have as much impact as $indiv_2$
 
@@ -436,13 +445,13 @@ Coexistence
 
 ----------------------------------------------------------------------
 
-RSLIDE Coexistence
+PSLIDE Coexistence
 
 FIG webpix/cliff_swallows.jpg
 
 ----------------------------------------------------------------------
 
-RSLIDE Coexistence
+PSLIDE Coexistence
 
 FIG webpix/robins_nest.jpg
 
@@ -460,13 +469,13 @@ DOUBLEFIG competition/coexist.comp.Rout-2.pdf competition/coexist.comp.Rout-7.pd
 
 ----------------------------------------------------------------------
 
-CSLIDE Coexistence phase plot
+PSLIDE Coexistence phase plot
 
 FIG competition/coexist.comp.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-CSLIDE Coexistence phase plot (log scale)
+PSLIDE Coexistence phase plot (log scale)
 
 FIG competition/coexist.comp.Rout-1.pdf
 
