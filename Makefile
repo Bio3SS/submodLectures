@@ -74,8 +74,6 @@ Drop = Define_image_drop_in_local.mk
 -include local.mk
 ## -include $(ms)/repos.def
 
-Sources += $(mdirs)
-
 ##################################################################
 
 ## Formatting
