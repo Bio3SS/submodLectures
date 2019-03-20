@@ -1,7 +1,6 @@
 use strict;
 use 5.10.0;
 
-## Change tag to NEWPOLL if messing with everywhere links
 $/ = "";
 my $tag = "POLL";
 
@@ -22,6 +21,7 @@ while (<>){
 	# say "Ques: $ques";
 	# say "Choice: $choices";
 
+	## … split by ;
 	my @choices = split /;\s*/, $choices;
 	# @choices = map {s/.*/"$&"/} @choices;
 	print "Poll, ";

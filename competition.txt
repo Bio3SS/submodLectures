@@ -367,7 +367,7 @@ FIG webpix/water_compete.jpg
 
 Balanced competition
 
-	POLL  What results do we expect from balanced competition?
+	POLL  What results do we expect from balanced competition? Bigger species wins; founder effects; coexistence; something else
 
 		ANS It seems like the bigger species should win
 
