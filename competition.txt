@@ -359,7 +359,7 @@ Balanced competition example
 
 ----------------------------------------------------------------------
 
-RSLIDE Balanced competition example
+PSLIDE Balanced competition example
 
 FIG webpix/water_compete.jpg
 
@@ -510,7 +510,13 @@ FIG webpix/wild_dogs.jpg
 
 COMMENT Co-operation
 
-ADD Leopard
+----------------------------------------------------------------------
+
+PSLIDE Founder control
+
+FIG webpix/leopard.jpg
+
+COMMENT Co-operation
 
 ----------------------------------------------------------------------
 
@@ -774,7 +780,7 @@ Founder control
 
 ----------------------------------------------------------------------
 
-RSLIDE Growth rate and founder control
+PSLIDE Growth rate and founder control
 
 FIG competition/rmutual.comp.Rout-0.pdf
 
@@ -896,7 +902,7 @@ EC
 
 ----------------------------------------------------------------------
 
-RSLIDE Example: chipmunks
+PSLIDE Example: chipmunks
 
 FIG webpix/chipmunk.jpg
 
