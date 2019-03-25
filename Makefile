@@ -175,6 +175,9 @@ competition.draft.pdf: competition.txt
 competition.handouts.pdf: competition.txt
 competition.complete.pdf: competition.txt
 
+humble.draft.pdf: humble.txt
+humble.html: humble.step
+
 # Unit 7 (exploitation)
 ## exploitation.pollclean: 
 exploitation.poll.csv: exploitation.txt pollcsv.pl

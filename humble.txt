@@ -1,0 +1,13 @@
+
+
+\begin{center}
+\LARGE{Humility 1A03}
+\end{center}
+
+WFIG 0.8 webpix/kyoto.jpg
+
+\onslide<2->{\color{red}\centering\large\emph{Dushoff4Real??}}
+
+----------------------------------------------------------------------
+
+
