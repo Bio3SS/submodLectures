@@ -867,6 +867,12 @@ EC
 
 ----------------------------------------------------------------------
 
+PSLIDE Seuss
+
+HIGHFIG my_images/Seuss.pdf
+
+----------------------------------------------------------------------
+
 Fundamental niches
 
 	A {\bf fundamental} niche is defined as the conditions under which an
