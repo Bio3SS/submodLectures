@@ -1,3 +1,8 @@
+
+[page](https://www.dropbox.com/s/eyhxlr0tziominx/page.mp4)
+
+######################################################################
+
 Fresh install
 * Clone
 * make makestuff.msync
