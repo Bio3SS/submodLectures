@@ -5,7 +5,6 @@
 
 ## Titles
 
-
 INTRO \section*{Bio 3SS %%}
 draft final: NOFRAME \title{%%}
 
@@ -48,8 +47,16 @@ MATREF ^HREF https://bio3ss.github.io/materials/% %%
 ADD %!
 draft: Aadd %%
 
+######################################################################
+
+### Adaptive control
+
+LONGSLIDE NULLSLIDE
+
+LONG NULL
 
 ######################################################################
+
 
 ## Old formatting stuff. Merge into main file some day?
 

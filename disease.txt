@@ -157,7 +157,7 @@ DOUBLEPDF WA_Ebola_Outbreak/liberia.npc.tsplot.Rout
 
 ----------------------------------------------------------------------
 
-Generation intervals
+LONGSLIDE Generation intervals
 
 BC
 
@@ -179,13 +179,13 @@ EC
 
 ----------------------------------------------------------------------
 
-Generation intervals
+LONGSLIDE Generation intervals
 
 DOUBLEFIG boxes/generationTime.Rout-0.pdf boxes/generationTime.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Speed and risk
+LONGSLIDE Speed and risk
 
 BC
 
@@ -205,13 +205,13 @@ EC
 
 ----------------------------------------------------------------------
 
-PSLIDE Fighting Ebola
+LONGSLIDE PSLIDE Fighting Ebola
 
 FIG webpix/burial_team.jpg
 
 ----------------------------------------------------------------------
 
-Generation time and risk
+LONGSLIDE Generation time and risk
 
 	If we know $\R$, what does the generation time tell us about $r$?
 
@@ -228,25 +228,25 @@ Generation time and risk
 
 ----------------------------------------------------------------------
 
-RSLIDE Generation time and risk
+LONGSLIDE RSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-0.pdf
 
 ----------------------------------------------------------------------
 
-RSLIDE Generation time and risk
+LONGSLIDE RSLIDE Generation time and risk
 
 FIG boxes/steps.Rout-1.pdf
 
 ----------------------------------------------------------------------
 
-Generation time and risk
+LONGSLIDE Generation time and risk
 
 DOUBLEPDF boxes/steps.Rout
 
 ----------------------------------------------------------------------
 
-Generation time and risk
+LONGSLIDE Generation time and risk
 
 	$\R = \exp(r \hat G)$
 
@@ -328,7 +328,7 @@ Interpreting
 
 ----------------------------------------------------------------------
 
-Implementing the model
+LONGSLIDE Implementing the model
 
 BC
 
@@ -580,7 +580,7 @@ WIDEFIG boxes/sirbd.four.pdf
 
 ----------------------------------------------------------------------
 
-Births and deaths
+LONGSLIDE Births and deaths
 
 BC
 
