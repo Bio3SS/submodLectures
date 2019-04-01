@@ -459,7 +459,7 @@ TSS Epidemic size
 
 	Epidemic size is determined by:
 
-		ANS \Ro -- larger \Ro\ leads to a bigger epidemic
+		ANS \Ro: larger \Ro\ leads to a bigger epidemic
 
 		ANS The number of susceptibles at the beginning of the epidemic
 
@@ -467,9 +467,9 @@ TSS Epidemic size
 
 			ANS \ldots and \emph{fewer} susceptibles at the end
 
-		ANS The number of infected individuals at the beginning of the epidemic
+		LONG ANS The number of infected individuals at the beginning of the epidemic
 
-			ANS Usually relatively small (and a relatively small effect)
+			LONG ANS Usually relatively small (and a relatively small effect)
 
 
 ----------------------------------------------------------------------
@@ -641,12 +641,12 @@ Reciprocal control
 
 		ANS Equation for $dI/dt$ does not change
 
-		ANS Number of susceptibles does not change
+		ANS Number of susceptibles at equilibrium does not change
 
-		ANS Fewer susceptibles need to be removed by infection (some are removed
+		ANS Fewer susceptibles removed by infection (some are removed
 		by us)
 		
-		ANS Number of infectious individuals goes down 
+		ANS Less disease
 
 	What else could happen?
 
