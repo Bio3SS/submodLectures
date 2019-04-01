@@ -410,9 +410,8 @@ Basic reproductive number
 			ANS That is: the number they would cause on average if
 			everyone else were susceptible
 
-		ANS The product of the rate $\beta$ (units [1/t]) and the duration $D$ (
-		[t])
-
+		ANS The product of the rate $\beta$ (units [1/t]) and the
+		duration $D$ ([t])
 
 ----------------------------------------------------------------------
 
@@ -478,8 +477,7 @@ Overshoot
 
 BC
 
-	Why does more susceptibles at the beginning mean fewer susceptibles at the
-	end?
+	Why does more susceptibles at the beginning mean fewer susceptibles at the end?
 
 		ANS More susceptibles $\implies$
 
@@ -489,7 +487,7 @@ BC
 
 		ANS More infections at peak (same number of susceptibles) $\implies$
 
-		ANS More generations needed for disease to fade out \implies$
+		ANS More generations needed for disease to fade out $\implies$
 
 		ANS More infections after peak \ldots
 
