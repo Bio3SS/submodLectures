@@ -127,7 +127,7 @@ TSEC Rate of spread
 			ANS Gives the exponential rate of spread
 
 	POLL  Want to know what factors contribute to that, and how it relates to
-	\R. | What is R?
+	\R. | What is R in a disease model?
 
 		ANS number of new cases per case
 
